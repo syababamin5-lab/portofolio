@@ -9,20 +9,26 @@
     body {
       font-family: 'Inter', sans-serif;
       color: #333;
-      line-height: 1.6;
+      line-height: 1.45;
       margin: 0;
-      padding: 2cm 3cm;
+      padding: 2cm 0;
       background: #f4f4f9;
+      font-size: 0.95rem;
     }
     
     .page {
       background: #fff;
-      padding: 2.5cm;
+      padding: 2cm 2.5cm;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      margin-bottom: 2cm;
+      margin: 0 auto;
+      max-width: 21cm;
       border-radius: 8px;
     }
     
+    @page {
+      margin: 1.5cm;
+    }
+
     @media print {
       body {
         background: transparent;
@@ -33,12 +39,12 @@
         margin: 0;
         border-radius: 0;
         padding: 0;
-        page-break-after: always;
+        max-width: none;
       }
     }
 
     h1 {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       border-bottom: 2px solid #0F4C3A;
       padding-bottom: 0.5rem;
       color: #0F4C3A;
@@ -46,32 +52,23 @@
     }
 
     h2 {
-      font-size: 1.25rem;
+      font-size: 1.15rem;
       border-bottom: 1px solid #ddd;
       padding-bottom: 0.25rem;
       color: #16A085;
-      margin-top: 1.5rem;
-      margin-bottom: 0.75rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
     }
 
     h3 {
-      font-size: 1.1rem;
-      margin-bottom: 0.25rem;
+      font-size: 1.05rem;
+      margin-bottom: 0.15rem;
       color: #2c3e50;
     }
 
     p {
       margin-top: 0;
-      margin-bottom: 1rem;
-      text-align: justify;
-    }
-
-    .header-info {
-      margin-bottom: 2rem;
-    }
-
-    .header-info p {
-      margin: 0.25rem 0;
+      margin-bottom: 0.75rem;
       text-align: left;
     }
 
@@ -79,9 +76,9 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       border-bottom: 2px solid #0F4C3A;
-      padding-bottom: 1rem;
+      padding-bottom: 0.75rem;
     }
 
     .header-text {
@@ -90,45 +87,45 @@
 
     .header-text h1 {
       border: none;
-      font-size: 1.8rem;
-      margin-bottom: 0.25rem;
+      font-size: 1.6rem;
+      margin-bottom: 0.2rem;
       padding-bottom: 0;
       text-align: left;
     }
 
     .header-text p {
       text-align: left;
-      color: #666;
-      font-size: 0.95rem;
-      margin: 0.25rem 0;
+      color: #555;
+      font-size: 0.9rem;
+      margin: 0.2rem 0;
     }
 
     .header-photo {
-      width: 100px;
-      height: 130px;
+      width: 90px;
+      height: 120px;
       margin-left: 2rem;
-      border-radius: 8px;
+      border-radius: 6px;
       object-fit: cover;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      border: 3px solid #fff;
-      background: #f0f0f0;
+      border: 2px solid #fff;
     }
 
     ul {
-      margin-top: 0.5rem;
-      padding-left: 1.5rem;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+      padding-left: 1.25rem;
     }
 
     li {
-      margin-bottom: 0.35rem;
-      text-align: justify;
+      margin-bottom: 0.25rem;
+      text-align: left;
     }
 
     .job-meta {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: #555;
       font-style: italic;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.4rem;
     }
 
     .grid-2 {
