@@ -9,16 +9,16 @@
     body {
       font-family: 'Inter', sans-serif;
       color: #333;
-      line-height: 1.35;
+      line-height: 1.3;
       margin: 0;
-      padding: 1.5cm 0;
+      padding: 1cm 0;
       background: #f4f4f9;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
     
     .page {
       background: #fff;
-      padding: 1.5cm 2cm;
+      padding: 1.5cm 1.5cm;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       margin: 0 auto;
       max-width: 21cm;
@@ -26,13 +26,14 @@
     }
     
     @page {
-      margin: 1cm;
+      margin: 5mm 10mm;
     }
 
     @media print {
       body {
         background: transparent;
         padding: 0;
+        font-size: 0.85rem;
       }
       .page {
         box-shadow: none;
@@ -41,34 +42,39 @@
         padding: 0;
         max-width: none;
       }
+      h2, h3, p, ul, li {
+        page-break-inside: auto;
+      }
     }
 
     h1 {
-      font-size: 1.35rem;
+      font-size: 1.3rem;
       border-bottom: 2px solid #0F4C3A;
-      padding-bottom: 0.4rem;
+      padding-bottom: 0.3rem;
       color: #0F4C3A;
       margin-top: 0;
     }
 
     h2 {
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       border-bottom: 1px solid #ddd;
       padding-bottom: 0.2rem;
       color: #16A085;
-      margin-top: 1rem;
-      margin-bottom: 0.3rem;
+      margin-top: 0.75rem;
+      margin-bottom: 0.25rem;
+      page-break-after: avoid;
     }
 
     h3 {
-      font-size: 1rem;
+      font-size: 0.95rem;
       margin-bottom: 0.1rem;
       color: #2c3e50;
+      page-break-after: avoid;
     }
 
     p {
       margin-top: 0;
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.4rem;
       text-align: left;
     }
 
@@ -76,7 +82,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       border-bottom: 2px solid #0F4C3A;
       padding-bottom: 0.5rem;
     }
@@ -87,7 +93,7 @@
 
     .header-text h1 {
       border: none;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       margin-bottom: 0.1rem;
       padding-bottom: 0;
       text-align: left;
@@ -96,14 +102,14 @@
     .header-text p {
       text-align: left;
       color: #555;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       margin: 0.1rem 0;
     }
 
     .header-photo {
-      width: 80px;
-      height: 106px;
-      margin-left: 2rem;
+      width: 75px;
+      height: 100px;
+      margin-left: 1.5rem;
       border-radius: 6px;
       object-fit: cover;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -111,13 +117,13 @@
     }
 
     ul {
-      margin-top: 0.2rem;
-      margin-bottom: 0.5rem;
+      margin-top: 0.15rem;
+      margin-bottom: 0.4rem;
       padding-left: 1.25rem;
     }
 
     li {
-      margin-bottom: 0.15rem;
+      margin-bottom: 0.1rem;
       text-align: left;
     }
 
@@ -125,7 +131,7 @@
       font-size: 0.8rem;
       color: #555;
       font-style: italic;
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.2rem;
     }
 
     .grid-2 {
