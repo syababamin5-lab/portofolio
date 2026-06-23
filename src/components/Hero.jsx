@@ -96,7 +96,7 @@ const Hero = () => {
               
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-white shadow-2xl bg-white flex items-center justify-center">
                 <img 
-                  src="/assets/img/foto_syabaab.png" 
+                  src={`${import.meta.env.BASE_URL}assets/img/foto_syabaab.png`} 
                   alt="Syabaab Amin Amanullah" 
                   className="object-cover w-full h-full"
                 />

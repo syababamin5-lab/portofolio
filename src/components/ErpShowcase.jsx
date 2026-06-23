@@ -110,10 +110,10 @@ const ErpShowcase = () => {
               
               <div 
                 className="relative cursor-pointer"
-                onClick={() => setSelectedImage('/assets/img/erp-dashboard.png')}
+                onClick={() => setSelectedImage(`${import.meta.env.BASE_URL}assets/img/erp-dashboard.png`)}
               >
                 <img 
-                  src="/assets/img/erp-dashboard.png" 
+                  src={`${import.meta.env.BASE_URL}assets/img/erp-dashboard.png`} 
                   alt="Dashboard ERP Raziq Garment" 
                   className="w-full h-auto object-cover"
                   onError={(e) => {
@@ -132,14 +132,14 @@ const ErpShowcase = () => {
             {/* Mobile APK Mockup */}
             <div 
               className="w-64 mt-8 md:mt-0 md:absolute md:-right-4 md:-bottom-12 rounded-[2.5rem] overflow-hidden shadow-2xl border-[8px] border-slate-900 bg-slate-900 relative z-20 transform md:rotate-6 hover:rotate-0 transition-transform duration-500 cursor-pointer group/mobile"
-              onClick={() => setSelectedImage('/assets/img/erp-mobile.jpeg')}
+              onClick={() => setSelectedImage(`${import.meta.env.BASE_URL}assets/img/erp-mobile.jpeg`)}
             >
               {/* iPhone Notch */}
               <div className="absolute top-0 inset-x-0 h-6 bg-slate-900 rounded-b-2xl z-30 w-32 mx-auto"></div>
               
               <div className="relative h-full">
                 <img 
-                  src="/assets/img/erp-mobile.jpeg" 
+                  src={`${import.meta.env.BASE_URL}assets/img/erp-mobile.jpeg`} 
                   alt="Mobile ERP Raziq Garment" 
                   className="w-full h-auto object-cover rounded-[2rem] bg-white relative z-10"
                   onError={(e) => {
