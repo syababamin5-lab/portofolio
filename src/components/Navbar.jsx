@@ -24,7 +24,7 @@ const Navbar = () => {
             duration={500} 
             className="flex-shrink-0 font-black text-2xl text-slate-800 tracking-tighter cursor-pointer flex items-baseline hover:text-emerald-700 transition-colors"
           >
-            SYABAAB<span className="text-emerald-500">.</span>
+            Portofolio Syabaab<span className="text-emerald-500">.</span>
           </Link>
           
           {/* Desktop Menu */}
