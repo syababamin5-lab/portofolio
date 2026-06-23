@@ -75,21 +75,43 @@
       text-align: left;
     }
 
-    .profile-title {
-      text-align: center;
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       margin-bottom: 2rem;
+      border-bottom: 2px solid #0F4C3A;
+      padding-bottom: 1rem;
     }
 
-    .profile-title h1 {
+    .header-text {
+      flex: 1;
+    }
+
+    .header-text h1 {
       border: none;
       font-size: 1.8rem;
       margin-bottom: 0.25rem;
+      padding-bottom: 0;
+      text-align: left;
     }
 
-    .profile-title p {
-      text-align: center;
+    .header-text p {
+      text-align: left;
       color: #666;
       font-size: 0.95rem;
+      margin: 0.25rem 0;
+    }
+
+    .header-photo {
+      width: 100px;
+      height: 130px;
+      margin-left: 2rem;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border: 3px solid #fff;
+      background: #f0f0f0;
     }
 
     ul {
@@ -120,10 +142,14 @@
 
   <!-- PAGE 1: CV -->
   <div class="page">
-    <div class="profile-title">
-      <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
-      <p><strong>Internal Audit Candidate</strong></p>
-      <p>📍 Kabupaten Bandung, Jawa Barat &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syababamin5@gmail.com</p>
+    <div class="header-container">
+      <div class="header-text">
+        <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
+        <p style="color:#16A085; font-weight:600; margin-bottom:0.5rem">Internal Audit Candidate</p>
+        <p>📍 Kabupaten Bandung, Jawa Barat</p>
+        <p>📞 081214914641 &nbsp;|&nbsp; ✉️ syababamin5@gmail.com</p>
+      </div>
+      <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
     </div>
 
     <h2>PROFIL PROFESIONAL</h2>
