@@ -8,29 +8,31 @@ margin:
 
 # SURAT LAMARAN PEKERJAAN
 
-**Perihal** : Lamaran Pekerjaan Auditor Internal  
+**Perihal** : Lamaran Pekerjaan Finance  
 **Yth. Tim Rekrutmen**  
-**PT Eigerindo Multi Produk Industri**
+**Stationery Bandung**  
 
 Dengan hormat,
 
-Berdasarkan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini saya bermaksud mengajukan lamaran untuk posisi **Auditor Internal**.
+Berdasarkan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini saya bermaksud mengajukan lamaran untuk posisi Finance.
 
-Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72. Sejak tahun 2020, saya memiliki pengalaman dalam pengelolaan administrasi keuangan, pengendalian dokumen, verifikasi data, penyusunan laporan, serta koordinasi operasional yang menuntut ketelitian dan kepatuhan terhadap prosedur yang berlaku.
+Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72. Sejak tahun 2020, saya memiliki pengalaman di bidang administrasi keuangan, pengelolaan anggaran, penyusunan laporan, pengendalian dokumen, serta administrasi operasional yang menuntut ketelitian, akurasi, dan tanggung jawab dalam setiap proses pekerjaan.
 
-Pada periode 2020–2024, saya menjabat sebagai Kepala Urusan Keuangan (Kaur Keuangan) Desa Pananjung. Dalam posisi tersebut saya bertanggung jawab mengelola anggaran desa rata-rata sekitar Rp3 miliar per tahun, menyusun APBDes, Perubahan APBDes, Realisasi APBDes, SPP, dan LPJ, serta melakukan verifikasi dokumen administrasi dan dokumen pendukung sebelum proses pencairan dan pelaporan. Pengalaman tersebut membentuk pemahaman saya mengenai pentingnya kepatuhan terhadap regulasi, akurasi data, dan pengendalian administrasi.
+Pada periode 2020–2024, saya menjabat sebagai Kepala Urusan Keuangan (Kaur Keuangan) Desa Pananjung. Dalam posisi tersebut saya bertanggung jawab mengelola anggaran desa rata-rata sekitar Rp3 miliar per tahun, menyusun APBDes, Perubahan APBDes, Realisasi APBDes, Surat Permintaan Pembayaran (SPP), dan Laporan Pertanggungjawaban (LPJ), serta memastikan kelengkapan administrasi dan kesesuaian dokumen sebelum proses pencairan maupun pelaporan. Pengalaman tersebut membentuk kemampuan saya dalam mengelola administrasi keuangan secara sistematis, teliti, dan sesuai ketentuan yang berlaku.
 
-Saat ini saya bekerja di PT Minearth Geo Solution sebagai Admin dan Koordinator Mutu Laboratorium Mekanika Tanah. Saya bertanggung jawab dalam pengelolaan administrasi operasional, verifikasi data hasil pengujian, pengendalian dokumen, penyusunan laporan, serta koordinasi dengan klien dan tim internal. Dalam pelaksanaan tugas tersebut, saya terbiasa memastikan kesesuaian data dengan dokumen pendukung dan prosedur yang berlaku sebelum informasi diterbitkan atau digunakan lebih lanjut.
+Saat ini saya bekerja di PT Minearth Geo Solution sebagai Admin dan Koordinator Mutu Laboratorium Mekanika Tanah. Saya bertanggung jawab mengelola administrasi operasional, menyusun dan mengelola invoice, melakukan input serta verifikasi data hasil pengujian, menyusun laporan, mengelola surat dan penawaran, serta berkoordinasi dengan klien maupun tim internal. Melalui pekerjaan tersebut saya terbiasa bekerja dengan data, dokumen, dan proses administrasi yang membutuhkan tingkat ketelitian tinggi.
 
-Selain itu, saya juga terlibat dalam pengembangan sistem ERP untuk perusahaan manufaktur garmen dengan fokus pada analisis proses bisnis, identifikasi kebutuhan sistem, serta pengujian fitur yang berkaitan dengan persediaan, pembelian, produksi, penjualan, kas, dan piutang. Pengalaman ini membantu saya memahami keterkaitan antara proses operasional, pengendalian internal, dan kebutuhan informasi yang akurat dalam mendukung pengambilan keputusan.
+Selain itu, saya juga terlibat dalam pengembangan sistem ERP untuk perusahaan manufaktur garmen dengan fokus pada analisis proses bisnis, pengelolaan persediaan, pembelian, produksi, penjualan, kas, dan piutang. Pengalaman tersebut memberikan pemahaman yang lebih baik mengenai keterkaitan antara proses operasional, administrasi keuangan, dan kebutuhan informasi yang akurat dalam mendukung kegiatan perusahaan.
 
-Saya memiliki kemampuan Microsoft Excel yang baik untuk pengolahan dan analisis data, terbiasa bekerja secara sistematis dan detail, serta memiliki minat yang besar untuk berkembang di bidang audit internal, tata kelola perusahaan, dan pengendalian risiko.
+Saya memiliki kemampuan Microsoft Excel tingkat lanjut untuk pengolahan dan analisis data, terbiasa bekerja secara sistematis, mampu beradaptasi dengan cepat terhadap sistem baru, serta memiliki komitmen untuk terus belajar dan berkembang di bidang Finance & Accounting.
 
-Besar harapan saya untuk diberikan kesempatan mengikuti proses seleksi dan wawancara sehingga saya dapat menjelaskan lebih lanjut mengenai kemampuan dan pengalaman yang saya miliki.
+Besar harapan saya untuk diberikan kesempatan mengikuti proses seleksi dan wawancara sehingga saya dapat menjelaskan lebih lanjut mengenai kemampuan serta pengalaman yang saya miliki dan bagaimana saya dapat memberikan kontribusi bagi Stationery Bandung.
 
 Atas perhatian dan kesempatan yang diberikan, saya ucapkan terima kasih.
 
 Hormat saya,
+
+<img src="public/assets/img/ttd syabaab.jpg" alt="Tanda Tangan" style="width: 55px; display: block; margin: 0; mix-blend-mode: multiply;">
 
 **Syabaab Amin Amanullah, S.E.**  
 📞 081214914641  
@@ -41,22 +43,23 @@ Hormat saya,
 # CURRICULUM VITAE
 
 ### SYABAAB AMIN AMANULLAH, S.E.
-**Internal Audit Candidate**  
+**Finance & Accounting**  
 📍 Kabupaten Bandung, Jawa Barat | 📞 081214914641 | ✉️ syababamin5@gmail.com
 
 ---
 
 ### PROFIL PROFESIONAL
-Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 dalam pengelolaan administrasi keuangan, verifikasi dokumen, validasi data, pengendalian administrasi, dan penyusunan laporan. Berpengalaman mengelola anggaran desa sekitar Rp 3 miliar per tahun serta memastikan kepatuhan administrasi dan kelengkapan dokumen dalam lingkungan pemerintahan dan laboratorium pengujian. Memiliki ketertarikan untuk mengembangkan karier di bidang audit internal, tata kelola perusahaan, pengendalian risiko, dan perbaikan proses bisnis.
+Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di bidang administrasi keuangan, pengelolaan anggaran, penyusunan laporan keuangan, pengelolaan kas, administrasi invoice, serta pengendalian dokumen. Berpengalaman mengelola anggaran pemerintah sekitar Rp3 miliar per tahun, menyusun berbagai laporan pertanggungjawaban keuangan, serta mengelola administrasi operasional perusahaan. Saat ini bekerja sebagai Admin & Koordinator Mutu Laboratorium di PT Minearth Geo Solution dan turut berkontribusi dalam pengembangan sistem ERP manufaktur. Memiliki kemampuan Microsoft Excel tingkat lanjut, analisis data yang baik, ketelitian tinggi, serta mampu beradaptasi dengan cepat terhadap sistem dan proses kerja baru.
 
 ### KEY QUALIFICATIONS
+- Pengalaman Finance & Accounting sejak 2020
 - Sarjana Akuntansi (IPK 3,72)
-- Pengalaman profesional sejak 2020
-- Mengelola anggaran ± Rp3 miliar per tahun
-- Pengalaman verifikasi dokumen dan validasi data
-- Terlibat dalam pengembangan ERP manufaktur
 - Microsoft Excel (Advanced)
-- Pengalaman koordinasi lintas instansi dan klien
+- Mengelola anggaran ± Rp3 miliar/tahun
+- Penyusunan APBDes, LPJ & Laporan Keuangan
+- Pengelolaan Invoice & Administrasi Keuangan
+- ERP Manufacturing Project
+- Financial Administration & Data Analysis
 
 ---
 
@@ -79,17 +82,17 @@ Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 dala
 
 **PT MINEARTH GEO SOLUTION**  
 *Admin & Koordinator Mutu Laboratorium* | 2025 – Juni 2026
-- Mengelola administrasi operasional laboratorium mekanika tanah.
+- Mengelola administrasi operasional laboratorium mekanika tanah guna mendukung kelancaran proses pengujian dan pelayanan kepada klien.
 - Melakukan verifikasi dan validasi data hasil pengujian sebelum diterbitkan kepada klien.
 - Memastikan kesesuaian data hasil pengujian dengan dokumen pendukung dan prosedur yang berlaku.
-- Menyusun laporan hasil pengujian dan rekapitulasi data operasional.
+- Menyusun laporan hasil pengujian dan rekapitulasi data operasional sebagai dasar penyampaian informasi kepada klien.
 - Mengelola invoice, surat, penawaran, dan dokumen administrasi perusahaan.
 - Berkoordinasi dengan klien dan tim internal terkait administrasi pekerjaan.
 - Mendukung penerapan pengendalian mutu hasil pengujian laboratorium.
 
 **PEMERINTAH DESA PANANJUNG**  
 *Kepala Urusan Keuangan (Kaur Keuangan)* | 2020 – 2024
-- Mengelola anggaran desa rata-rata ± Rp3 miliar per tahun.
+- Mengelola anggaran desa sekitar Rp3 miliar per tahun mulai dari proses perencanaan, penatausahaan, pencairan hingga penyusunan laporan pertanggungjawaban sesuai ketentuan yang berlaku.
 - Menyusun APBDes, Perubahan APBDes, Realisasi APBDes, SPP, dan LPJ.
 - Melakukan verifikasi dokumen administrasi dan dokumen pendukung sebelum proses pencairan anggaran.
 - Memastikan pelaksanaan administrasi dan pelaporan keuangan sesuai ketentuan yang berlaku.
@@ -139,6 +142,13 @@ Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 dala
 - Business Process Analysis
 - Report Preparation
 - Team Coordination & Problem Solving
+- Financial Reporting
+- Cash Flow Administration
+- Invoice Administration
+- Financial Data Analysis
+- Document Control
+- Bank Reconciliation (Basic)
+- Budget Control
 
 ---
 
