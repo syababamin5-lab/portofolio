@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Timeline from './components/Timeline';
 import ErpShowcase from './components/ErpShowcase';
 import SkillsFooter from './components/SkillsFooter';
-import { FileText, Briefcase, Layout, ArrowLeft, Download } from 'lucide-react';
+import { FileText, Briefcase, Layout, ArrowLeft, Download, FlaskConical, ExternalLink } from 'lucide-react';
 
 function App() {
   const [view, setView] = useState('dashboard');
@@ -29,6 +29,58 @@ function App() {
               <h2 className="text-xl font-bold text-slate-800 text-center">Portofolio Umum</h2>
               <p className="text-sm text-slate-500 text-center">Lihat detail portofolio, pengalaman, proyek, dan skill</p>
             </button>
+
+            <a 
+              href="https://www.annsa.site/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-indigo-900 to-slate-900 border-2 border-indigo-700 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none relative overflow-hidden"
+            >
+              <div className="absolute top-3 right-3 flex items-center gap-1 bg-indigo-500/30 text-indigo-300 px-2.5 py-0.5 rounded-full text-[11px] font-semibold border border-indigo-400/30">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                Live Web App
+              </div>
+              <div className="w-16 h-16 bg-indigo-800/60 rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-indigo-300 border border-indigo-600/40">
+                <FlaskConical size={32} />
+              </div>
+              <h2 className="text-xl font-bold text-white text-center flex items-center gap-1.5">
+                ANSA LIMS (Lab) <ExternalLink size={16} className="text-indigo-400" />
+              </h2>
+              <p className="text-sm text-indigo-200 text-center">Aplikasi Web Digitalisasi & Kontrol Mutu Laboratorium (annsa.site)</p>
+            </a>
+
+            <a 
+              href={`${import.meta.env.BASE_URL}assets/docs/CV_Umum.html`}
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-slate-700 to-slate-900 border-2 border-slate-800 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+            >
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-slate-800">
+                <FileText size={32} />
+              </div>
+              <h2 className="text-xl font-bold text-white text-center">CV Umum (Standar)</h2>
+              <p className="text-sm text-slate-300 text-center">Format CV 1 halaman (bisa untuk melamar ke mana saja)</p>
+            </a>
+
+            <a 
+              href={`${import.meta.env.BASE_URL}assets/docs/CV_Alcon.html`}
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-emerald-50 to-green-100 border-2 border-emerald-200 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+            >
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-emerald-800">
+                <Briefcase size={32} />
+              </div>
+              <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran ALCON</h2>
+              <p className="text-sm text-slate-500 text-center">CV & Surat Lamaran (Posisi Accounting Staff)</p>
+            </a>
+
+            <a 
+              href={`${import.meta.env.BASE_URL}assets/docs/CV_SwarnaEnviro.html`}
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-100 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+            >
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-emerald-600">
+                <Layout size={32} />
+              </div>
+              <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran Swarna Enviro</h2>
+              <p className="text-sm text-slate-500 text-center">CV & Surat Lamaran (Posisi Finance & People)</p>
+            </a>
 
             <a 
               href={`${import.meta.env.BASE_URL}assets/docs/CV_AAJaya.html`}

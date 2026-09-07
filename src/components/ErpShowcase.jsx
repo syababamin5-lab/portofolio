@@ -78,6 +78,58 @@ const ErpShowcase = () => {
               </div>
             </div>
           </div>
+
+          {/* Case Study 2: ANSA LIMS Web App */}
+          <div className="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-left mt-8">
+            <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-100 pb-4 mb-2 gap-4">
+              <div>
+                <h3 className="text-2xl font-bold text-indigo-900">ANSA LIMS — Laboratory Information Management System</h3>
+                <p className="text-sm text-slate-500 font-medium">Digitalisasi Pengujian Laboratorium Mekanika Tanah & Geoteknik</p>
+              </div>
+              <a 
+                href="https://www.annsa.site/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 border border-indigo-200 text-indigo-700 hover:bg-indigo-100 rounded-lg text-sm font-bold transition-colors w-max shadow-sm"
+              >
+                <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
+                Buka Web App: annsa.site ↗
+              </a>
+            </div>
+            <p className="text-sm font-semibold text-accent mb-6 uppercase tracking-wider mt-2">Peran: System Analyst, Quality Control & Administrative Compliance</p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* Problem */}
+              <div className="bg-amber-50/50 p-5 rounded-xl border border-amber-100">
+                <h4 className="font-bold text-amber-800 mb-2 flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-amber-500"></span> Latar Belakang
+                </h4>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Pengelolaan sampel uji tanah dan rekapitulasi data hasil laboratorium sebelumnya mengandalkan pencatatan terpisah, membutuhkan koordinasi intensif antar divisi, serta rawan kekeliruan perhitungan data teknis.
+                </p>
+              </div>
+
+              {/* Solution */}
+              <div className="bg-blue-50/50 p-5 rounded-xl border border-blue-100">
+                <h4 className="font-bold text-blue-700 mb-2 flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-blue-500"></span> Solusi Sistem Web App
+                </h4>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Merancang dan membangun <strong>ANSA LIMS (Web App)</strong> untuk digitalisasi menyeluruh: registrasi sampel geoteknik, validasi otomatis formula uji mekanika tanah, verifikasi mutu bertingkat (QC), hingga pengarsipan dokumen kerja.
+                </p>
+              </div>
+
+              {/* Impact */}
+              <div className="bg-emerald-50/50 p-5 rounded-xl border border-emerald-100">
+                <h4 className="font-bold text-emerald-700 mb-2 flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500"></span> Hasil & Aksesibilitas
+                </h4>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Validasi data menjadi 100% patuh terhadap SOP pengujian, meminimalisir human error validasi teknis, mempercepat penerbitan laporan hasil uji, dan dapat diakses langsung oleh tim melalui <strong><a href="https://www.annsa.site/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 underline">annsa.site</a></strong>.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Real Application Screenshot */}
