@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FlaskConical, Calculator, FileCheck2, ArrowRight, ShieldCheck, QrCode, ExternalLink, Activity, Database, CheckCircle2, FileSpreadsheet } from 'lucide-react';
+import { FlaskConical, Calculator, FileCheck2, ArrowRight, ShieldCheck, QrCode, ExternalLink, Activity, Database, CheckCircle2, FileSpreadsheet, X, ZoomIn } from 'lucide-react';
 
 const LimsShowcase = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [desktopTab, setDesktopTab] = useState('dashboard');
+
   const modules = [
     {
       title: "Sample Intake & QR Chain of Custody",
@@ -101,115 +104,108 @@ const LimsShowcase = () => {
         {/* Side-by-side Showcase: Mockup on Left, Flow & Modules on Right */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start mt-16 mb-16">
           
-          {/* Left Column: Interactive Web App Window Mockup */}
+          {/* Left Column: Real Screenshots (Desktop + Mobile Mockup) */}
           <div className="md:col-span-6 lg:col-span-7 relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-3xl blur-xl opacity-20"></div>
             
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950 text-slate-100">
-              {/* Mac-style Window Header */}
-              <div className="bg-slate-900 px-4 py-3 flex items-center justify-between border-b border-slate-800">
-                <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-rose-500 shadow-sm"></div>
-                  <div className="w-3 h-3 rounded-full bg-amber-500 shadow-sm"></div>
-                  <div className="w-3 h-3 rounded-full bg-emerald-500 shadow-sm"></div>
-                  
-                  {/* Clickable URL Bar */}
-                  <a 
-                    href="https://www.annsa.site/" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="text-xs font-mono text-slate-300 hover:text-white ml-4 bg-slate-800/80 px-3 py-1 rounded-md border border-slate-700 w-48 sm:w-64 flex items-center justify-between cursor-pointer transition-colors group/link"
-                    title="Buka Live Web App ANSA LIMS"
-                  >
-                    <span className="truncate group-hover/link:underline">https://www.annsa.site/</span>
-                    <span className="text-indigo-400 group-hover/link:animate-pulse">🔗</span>
-                  </a>
-                </div>
+            <div className="relative flex flex-col md:flex-row items-center justify-center">
+              {/* Desktop Dashboard */}
+              <div className="w-full md:w-5/6 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 bg-white relative z-10 transition-transform duration-500 hover:scale-[1.02] group/desktop">
+                {/* Mac-style Window Header */}
+                <div className="bg-slate-900 px-4 py-3 flex items-center justify-between border-b border-slate-800">
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 rounded-full bg-rose-500 shadow-sm"></div>
+                    <div className="w-3 h-3 rounded-full bg-amber-500 shadow-sm"></div>
+                    <div className="w-3 h-3 rounded-full bg-emerald-500 shadow-sm"></div>
+                    
+                    {/* Clickable URL Bar */}
+                    <a 
+                      href="https://www.annsa.site/" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-xs font-mono text-slate-300 hover:text-white ml-2 sm:ml-4 bg-slate-800/90 px-3 py-1 rounded-md border border-slate-700 max-w-[170px] sm:max-w-[210px] flex items-center justify-between cursor-pointer transition-colors group/link relative z-20"
+                      title="Buka Live Web App ANSA LIMS"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <span className="truncate group-hover/link:underline">https://www.annsa.site/</span>
+                      <span className="text-indigo-400 group-hover/link:animate-pulse ml-1">🔗</span>
+                    </a>
+                  </div>
 
-                <div className="flex items-center gap-2 text-xs text-emerald-400 font-mono bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/50">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                  <span className="text-[10px]">LIVE</span>
+                  {/* View Tabs & Live Indicator */}
+                  <div className="flex items-center gap-1.5 sm:gap-2">
+                    <div className="flex bg-slate-800 p-0.5 rounded-lg border border-slate-700 text-[11px] font-medium">
+                      <button 
+                        type="button"
+                        onClick={(e) => { e.stopPropagation(); setDesktopTab('dashboard'); }}
+                        className={`px-2 py-0.5 rounded-md transition-all ${desktopTab === 'dashboard' ? 'bg-indigo-600 text-white shadow-sm' : 'text-slate-400 hover:text-slate-200'}`}
+                      >
+                        Dashboard
+                      </button>
+                      <button 
+                        type="button"
+                        onClick={(e) => { e.stopPropagation(); setDesktopTab('login'); }}
+                        className={`px-2 py-0.5 rounded-md transition-all ${desktopTab === 'login' ? 'bg-indigo-600 text-white shadow-sm' : 'text-slate-400 hover:text-slate-200'}`}
+                      >
+                        Login
+                      </button>
+                    </div>
+
+                    <div className="hidden sm:flex items-center gap-1 text-[10px] text-emerald-400 font-mono bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/50">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                      <span>LIVE</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              
-              {/* App Screen Simulation */}
-              <div className="p-5 md:p-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
                 
-                {/* App Topbar */}
-                <div className="flex items-center justify-between pb-4 border-b border-slate-800">
-                  <div className="flex items-center gap-2.5">
-                    <div className="w-9 h-9 rounded-xl bg-indigo-600/30 border border-indigo-500/40 flex items-center justify-center text-indigo-400">
-                      <FlaskConical size={18} />
-                    </div>
-                    <div>
-                      <h4 className="text-sm font-bold text-white tracking-wide">ANSA LIMS Engine</h4>
-                      <p className="text-[11px] text-slate-400">Geotechnical & Soil Mechanics</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-1.5">
-                    <span className="px-2 py-0.5 bg-indigo-900/60 text-indigo-300 rounded text-[10px] font-mono border border-indigo-700/50">
-                      Supabase Cloud DB
-                    </span>
-                  </div>
-                </div>
-
-                {/* Metric Highlights */}
-                <div className="grid grid-cols-2 gap-3 my-4">
-                  {[
-                    { label: "Modul Uji Geoteknik", value: "8+ Metode", desc: "CBR, Triaxial, Shear, Atterberg", color: "border-indigo-500/30 text-indigo-400" },
-                    { label: "Validasi Mutu (QC)", value: "100%", desc: "Multi-Tier Verification", color: "border-emerald-500/30 text-emerald-400" },
-                    { label: "Pelacakan Sampel", value: "QR-Verified", desc: "Digital Chain of Custody", color: "border-cyan-500/30 text-cyan-400" },
-                    { label: "Financial Analytics", value: "Real-time PO", desc: "Invoice & Work Order", color: "border-amber-500/30 text-amber-400" },
-                  ].map((stat, i) => (
-                    <div key={i} className={`p-3 bg-slate-900/70 border ${stat.color} rounded-xl`}>
-                      <div className="text-[10px] text-slate-400 font-medium">{stat.label}</div>
-                      <div className="text-base font-bold text-white mt-0.5">{stat.value}</div>
-                      <div className="text-[9px] text-slate-400">{stat.desc}</div>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Feature Highlights inside Mockup */}
-                <div className="space-y-2.5 pt-1">
-                  <div className="p-3 bg-slate-900/50 border border-slate-800 rounded-xl flex items-start gap-2.5">
-                    <Calculator size={16} className="text-indigo-400 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <div className="text-xs font-semibold text-white">Otomatisasi Kalkulasi Formula Geoteknik</div>
-                      <p className="text-[11px] text-slate-400 leading-relaxed mt-0.5">
-                        Menghilangkan human error di spreadsheet. Kurva CBR, tegangan geser, dan konsistensi tanah terhitung instan.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="p-3 bg-slate-900/50 border border-slate-800 rounded-xl flex items-start gap-2.5">
-                    <ShieldCheck size={16} className="text-emerald-400 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <div className="text-xs font-semibold text-white">Verifikasi Mutu & Stempel QR Publik</div>
-                      <p className="text-[11px] text-slate-400 leading-relaxed mt-0.5">
-                        Review berjenjang (Teknisi &rarr; Koordinator Mutu &rarr; Kepala Lab) sebelum penerbitan sertifikat digital LHU.
-                      </p>
+                {/* Desktop Screenshot */}
+                <div 
+                  className="relative cursor-pointer bg-slate-900"
+                  onClick={() => setSelectedImage(desktopTab === 'dashboard' ? `${import.meta.env.BASE_URL}assets/img/lims-dashboard.png` : `${import.meta.env.BASE_URL}assets/img/lims-login.png`)}
+                >
+                  <img 
+                    src={desktopTab === 'dashboard' ? `${import.meta.env.BASE_URL}assets/img/lims-dashboard.png` : `${import.meta.env.BASE_URL}assets/img/lims-login.png`} 
+                    alt="ANSA LIMS Desktop Screenshot" 
+                    className="w-full h-auto object-cover"
+                    onError={(e) => {
+                      e.target.onerror = null; 
+                      e.target.src = "https://placehold.co/1200x675/0f172a/94a3b8?text=ANSA+LIMS+Screenshot";
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-slate-900/0 group-hover/desktop:bg-slate-900/20 transition-colors duration-300 flex items-center justify-center">
+                    <div className="bg-white/95 text-slate-800 p-3 rounded-full shadow-xl opacity-0 group-hover/desktop:opacity-100 transform scale-90 group-hover/desktop:scale-100 transition-all duration-300">
+                      <ZoomIn size={24} />
                     </div>
                   </div>
                 </div>
-
-                {/* CTA link inside mockup */}
-                <div className="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
-                  <span className="flex items-center gap-1.5 text-[11px]">
-                    <CheckCircle2 size={14} className="text-emerald-400" />
-                    Aktif digunakan untuk operasional pengujian lab.
-                  </span>
-                  <a 
-                    href="https://www.annsa.site/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-indigo-400 hover:text-indigo-300 font-semibold underline text-[11px]"
-                  >
-                    Buka annsa.site <ExternalLink size={11} />
-                  </a>
-                </div>
-
               </div>
+
+              {/* Mobile Phone Mockup Overlay (Vertical) */}
+              <div 
+                className="w-48 sm:w-56 mt-6 md:mt-0 md:absolute md:-right-2 md:-bottom-8 rounded-[2rem] overflow-hidden shadow-2xl border-[6px] border-slate-900 bg-slate-900 relative z-20 transform md:rotate-3 hover:rotate-0 transition-transform duration-500 cursor-pointer group/mobile"
+                onClick={() => setSelectedImage(`${import.meta.env.BASE_URL}assets/img/lims-mobile.png`)}
+              >
+                {/* iPhone Notch */}
+                <div className="absolute top-0 inset-x-0 h-5 bg-slate-900 rounded-b-xl z-30 w-28 mx-auto"></div>
+                
+                <div className="relative h-full">
+                  <img 
+                    src={`${import.meta.env.BASE_URL}assets/img/lims-mobile.png`} 
+                    alt="Mobile App Teknisi ANSA LIMS" 
+                    className="w-full h-auto object-cover rounded-[1.75rem] bg-white relative z-10"
+                    onError={(e) => {
+                      e.target.onerror = null; 
+                      e.target.src = "https://placehold.co/400x850/f8fafc/94a3b8?text=Mobile+ANSA+LIMS";
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-slate-900/0 group-hover/mobile:bg-slate-900/20 transition-colors duration-300 flex items-center justify-center z-20 rounded-[1.75rem]">
+                    <div className="bg-white/95 text-slate-800 p-2.5 rounded-full shadow-xl opacity-0 group-hover/mobile:opacity-100 transform scale-90 group-hover/mobile:scale-100 transition-all duration-300">
+                      <ZoomIn size={20} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
 
@@ -293,6 +289,38 @@ const LimsShowcase = () => {
         </div>
 
       </div>
+
+      {/* Lightbox Modal */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/90 backdrop-blur-sm p-4"
+            onClick={() => setSelectedImage(null)}
+          >
+            <motion.button 
+              className="absolute top-4 right-4 md:top-8 md:right-8 text-white/70 hover:text-white bg-slate-800/50 hover:bg-slate-800 p-2 rounded-full backdrop-blur-md transition-all"
+              onClick={() => setSelectedImage(null)}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <X size={28} />
+            </motion.button>
+            <motion.img 
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ type: "spring", stiffness: 300, damping: 25 }}
+              src={selectedImage} 
+              alt="Enlarged ANSA LIMS Showcase" 
+              className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl border border-white/10"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 };
