@@ -7,7 +7,10 @@ import SkillsFooter from './components/SkillsFooter';
 import { FileText, Briefcase, Layout, ArrowLeft, Download, FlaskConical, ExternalLink } from 'lucide-react';
 
 function App() {
-  const [view, setView] = useState('dashboard');
+  const [view, setView] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('portal') === 'true' || params.get('admin') === 'true' ? 'dashboard' : 'portfolio';
+  });
 
   if (view === 'dashboard') {
     return (
@@ -221,14 +224,6 @@ function App() {
       </main>
 
       <SkillsFooter />
-
-      <button 
-        onClick={() => setView('dashboard')}
-        className="fixed bottom-6 left-6 z-50 flex items-center gap-2 bg-slate-800 text-white px-5 py-3 rounded-full shadow-lg hover:bg-slate-700 hover:scale-105 transition-all group border-2 border-white/20"
-      >
-        <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
-        <span className="font-semibold text-sm hidden md:inline">Kembali ke Portal</span>
-      </button>
     </div>
   );
 }
