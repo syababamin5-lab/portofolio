@@ -8,7 +8,8 @@ const Navbar = () => {
   const navItems = [
     { name: 'Profile', to: 'hero' },
     { name: 'Experience', to: 'experience' },
-    { name: 'Projects & Systems', to: 'erp' },
+    { name: 'ERP System', to: 'erp' },
+    { name: 'ANSA LIMS', to: 'lims' },
     { name: 'Skills', to: 'skills' },
   ];
 

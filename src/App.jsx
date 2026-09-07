@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Timeline from './components/Timeline';
 import ErpShowcase from './components/ErpShowcase';
+import LimsShowcase from './components/LimsShowcase';
 import SkillsFooter from './components/SkillsFooter';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Timeline />
         <ErpShowcase />
+        <LimsShowcase />
       </main>
 
       <SkillsFooter />
