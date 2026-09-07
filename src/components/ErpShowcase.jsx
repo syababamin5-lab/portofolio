@@ -81,10 +81,10 @@ const ErpShowcase = () => {
         </div>
 
         {/* Side-by-side Showcase: Mockup on Left, Flow & Modules on Right */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mt-16 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start mt-16 mb-16">
           
           {/* Left Column: Real Application Screenshot (Desktop + Mobile Mockup) */}
-          <div className="lg:col-span-7 relative">
+          <div className="md:col-span-6 lg:col-span-7 relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-3xl blur-xl opacity-20"></div>
             
             <div className="relative flex flex-col md:flex-row items-center justify-center">
@@ -161,7 +161,7 @@ const ErpShowcase = () => {
           </div>
 
           {/* Right Column: Flow Chart & Modules */}
-          <div className="lg:col-span-5 flex flex-col gap-4">
+          <div className="md:col-span-6 lg:col-span-5 flex flex-col gap-4">
             
             {/* Interactive Flow Chart Concept */}
             <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
