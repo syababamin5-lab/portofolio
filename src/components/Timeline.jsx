@@ -9,12 +9,7 @@ const experiences = [
     role: "Admin & Koordinator Mutu Laboratorium",
     period: "2025–Juni 2026",
     icon: Building,
-    liveApp: {
-      name: "ANSA LIMS — Web App Laboratorium",
-      url: "https://www.annsa.site/",
-    },
     responsibilities: [
-      "Mengembangkan & mengoperasikan Web App ANSA LIMS untuk digitalisasi alur administrasi dan kontrol mutu laboratorium.",
       "Mengelola administrasi operasional laboratorium mekanika tanah.",
       "Melakukan verifikasi dan validasi data hasil pengujian sebelum diterbitkan kepada klien.",
       "Memastikan kesesuaian data hasil pengujian dengan dokumen pendukung dan prosedur yang berlaku.",
@@ -23,8 +18,8 @@ const experiences = [
       "Berkoordinasi dengan klien dan tim internal terkait administrasi pekerjaan.",
       "Mendukung penerapan pengendalian mutu hasil pengujian laboratorium."
     ],
-    competencies: "ANSA LIMS Web App, Data Validation, Quality Control, Documentation Control, Administrative Compliance",
-    stats: { label: "Sistem Digital Lab", value: "ANSA LIMS (annsa.site)" }
+    competencies: "Data Validation, Quality Control, Documentation Control, Administrative Compliance",
+    stats: null
   },
   {
     id: 1,
@@ -84,21 +79,6 @@ const TimelineItem = ({ exp, isLast }) => {
                   <div className="text-xs text-slate-500 font-medium uppercase tracking-wider">{exp.stats.label}</div>
                   <div className="text-lg font-bold text-slate-800">{exp.stats.value}</div>
                 </div>
-              </div>
-            )}
-
-            {exp.liveApp && (
-              <div className="mb-4">
-                <a 
-                  href={exp.liveApp.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 text-blue-700 hover:from-blue-100 hover:to-indigo-100 rounded-xl text-xs font-bold transition-all shadow-sm group/btn"
-                >
-                  <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
-                  <span>Buka Live Web App: {exp.liveApp.name}</span>
-                  <span className="group-hover/btn:translate-x-0.5 transition-transform">↗</span>
-                </a>
               </div>
             )}
 

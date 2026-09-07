@@ -8,7 +8,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'Profile', to: 'hero' },
     { name: 'Experience', to: 'experience' },
-    { name: 'ERP Project', to: 'erp' },
+    { name: 'Projects & Systems', to: 'erp' },
     { name: 'Skills', to: 'skills' },
   ];
 
