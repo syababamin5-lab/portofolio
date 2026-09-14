@@ -49,8 +49,17 @@ function App() {
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-slate-800">
                 <FileText size={32} />
               </div>
-              <h2 className="text-xl font-bold text-white text-center">CV Umum (Standar)</h2>
-              <p className="text-sm text-slate-300 text-center">Format CV 1 halaman (bisa untuk melamar ke mana saja)</p>
+            </a>
+
+            <a 
+              href={`${import.meta.env.BASE_URL}assets/docs/Portofolio_Syabaab.html`}
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-indigo-50 to-blue-50 border-2 border-indigo-200 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+            >
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-indigo-600">
+                <FileText size={32} />
+              </div>
+              <h2 className="text-xl font-bold text-slate-800 text-center">Portofolio (Siap Cetak PDF)</h2>
+              <p className="text-sm text-slate-500 text-center">Ringkasan 1 lembar proyek ERP & LIMS (bisa Ctrl+P ke PDF)</p>
             </a>
 
             <a 
