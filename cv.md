@@ -16,12 +16,15 @@ Dengan hormat,
 
 Berdasarkan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini saya bermaksud mengajukan lamaran untuk posisi Admin PPIC di PT. Indokemas Sukses Makmur.
 
-Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72. Sejak tahun 2020, saya memiliki pengalaman luas di bidang administrasi, pengelolaan dokumen, penyusunan laporan, serta pengendalian operasional yang menuntut ketelitian, disiplin, dan tanggung jawab tinggi.
+Saya merupakan lulusan Sarjana Akuntansi (S.E.) dengan IPK 3,72. Sejak tahun 2020, saya telah membangun rekam jejak karir yang solid di bidang administrasi, keuangan, dan operasional. Rangkaian pengalaman ini membentuk saya menjadi profesional yang analitis, sangat teliti, dan disiplin dalam kepatuhan administratif.
 
-Saat ini saya bekerja di PT. Coreterra Geo Engineering secara remote sebagai Finance & Accounting. Saya bertanggung jawab mengelola administrasi keuangan, memantau arus kas, memproses penagihan (invoicing), serta menyusun laporan keuangan berkala. Melalui peran ini, saya terbiasa mengelola data finansial yang kompleks dan menuntut ketelitian tinggi, sekaligus terbukti mampu berkoordinasi dengan baik dalam lingkungan kerja jarak jauh (remote).
+Perjalanan karir saya diawali dengan mengemban amanah sebagai Kaur Keuangan di Desa Pananjung (2020 – 2024). Pada posisi ini, saya bertanggung jawab penuh dalam mengelola dan menatausahakan anggaran publik skala besar yang mencapai ± Rp3 Miliar per tahun.
 
-Selain itu, saya juga terlibat aktif dalam pengembangan sistem ERP untuk perusahaan manufaktur (Raziq Garment). Dalam proyek tersebut, saya bertugas menganalisis proses bisnis, pengelolaan persediaan (inventory), produksi, dan pembelian. Pengalaman ini memberikan saya pemahaman yang kuat mengenai alur kerja PPIC (Production Planning and Inventory Control) dalam lingkungan manufaktur.
+Selanjutnya, saya bergabung dengan PT Minearth Geo Solution sebagai Koordinator Mutu Laboratorium (2025 – Juni 2026). Peran ini menuntut tingkat akurasi yang ketat, di mana saya bertugas memastikan ketertelusuran (traceability) dan validasi data operasional sebelum dokumen diterbitkan.
 
+Saat ini, saya bekerja secara remote sebagai Finance & Accounting di PT. Coreterra Geo Engineering. Saya bertanggung jawab mengelola administrasi keuangan, memantau arus kas, memproses penagihan (invoicing), serta menyusun laporan keuangan berkala yang menuntut akurasi tingkat tinggi.
+
+Di samping operasional finansial, saya juga aktif sebagai Business Analyst & System Developer dalam merancang ekosistem digital berskala enterprise (seperti SEAM-Annsa ERP, TIMES LIMS, dan LODE). Pengalaman membedah alur produksi dan rantai pasok pada proyek-proyek tersebut memberikan saya pemahaman yang tajam mengenai efisiensi operasional, manajemen persediaan (inventory/PPIC), dan arsitektur bisnis.
 Saya memiliki penguasaan Microsoft Office, khususnya Microsoft Excel tingkat lanjut untuk pengolahan dan analisis data. Saya mampu bekerja secara mandiri maupun dalam tim, memiliki kemampuan komunikasi yang baik, serta siap berkontribusi secara maksimal di PT. Indokemas Sukses Makmur.
 
 Besar harapan saya untuk dapat mengikuti tahapan seleksi selanjutnya, sehingga saya dapat berdiskusi lebih lanjut mengenai bagaimana kualifikasi dan pengalaman saya dapat memberikan nilai tambah bagi perusahaan.
