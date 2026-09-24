@@ -1,9 +1,14 @@
 ---
 margin:
-  top: 2cm
-  bottom: 2cm
-  left: 2cm
-  right: 2cm
+  top: 2- Administrasi Keuangan, Operasional & Analisis Data
+- Siklus Akuntansi, AP/AR & Cash Flow Management
+- System Development & Business Process Analysis
+- Document Control, Verification & Audit Readiness
+- Kepatuhan Administratif & Validasi Data
+- Microsoft Excel (Advanced) & Siskeudes
+- Remote Collaboration & Team Coordination
+- Teliti, Analitis, Disiplin, dan Jujur
+
 ---
 
 # SURAT LAMARAN PEKERJAAN
@@ -50,7 +55,7 @@ Hormat saya,
 ---
 
 ### PROFIL PROFESIONAL
-Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di bidang administrasi operasional, pengendalian dokumen, pengelolaan data, serta analisis proses bisnis. Berpengalaman mengelola administrasi operasional laboratorium, serta turut berkontribusi dalam pengembangan sistem ERP manufaktur dengan fokus pada alur persediaan (inventory), produksi, dan pembelian. Memiliki kemampuan Microsoft Excel tingkat lanjut untuk pengolahan data, ketelitian tinggi, disiplin, serta mampu beradaptasi dengan cepat terhadap sistem dan proses kerja baru. Mampu bekerja secara mandiri maupun dalam tim untuk mencapai target operasional perusahaan.
+Sarjana Akuntansi (IPK 3,72) dengan rekam jejak karir yang solid sejak tahun 2020 di bidang keuangan, administrasi operasional, dan pengembangan sistem. Berpengalaman mengelola tata usaha anggaran publik skala besar, mengawal ketertelusuran dokumen, serta menangani siklus akuntansi korporat (AP/AR). Terbukti mampu berkoordinasi secara efektif dalam lingkungan kerja jarak jauh (remote) maupun onsite. Di samping itu, memiliki keahlian teknis sebagai Business Analyst & System Developer dalam merancang ekosistem bisnis digital (ERP, LIMS, Finance Management). Berbekal penguasaan Microsoft Excel tingkat lanjut dan daya analitis tinggi, saya siap menghadirkan efisiensi proses, validasi data yang akurat, serta kepatuhan administratif di setiap lingkungan kerja.
 
 ### KEY QUALIFICATIONS
 - Pengalaman Administrasi Operasional & Data Analyst
