@@ -4,10 +4,26 @@ import { ChevronDown, Briefcase, Building, CheckCircle2, TrendingUp } from 'luci
 
 const experiences = [
   {
+    id: 3,
+    company: "PT. Coreterra Geo Engineering (Remote - Tangerang Selatan)",
+    role: "Finance & Accounting",
+    period: "2026 – Sekarang",
+    icon: Building,
+    responsibilities: [
+      "Mengelola administrasi keuangan dan pembukuan perusahaan secara menyeluruh.",
+      "Melakukan rekonsiliasi bank dan memantau arus kas (cash flow) proyek.",
+      "Menyusun laporan keuangan periodik untuk evaluasi manajemen.",
+      "Mengelola proses penagihan (invoicing) dan pembayaran kepada vendor (Account Payable/Receivable).",
+      "Memastikan kepatuhan terhadap standar akuntansi dan kebijakan keuangan perusahaan."
+    ],
+    competencies: "Financial Reporting, Cash Flow Management, AP/AR, Remote Collaboration",
+    stats: null
+  },
+  {
     id: 2,
     company: "PT Minearth Geo Solution",
     role: "Admin & Koordinator Mutu Laboratorium",
-    period: "2025–Juni 2026",
+    period: "2025 – 2026",
     icon: Building,
     responsibilities: [
       "Mengelola administrasi operasional laboratorium mekanika tanah.",

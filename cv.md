@@ -18,7 +18,7 @@ Berdasarkan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini sa
 
 Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72. Sejak tahun 2020, saya memiliki pengalaman luas di bidang administrasi, pengelolaan dokumen, penyusunan laporan, serta pengendalian operasional yang menuntut ketelitian, disiplin, dan tanggung jawab tinggi.
 
-Saat ini saya bekerja di PT Minearth Geo Solution sebagai Admin dan Koordinator Mutu Laboratorium Mekanika Tanah. Saya bertanggung jawab mengelola administrasi operasional, melakukan input dan verifikasi data hasil pengujian, menyusun laporan, mengelola surat menyurat, serta berkoordinasi secara aktif dengan klien dan tim internal. Melalui peran ini, saya terbiasa bekerja dengan data dalam jumlah besar yang membutuhkan ketelitian dan tingkat akurasi yang tinggi.
+Saat ini saya bekerja di PT. Coreterra Geo Engineering secara remote sebagai Finance & Accounting. Saya bertanggung jawab mengelola administrasi keuangan, memantau arus kas, memproses penagihan (invoicing), serta menyusun laporan keuangan berkala. Melalui peran ini, saya terbiasa mengelola data finansial yang kompleks dan menuntut ketelitian tinggi, sekaligus terbukti mampu berkoordinasi dengan baik dalam lingkungan kerja jarak jauh (remote).
 
 Selain itu, saya juga terlibat aktif dalam pengembangan sistem ERP untuk perusahaan manufaktur (Raziq Garment). Dalam proyek tersebut, saya bertugas menganalisis proses bisnis, pengelolaan persediaan (inventory), produksi, dan pembelian. Pengalaman ini memberikan saya pemahaman yang kuat mengenai alur kerja PPIC (Production Planning and Inventory Control) dalam lingkungan manufaktur.
 
@@ -78,8 +78,15 @@ Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di b
 
 ### PENGALAMAN KERJA
 
+**PT. CORETERRA GEO ENGINEERING**  
+*Finance & Accounting (Remote - Tangerang Selatan)* | 2026 – Sekarang
+- Mengelola administrasi keuangan dan pembukuan perusahaan secara menyeluruh.
+- Melakukan rekonsiliasi bank dan memantau arus kas (cash flow) proyek.
+- Menyusun laporan keuangan periodik untuk evaluasi manajemen.
+- Mengelola proses penagihan (invoicing) dan pembayaran kepada vendor (Account Payable/Receivable).
+
 **PT MINEARTH GEO SOLUTION**  
-*Admin & Koordinator Mutu Laboratorium* | 2025 – Juni 2026
+*Admin & Koordinator Mutu Laboratorium* | 2025 – 2026
 - Mengelola administrasi operasional laboratorium mekanika tanah guna mendukung kelancaran proses pengujian dan pelayanan kepada klien.
 - Melakukan verifikasi dan validasi data hasil pengujian sebelum diterbitkan kepada klien.
 - Memastikan kesesuaian data hasil pengujian dengan dokumen pendukung dan prosedur yang berlaku.
