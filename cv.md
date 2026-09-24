@@ -102,13 +102,18 @@ Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di b
 
 ### PENGALAMAN PROYEK
 
-**ERP DEVELOPMENT PROJECT – RAZIQ GARMENT**  
-*Business Process & Finance Support* | 2025 – Sekarang
-- Mengidentifikasi kebutuhan operasional perusahaan garmen untuk pengembangan sistem ERP.
-- Menyusun alur proses bisnis persediaan, pembelian, produksi, penjualan, kas, dan piutang sebagai dasar pengembangan sistem.
-- Menganalisis keterkaitan antar proses bisnis untuk mendukung integrasi data operasional.
-- Melakukan pengujian dan evaluasi fitur guna memastikan kesesuaian sistem dengan kebutuhan pengguna.
-- Memberikan masukan terhadap pengembangan fitur dan alur kerja berdasarkan kebutuhan operasional perusahaan.
+**SEAM-Annsa: Sistem ERP Manufaktur Garmen**  
+*Business Analyst & System Developer* | 2024 – Sekarang
+- Mendigitalkan seluruh rantai pasok dan operasional perusahaan manufaktur garmen ke dalam satu sistem terintegrasi.
+- Menyusun alur proses bisnis persediaan, log produksi, hingga pembukuan akuntansi.
+
+**TIMES LIMS: Sistem Manajemen Data Laboratorium Geoteknik**  
+*Business Analyst & System Developer* | 2025 – Sekarang
+- Membangun sistem LIMS sesuai standar ISO/IEC 17025 untuk validasi dan manajemen sampel uji mekanika tanah.
+
+**LODE: Sistem Manajemen Keuangan Proyek & Korporat**  
+*Business Analyst & System Developer* | 2025 – Sekarang
+- Menciptakan dashboard pemantauan profitabilitas RAB proyek pertambangan dan geoteknik secara real-time.
 
 ---
 
