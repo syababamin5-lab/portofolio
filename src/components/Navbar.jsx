@@ -12,6 +12,7 @@ const Navbar = () => {
     { name: 'TIMES LIMS', to: 'lims' },
     { name: 'LODE ERP', to: 'geofinance' },
     { name: 'Skills', to: 'skills' },
+    { name: 'Contact', to: 'contact' },
   ];
 
   return (

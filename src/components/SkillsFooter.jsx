@@ -55,20 +55,20 @@ const SkillsFooter = () => {
         </div>
 
         {/* Contact & Copyright */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="text-center md:text-left">
+        <div id="contact" className="flex flex-col md:flex-row items-center justify-between gap-6 mt-8">
+          <div className="text-center md:text-left mb-6 md:mb-0">
             <h2 className="text-2xl font-bold text-white tracking-tight">SYABAAB AMIN AMANULLAH</h2>
             <p className="text-sm text-slate-500 mt-1">Business Analyst & Enterprise System Developer</p>
           </div>
           
-          <div className="flex items-center gap-4">
-            <a href="mailto:syabaabaminamanullah@gmail.com" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-emerald-600 hover:text-white transition-colors" title="syabaabaminamanullah@gmail.com">
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <a href="mailto:syabaabaminamanullah@gmail.com" className="flex items-center gap-3 bg-slate-800 px-5 py-3 rounded-full hover:bg-emerald-600 hover:text-white transition-colors" title="Email Saya">
               <Mail size={18} />
-              <span className="sr-only">Email</span>
+              <span className="text-sm font-medium">syabaabaminamanullah@gmail.com</span>
             </a>
-            <a href="https://wa.me/6281214914641" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-emerald-500 hover:text-white transition-colors" title="WhatsApp: 081214914641">
+            <a href="https://wa.me/6281214914641" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-slate-800 px-5 py-3 rounded-full hover:bg-emerald-500 hover:text-white transition-colors" title="WhatsApp Saya">
               <Phone size={18} />
-              <span className="sr-only">WhatsApp</span>
+              <span className="text-sm font-medium">+62 812-1491-4641</span>
             </a>
           </div>
         </div>
