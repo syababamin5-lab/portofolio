@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio - Syabaab Amin Amanullah, S.E.</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1e293b;
+      line-height: 1.35;
+      margin: 0;
+      padding: 1cm 0;
+      background: #f8fafc;
+      font-size: 0.85rem;
+    }
+    .page {
+      background: #fff;
+      padding: 1.2cm 1.5cm;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      margin: 0 auto;
+      max-width: 21cm;
+      border-radius: 8px;
+    }
+    @page {
+      margin: 8mm 10mm;
+      size: A4 portrait;
+    }
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+        font-size: 9pt;
+        line-height: 1.35;
+      }
+      .page {
+        box-shadow: none;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        max-width: none;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
+    .header {
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 0.75rem;
+      margin-bottom: 0.85rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .header-left h1 {
+      font-size: 17pt;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0 0 2pt 0;
+    }
+    .header-left p {
+      font-size: 10pt;
+      font-weight: 600;
+      color: #2563eb;
+      margin: 0;
+    }
+    .header-right {
+      text-align: right;
+      font-size: 8.5pt;
+      color: #475569;
+    }
+    .header-right a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .web-badge {
+      display: inline-block;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #1d4ed8;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 8pt;
+      font-weight: 600;
+      margin-top: 3px;
+    }
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #0f172a;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1.5px solid #e2e8f0;
+      padding-bottom: 3pt;
+      margin-top: 0.85rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .section-title::before {
+      content: '';
+      width: 4px;
+      height: 14px;
+      background: #2563eb;
+      border-radius: 2px;
+      display: inline-block;
+    }
+    .project-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 0.7rem 0.9rem;
+      margin-bottom: 0.65rem;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 3pt;
+    }
+    .project-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .project-role {
+      font-size: 8.5pt;
+      font-weight: 600;
+      color: #059669;
+    }
+    .project-link {
+      font-size: 8pt;
+      color: #2563eb;
+      text-decoration: none;
+      font-family: monospace;
+      background: #fff;
+      padding: 2px 6px;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+    }
+    .project-desc {
+      font-size: 8.5pt;
+      color: #334155;
+      margin: 2pt 0 5pt 0;
+      text-align: justify;
+    }
+    .features-list {
+      margin: 0;
+      padding-left: 1.1rem;
+      font-size: 8.5pt;
+      color: #334155;
+    }
+    .features-list li {
+      margin-bottom: 2pt;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="header-left">
+        <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
+        <p>Finance, Accounting & Business Process Portfolio</p>
+      </div>
+      <div class="header-right">
+        <div>Kabupaten Bandung, Jawa Barat | 081214914641</div>
+        <div>Email: <a href="mailto:syabaabamin5@gmail.com">syabaabamin5@gmail.com</a></div>
+        <div class="web-badge">
+          🌐 Web Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" target="_blank">syababamin5-lab.github.io/portofolio</a>
+        </div>
+      </div>
+    </div>
+    <p style="font-size: 8.5pt; color: #475569; margin-top: 0; margin-bottom: 0.6rem; text-align: justify;">
+      Dokumen ini merangkum portofolio profesional saya dalam tata kelola keuangan, kepatuhan anggaran, serta perancangan sistem informasi keuangan dan akuntansi terintegrasi yang telah teruji menyelesaikan permasalahan alur operasional dan otomatisasi pembukuan.
+    </p>
+    <div class="section-title">1. Proyek Sistem ERP Manufaktur (Raziq Garment)</div>
+    <div class="project-card">
+      <div class="project-header">
+        <div>
+          <div class="project-title">ERP Manufacturing & Financial System</div>
+          <div class="project-role">Peran: Business Process Designer & Finance Support System (2025 – Sekarang)</div>
+        </div>
+        <a href="https://ansa.up.railway.app/" target="_blank" class="project-link">🔗 ansa.up.railway.app</a>
+      </div>
+      <p class="project-desc">
+        Membangun sistem informasi ERP untuk mendigitalisasi operasional pabrik garmen dari sebelumnya mengandalkan spreadsheet manual terpisah menjadi satu kesatuan basis data otomatis.
+      </p>
+      <ul class="features-list">
+        <li><strong>Sinkronisasi Mutasi Fisik & Akuntansi:</strong> Mengintegrasikan stok bahan baku (kain/benang) dengan pencatatan jurnal akuntansi persediaan secara real-time.</li>
+        <li><strong>Perhitungan HPP & WIP Presisi:</strong> Melacak progress produksi bertingkat (cutting & sewing) untuk mengkalkulasi Harga Pokok Produksi secara akurat.</li>
+        <li><strong>Otomatisasi Laporan Keuangan:</strong> Transaksi kas, faktur piutang penjualan, dan purchase order terhubung langsung ke pembentukan neraca serta laba rugi.</li>
+        <li><strong>Integrasi Lintas Perangkat:</strong> Dilengkapi antarmuka Web & Mobile APK lapangan untuk pencatatan mandiri teknisi produksi.</li>
+      </ul>
+    </div>
+    <div class="section-title">2. Proyek Web App LIMS (PT Terraforma Geoteknik Indonesia)</div>
+    <div class="project-card">
+      <div class="project-header">
+        <div>
+          <div class="project-title">ANSA LIMS — Geotechnical Testing & QC Management</div>
+          <div class="project-role">Peran: System Architect, Financial Analytics & QC Automation Designer (2026)</div>
+        </div>
+        <a href="https://www.annsa.site/" target="_blank" class="project-link">🔗 www.annsa.site</a>
+      </div>
+      <p class="project-desc">
+        Membangun sistem informasi laboratorium geoteknik berbasis cloud untuk memangkas risiko human-error dan menyatukan validasi teknis dengan penatausahaan PO keuangan.
+      </p>
+      <ul class="features-list">
+        <li><strong>Otomatisasi Rumus & Formula SNI/ASTM:</strong> Menghitung parameter mekanika tanah otomatis (CBR, Triaxial, Direct Shear) menggantikan spreadsheet konvensional.</li>
+        <li><strong>Alur Mutu & Pengendalian PO:</strong> Menghubungkan registrasi sampel masuk, penomoran PO kerja, approval mutu berjenjang, hingga penerbitan sertifikat digital LHU.</li>
+        <li><strong>Verifikasi QR Code Publik:</strong> Laporan hasil uji dan status administrasi dapat divalidasi langsung secara publik via stempel digital QR di website resmi.</li>
+      </ul>
+    </div>
+    <div class="section-title">3. Pengalaman Pengelolaan Anggaran Publik</div>
+    <div class="project-card" style="margin-bottom: 0;">
+      <div class="project-header">
+        <div>
+          <div class="project-title">Kepala Urusan Keuangan (Kaur Keuangan) — Pemdes Pananjung</div>
+          <div class="project-role">Periode: 2020 – 2024 (4 Tahun Pengabdian)</div>
+        </div>
+        <span style="font-size: 8pt; font-weight: 700; color: #1e293b; background: #e2e8f0; padding: 2px 6px; border-radius: 4px;">Anggaran ±Rp3 Miliar/Tahun</span>
+      </div>
+      <ul class="features-list">
+        <li>Bertanggung jawab penuh atas tata kelola kas, verifikasi keabsahan berkas Surat Permintaan Pembayaran (SPP), dan pencairan dana program desa.</li>
+        <li>Mengoperasikan aplikasi Siskeudes secara disiplin, tertib administrasi pajak, dan menyusun Laporan Pertanggungjawaban (LPJ) keuangan tanpa temuan.</li>
+        <li>Membuktikan integritas dan akuntabilitas tinggi dalam menangani dana publik dengan transparansi penuh kepada BPD dan instansi terkait.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="no-print" style="text-align: center; margin-top: 15px;">
+    <button onclick="window.print()" style="background: #2563eb; color: white; border: none; padding: 10px 24px; font-size: 14px; font-weight: 600; border-radius: 6px; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+      🖨️ Cetak / Simpan Portofolio sebagai PDF (Ctrl + P)
+    </button>
+  </div>
+</body>
+</html>
