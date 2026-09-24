@@ -51,7 +51,7 @@ const ErpShowcase = () => {
               <div>
                 <h3 className="text-2xl font-bold text-primary">SEAM-Annsa (Garment ERP)</h3>
                 <p className="text-sm text-slate-500 font-medium mt-1">
-                  Merajut Rantai Pasok, Operasional & Akuntansi Tanpa Cela
+                  Aplikasi Enterprise Resource Planning (ERP) untuk mendigitalkan rantai pasok, operasional, dan akuntansi industri manufaktur garmen.
                 </p>
               </div>
               <a href="https://seam.annsa.site/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 border border-emerald-200 text-emerald-700 hover:bg-emerald-100 rounded-lg text-sm font-bold transition-colors w-max">
