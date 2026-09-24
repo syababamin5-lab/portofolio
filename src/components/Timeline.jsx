@@ -88,13 +88,15 @@ const TimelineItem = ({ exp, isLast }) => {
               <span className="font-semibold text-sm bg-primary/10 px-3 py-1 rounded-full">{exp.period}</span>
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-1">{exp.role}</h3>
-            <h4 className="text-lg text-slate-600 font-medium mb-4">
-              {exp.website ? (
-                <a href={exp.website} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:underline decoration-primary/50 underline-offset-4">
-                  {exp.company}
-                </a>
-              ) : (
-                exp.company
+            <h4 className="text-lg text-slate-600 font-medium mb-4 flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+              <span>{exp.company}</span>
+              {exp.website && (
+                <>
+                  <span className="hidden sm:inline text-slate-300">|</span>
+                  <a href={exp.website} target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-emerald-700 hover:underline transition-colors">
+                    {exp.website.replace(/^https?:\/\//, '')}
+                  </a>
+                </>
               )}
             </h4>
 
