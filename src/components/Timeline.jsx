@@ -6,6 +6,7 @@ const experiences = [
   {
     id: 3,
     company: "PT. Coreterra Geo Engineering (Remote - Tangerang Selatan)",
+    website: "https://coreterra-geo.com/",
     role: "Finance & Accounting",
     period: "2026 – Sekarang",
     icon: Building,
@@ -22,6 +23,7 @@ const experiences = [
   {
     id: 2,
     company: "PT Minearth Geo Solution",
+    website: "https://web.minearth.co.id/",
     role: "Admin & Koordinator Mutu Laboratorium",
     period: "2025 – Juni 2026",
     icon: Building,
@@ -86,7 +88,15 @@ const TimelineItem = ({ exp, isLast }) => {
               <span className="font-semibold text-sm bg-primary/10 px-3 py-1 rounded-full">{exp.period}</span>
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-1">{exp.role}</h3>
-            <h4 className="text-lg text-slate-600 font-medium mb-4">{exp.company}</h4>
+            <h4 className="text-lg text-slate-600 font-medium mb-4">
+              {exp.website ? (
+                <a href={exp.website} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:underline decoration-primary/50 underline-offset-4">
+                  {exp.company}
+                </a>
+              ) : (
+                exp.company
+              )}
+            </h4>
 
             {exp.stats && (
               <div className="mb-4 bg-background-gray p-3 rounded-lg border border-slate-200 flex items-center gap-3">
