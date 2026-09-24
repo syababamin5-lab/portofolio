@@ -111,16 +111,21 @@ Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di b
 
 **SEAM-Annsa: Sistem ERP Manufaktur Garmen**  
 *Business Analyst & System Developer* | 2024 – Sekarang
-- Mendigitalkan seluruh rantai pasok dan operasional perusahaan manufaktur garmen ke dalam satu sistem terintegrasi.
-- Menyusun alur proses bisnis persediaan, log produksi, hingga pembukuan akuntansi.
+- Merancang dan membangun aplikasi Enterprise Resource Planning (ERP) komprehensif untuk mendigitalkan seluruh rantai pasok dan akuntansi pada industri manufaktur garmen.
+- Mentransformasi pencatatan manual menjadi alur kerja otomatis dan terintegrasi, mencakup manajemen stok kain, log produksi harian per divisi (Cutting, Jahit, Finishing), hingga buku besar dan penggajian.
+- Menciptakan ekosistem sistem yang memastikan akurasi perhitungan Harga Pokok Produksi (HPP) dan efisiensi operasional secara real-time.
 
 **TIMES LIMS: Sistem Manajemen Data Laboratorium Geoteknik**  
 *Business Analyst & System Developer* | 2025 – Sekarang
-- Membangun sistem LIMS sesuai standar ISO/IEC 17025 untuk validasi dan manajemen sampel uji mekanika tanah.
+- Mengembangkan Laboratory Information Management System (LIMS) yang didesain khusus untuk memenuhi standar akreditasi ISO/IEC 17025, SNI, dan ASTM pada laboratorium pengujian geoteknik.
+- Membangun mesin validasi cerdas untuk mengawal ketertelusuran (Traceability) dan integritas data uji sejak sampel diterima hingga penerbitan sertifikat (Certificate of Analysis).
+- Mengintegrasikan manajemen tarif pengujian, perhitungan parameter otomatis, serta kontrol mutu hasil laboratorium secara sistematis.
 
 **LODE: Sistem Manajemen Keuangan Proyek & Korporat**  
 *Business Analyst & System Developer* | 2025 – Sekarang
-- Menciptakan dashboard pemantauan profitabilitas RAB proyek pertambangan dan geoteknik secara real-time.
+- Merancang sistem tata kelola keuangan proyek (Project Finance) yang terintegrasi untuk perusahaan konsultan pertambangan dan geoteknik.
+- Membangun arsitektur penelusuran alur modal yang memetakan Rencana Anggaran Biaya (RAB) operasional lapangan terhadap realisasi pengeluaran dan termin penagihan.
+- Menciptakan executive dashboard yang mampu memberikan proyeksi profitabilitas proyek secara presisi dan mendukung manajemen dalam pengambilan keputusan strategis.
 
 ---
 
