@@ -50,7 +50,7 @@ Hormat saya,
 
 ### SYABAAB AMIN AMANULLAH, S.E.
 **Administration & Operations**  
-📍 Kabupaten Bandung, Jawa Barat | 📞 081214914641 | ✉️ syabaabaminamanullah@gmail.com
+📍 Kabupaten Bandung, Jawa Barat | 📞 081214914641 | ✉️ syabaabaminamanullah@gmail.com | 🌐 [Portofolio Web](https://syababamin5-lab.github.io/portofolio/)
 
 ---
 
@@ -75,6 +75,7 @@ Sarjana Akuntansi (IPK 3,72) dengan rekam jejak karir yang solid sejak tahun 202
 - **Nomor HP** : 081214914641
 - **Alamat** : Kp. Legok Kiraksa RT 02 RW 10, Desa Pananjung, Kecamatan Cangkuang, Kabupaten Bandung
 - **Email** : syabaabaminamanullah@gmail.com
+- **Portofolio** : [syababamin5-lab.github.io/portofolio](https://syababamin5-lab.github.io/portofolio/)
 
 ---
 
