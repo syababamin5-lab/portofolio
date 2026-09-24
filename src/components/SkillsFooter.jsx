@@ -62,7 +62,7 @@ const SkillsFooter = () => {
           </div>
           
           <div className="flex items-center gap-4">
-            <a href="mailto:syababamin5@gmail.com" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-emerald-600 hover:text-white transition-colors" title="syababamin5@gmail.com">
+            <a href="mailto:syabaabaminamanullah@gmail.com" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-emerald-600 hover:text-white transition-colors" title="syabaabaminamanullah@gmail.com">
               <Mail size={18} />
               <span className="sr-only">Email</span>
             </a>

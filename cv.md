@@ -34,7 +34,7 @@ Hormat saya,
 
 **Syabaab Amin Amanullah, S.E.**  
 📞 081214914641  
-✉️ syababamin5@gmail.com  
+✉️ syabaabaminamanullah@gmail.com  
 
 <div style="page-break-after: always;"></div>
 
@@ -42,7 +42,7 @@ Hormat saya,
 
 ### SYABAAB AMIN AMANULLAH, S.E.
 **Administration & Operations**  
-📍 Kabupaten Bandung, Jawa Barat | 📞 081214914641 | ✉️ syababamin5@gmail.com
+📍 Kabupaten Bandung, Jawa Barat | 📞 081214914641 | ✉️ syabaabaminamanullah@gmail.com
 
 ---
 
@@ -66,7 +66,7 @@ Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di b
 - **Tanggal Lahir** : 17 April 1999
 - **Nomor HP** : 081214914641
 - **Alamat** : Kp. Legok Kiraksa RT 02 RW 10, Desa Pananjung, Kecamatan Cangkuang, Kabupaten Bandung
-- **Email** : syababamin5@gmail.com
+- **Email** : syabaabaminamanullah@gmail.com
 
 ---
 
