@@ -18,7 +18,7 @@ Berdasarkan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini sa
 
 Saya merupakan lulusan Sarjana Akuntansi (S.E.) dengan IPK 3,72. Sejak tahun 2020, saya telah membangun rekam jejak karir yang solid di bidang administrasi, keuangan, dan operasional. Rangkaian pengalaman ini membentuk saya menjadi profesional yang analitis, sangat teliti, dan disiplin dalam kepatuhan administratif.
 
-Perjalanan karir saya diawali dengan mengemban amanah sebagai Kaur Keuangan di Desa Pananjung (2020 – 2024). Pada posisi ini, saya bertanggung jawab penuh dalam mengelola dan menatausahakan anggaran publik skala besar yang mencapai ± Rp3 Miliar per tahun.
+Perjalanan karir saya diawali dengan mengemban amanah sebagai Kaur Keuangan (Bendahara) di Desa Pananjung (2020 – 2024). Pada posisi ini, saya bertanggung jawab mengelola tata usaha anggaran publik skala besar yang mencapai ± Rp3 Miliar per tahun. Pekerjaan ini menuntut keahlian administrasi yang kuat, khususnya dalam memverifikasi kelengkapan dokumen pencairan, memproses transaksi kas, hingga menyusun laporan pertanggungjawaban (LPJ) yang transparan dan akuntabel.
 
 Selanjutnya, saya bergabung dengan PT Minearth Geo Solution sebagai Admin & Koordinator Mutu Laboratorium (2025 – Juni 2026). Peran ini menuntut akurasi operasional yang ketat; selain mengawal ketertelusuran (traceability) dan validasi data pengujian, saya juga bertanggung jawab mengelola tata kelola administrasi perusahaan secara menyeluruh—mulai dari pengendalian dokumen, penerbitan invoice, hingga korespondensi klien—guna menjamin kelancaran siklus bisnis.
 
