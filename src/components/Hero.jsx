@@ -38,7 +38,7 @@ const Hero = () => {
                 Business Analyst & Enterprise System Developer Portfolio
               </h2>
               <p className="text-base md:text-lg text-slate-600 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                Sarjana Akuntansi dengan perpaduan keahlian unik antara tata kelola keuangan, analisis proses bisnis, dan pengembangan sistem perangkat lunak (ERP/LIMS). Berpengalaman dalam mendigitalkan siklus bisnis yang kompleks—mulai dari manufaktur garmen, laboratorium mekanika tanah, hingga manajemen keuangan proyek—menjadi ekosistem digital yang efisien, otomatis, dan <span className="font-semibold text-primary">transparan</span>.
+                Sarjana Akuntansi dengan perpaduan keahlian antara tata kelola keuangan, manajemen administrasi operasional perusahaan, analisis proses bisnis, dan pengembangan sistem perangkat lunak (ERP/LIMS). Berpengalaman mengurus kelancaran administrasi bisnis sehari-hari, sekaligus mendigitalkan siklus yang kompleks—mulai dari manufaktur garmen, laboratorium mekanika tanah, hingga manajemen keuangan proyek—menjadi ekosistem digital yang efisien, otomatis, dan <span className="font-semibold text-primary">transparan</span>.
               </p>
             </motion.div>
 
