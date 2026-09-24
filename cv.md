@@ -8,27 +8,25 @@ margin:
 
 # SURAT LAMARAN PEKERJAAN
 
-**Perihal** : Lamaran Pekerjaan Finance  
-**Yth. Tim Rekrutmen**  
-**Stationery Bandung**  
+**Perihal** : Lamaran Pekerjaan Admin PPIC  
+**Yth. HRD PT. Indokemas Sukses Makmur**  
+**Kota Bandung**  
 
 Dengan hormat,
 
-Berdasarkan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini saya bermaksud mengajukan lamaran untuk posisi Finance.
+Berdasarkan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini saya bermaksud mengajukan lamaran untuk posisi Admin PPIC di PT. Indokemas Sukses Makmur.
 
-Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72. Sejak tahun 2020, saya memiliki pengalaman di bidang administrasi keuangan, pengelolaan anggaran, penyusunan laporan, pengendalian dokumen, serta administrasi operasional yang menuntut ketelitian, akurasi, dan tanggung jawab dalam setiap proses pekerjaan.
+Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72. Sejak tahun 2020, saya memiliki pengalaman luas di bidang administrasi, pengelolaan dokumen, penyusunan laporan, serta pengendalian operasional yang menuntut ketelitian, disiplin, dan tanggung jawab tinggi.
 
-Pada periode 2020–2024, saya menjabat sebagai Kepala Urusan Keuangan (Kaur Keuangan) Desa Pananjung. Dalam posisi tersebut saya bertanggung jawab mengelola anggaran desa rata-rata sekitar Rp3 miliar per tahun, menyusun APBDes, Perubahan APBDes, Realisasi APBDes, Surat Permintaan Pembayaran (SPP), dan Laporan Pertanggungjawaban (LPJ), serta memastikan kelengkapan administrasi dan kesesuaian dokumen sebelum proses pencairan maupun pelaporan. Pengalaman tersebut membentuk kemampuan saya dalam mengelola administrasi keuangan secara sistematis, teliti, dan sesuai ketentuan yang berlaku.
+Saat ini saya bekerja di PT Minearth Geo Solution sebagai Admin dan Koordinator Mutu Laboratorium Mekanika Tanah. Saya bertanggung jawab mengelola administrasi operasional, melakukan input dan verifikasi data hasil pengujian, menyusun laporan, mengelola surat menyurat, serta berkoordinasi secara aktif dengan klien dan tim internal. Melalui peran ini, saya terbiasa bekerja dengan data dalam jumlah besar yang membutuhkan ketelitian dan tingkat akurasi yang tinggi.
 
-Saat ini saya bekerja di PT Minearth Geo Solution sebagai Admin dan Koordinator Mutu Laboratorium Mekanika Tanah. Saya bertanggung jawab mengelola administrasi operasional, menyusun dan mengelola invoice, melakukan input serta verifikasi data hasil pengujian, menyusun laporan, mengelola surat dan penawaran, serta berkoordinasi dengan klien maupun tim internal. Melalui pekerjaan tersebut saya terbiasa bekerja dengan data, dokumen, dan proses administrasi yang membutuhkan tingkat ketelitian tinggi.
+Selain itu, saya juga terlibat aktif dalam pengembangan sistem ERP untuk perusahaan manufaktur (Raziq Garment). Dalam proyek tersebut, saya bertugas menganalisis proses bisnis, pengelolaan persediaan (inventory), produksi, dan pembelian. Pengalaman ini memberikan saya pemahaman yang kuat mengenai alur kerja PPIC (Production Planning and Inventory Control) dalam lingkungan manufaktur.
 
-Selain itu, saya juga terlibat dalam pengembangan sistem ERP untuk perusahaan manufaktur garmen dengan fokus pada analisis proses bisnis, pengelolaan persediaan, pembelian, produksi, penjualan, kas, dan piutang. Pengalaman tersebut memberikan pemahaman yang lebih baik mengenai keterkaitan antara proses operasional, administrasi keuangan, dan kebutuhan informasi yang akurat dalam mendukung kegiatan perusahaan.
+Saya memiliki penguasaan Microsoft Office, khususnya Microsoft Excel tingkat lanjut untuk pengolahan dan analisis data. Saya mampu bekerja secara mandiri maupun dalam tim, memiliki kemampuan komunikasi yang baik, serta siap berkontribusi secara maksimal di PT. Indokemas Sukses Makmur.
 
-Saya memiliki kemampuan Microsoft Excel tingkat lanjut untuk pengolahan dan analisis data, terbiasa bekerja secara sistematis, mampu beradaptasi dengan cepat terhadap sistem baru, serta memiliki komitmen untuk terus belajar dan berkembang di bidang Finance & Accounting.
+Besar harapan saya untuk dapat mengikuti tahapan seleksi selanjutnya, sehingga saya dapat berdiskusi lebih lanjut mengenai bagaimana kualifikasi dan pengalaman saya dapat memberikan nilai tambah bagi perusahaan.
 
-Besar harapan saya untuk diberikan kesempatan mengikuti proses seleksi dan wawancara sehingga saya dapat menjelaskan lebih lanjut mengenai kemampuan serta pengalaman yang saya miliki dan bagaimana saya dapat memberikan kontribusi bagi Stationery Bandung.
-
-Atas perhatian dan kesempatan yang diberikan, saya ucapkan terima kasih.
+Atas perhatian dan waktu yang Bapak/Ibu berikan, saya ucapkan terima kasih.
 
 Hormat saya,
 
@@ -43,23 +41,23 @@ Hormat saya,
 # CURRICULUM VITAE
 
 ### SYABAAB AMIN AMANULLAH, S.E.
-**Finance & Accounting**  
+**Administration & Operations**  
 📍 Kabupaten Bandung, Jawa Barat | 📞 081214914641 | ✉️ syababamin5@gmail.com
 
 ---
 
 ### PROFIL PROFESIONAL
-Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di bidang administrasi keuangan, pengelolaan anggaran, penyusunan laporan keuangan, pengelolaan kas, administrasi invoice, serta pengendalian dokumen. Berpengalaman mengelola anggaran pemerintah sekitar Rp3 miliar per tahun, menyusun berbagai laporan pertanggungjawaban keuangan, serta mengelola administrasi operasional perusahaan. Saat ini bekerja sebagai Admin & Koordinator Mutu Laboratorium di PT Minearth Geo Solution dan turut berkontribusi dalam pengembangan sistem ERP manufaktur. Memiliki kemampuan Microsoft Excel tingkat lanjut, analisis data yang baik, ketelitian tinggi, serta mampu beradaptasi dengan cepat terhadap sistem dan proses kerja baru.
+Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di bidang administrasi operasional, pengendalian dokumen, pengelolaan data, serta analisis proses bisnis. Berpengalaman mengelola administrasi operasional laboratorium, serta turut berkontribusi dalam pengembangan sistem ERP manufaktur dengan fokus pada alur persediaan (inventory), produksi, dan pembelian. Memiliki kemampuan Microsoft Excel tingkat lanjut untuk pengolahan data, ketelitian tinggi, disiplin, serta mampu beradaptasi dengan cepat terhadap sistem dan proses kerja baru. Mampu bekerja secara mandiri maupun dalam tim untuk mencapai target operasional perusahaan.
 
 ### KEY QUALIFICATIONS
-- Pengalaman Finance & Accounting sejak 2020
+- Pengalaman Administrasi Operasional & Data Analyst
 - Sarjana Akuntansi (IPK 3,72)
-- Microsoft Excel (Advanced)
-- Mengelola anggaran ± Rp3 miliar/tahun
-- Penyusunan APBDes, LPJ & Laporan Keuangan
-- Pengelolaan Invoice & Administrasi Keuangan
-- ERP Manufacturing Project
-- Financial Administration & Data Analysis
+- Microsoft Excel (Advanced) & Microsoft Office
+- ERP Manufacturing Project (Inventory, Production, Purchasing)
+- Document Review, Verification & Control
+- Data Validation & Report Preparation
+- Team Coordination & Communication
+- Teliti, Disiplin, dan Jujur
 
 ---
 
@@ -134,21 +132,17 @@ Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di b
 - Accurate (Dasar), MYOB (Dasar)
 
 **Kompetensi**
+- Production Planning & Inventory Control (PPIC) Knowledge
+- Inventory & Stock Administration
 - Document Review & Verification
-- Data Validation
+- Data Validation & Input
 - Administrative Compliance
-- Budget Administration & Monitoring
-- Financial Administration
-- Business Process Analysis
+- Business Process Analysis (Manufacturing)
 - Report Preparation
 - Team Coordination & Problem Solving
-- Financial Reporting
-- Cash Flow Administration
-- Invoice Administration
-- Financial Data Analysis
-- Document Control
-- Bank Reconciliation (Basic)
-- Budget Control
+- Invoice & Document Control
+- Data Analysis
+- Detail-oriented & Disciplined
 
 ---
 

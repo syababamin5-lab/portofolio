@@ -4,11 +4,11 @@ import { ArrowDown, ShieldCheck, TrendingUp, Cpu, Database, Briefcase } from 'lu
 import { Link } from 'react-scroll';
 
 const badges = [
-  { name: 'Internal Audit', icon: ShieldCheck },
   { name: 'Finance & Accounting', icon: Briefcase },
-  { name: 'Internal Control', icon: ShieldCheck },
-  { name: 'Business Process Improvement', icon: TrendingUp },
-  { name: 'ERP Digitalization', icon: Cpu },
+  { name: 'Business Process Analysis', icon: TrendingUp },
+  { name: 'Enterprise System Architecture', icon: Cpu },
+  { name: 'ERP Digitalization', icon: Database },
+  { name: 'Data Management & QC', icon: ShieldCheck },
 ];
 
 const Hero = () => {
@@ -35,14 +35,10 @@ const Hero = () => {
                 SYABAAB AMIN AMANULLAH, <span className="text-primary font-serif italic">S.E.</span>
               </h1>
               <h2 className="text-xl md:text-2xl text-slate-600 font-medium mb-8">
-                Internal Auditor & Business Process Analyst Portfolio
+                Business Analyst & Enterprise System Developer Portfolio
               </h2>
               <p className="text-base md:text-lg text-slate-600 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                Sarjana Akuntansi dengan pengalaman mendalam dalam pengelolaan keuangan operasional, 
-                pengendalian mutu data laboratorium, verifikasi dokumen kepatuhan, serta perancangan 
-                proses bisnis berbasis ERP. Berfokus pada penguatan pengendalian internal 
-                <span className="font-semibold text-primary"> (Internal Control) </span> 
-                dan digitalisasi sistem untuk meminimalkan risiko operasional.
+                Sarjana Akuntansi dengan perpaduan keahlian unik antara tata kelola keuangan, analisis proses bisnis, dan pengembangan sistem perangkat lunak (ERP/LIMS). Berpengalaman dalam mendigitalkan siklus bisnis yang kompleks—mulai dari manufaktur garmen, laboratorium mekanika tanah, hingga manajemen keuangan proyek—menjadi ekosistem digital yang efisien, otomatis, dan <span className="font-semibold text-primary">transparan</span>.
               </p>
             </motion.div>
 

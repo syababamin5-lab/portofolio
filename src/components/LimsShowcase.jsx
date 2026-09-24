@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FlaskConical, Calculator, FileCheck2, ArrowRight, ShieldCheck, QrCode, ExternalLink, Activity, Database, CheckCircle2, FileSpreadsheet, X, ZoomIn } from 'lucide-react';
+import { FlaskConical, Calculator, FileCheck2, ArrowRight, ShieldCheck, QrCode, ExternalLink, Activity, Database, CheckCircle2, FileSpreadsheet, X, ZoomIn, MonitorPlay, Code2, LineChart, Server } from 'lucide-react';
 
 const LimsShowcase = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -8,25 +8,32 @@ const LimsShowcase = () => {
 
   const modules = [
     {
-      title: "Sample Intake & QR Chain of Custody",
-      icon: QrCode,
-      desc: "Registrasi sampel tanah, penerbitan barcode & QR code unik, serta pelacakan alur pekerjaan laboratorium secara real-time dari registrasi hingga pengujian.",
+      title: "Geotechnical Engine (SNI/ASTM)",
+      icon: Calculator,
+      desc: "Kalkulasi otomatis Atterberg, CBR, Triaxial UU/CU/CD, Direct Shear & Konsolidasi. Menghasilkan kurva regresi dan Lingkaran Mohr secara instan.",
       color: "from-indigo-50 to-blue-50",
       iconColor: "text-indigo-600"
     },
     {
-      title: "Soil Mechanics Engine & Formula Automation",
-      icon: Calculator,
-      desc: "Otomatisasi kalkulasi parameter geoteknik: Direct Shear (Cu), Triaxial (CD/UU), CBR Soaked/Unsoaked, Atterberg Limits, hingga analisis gradasi saringan.",
+      title: "4-Tier Approval & Digital QR LHU",
+      icon: ShieldCheck,
+      desc: "Alur validasi berjenjang (Teknisi ➔ QA/QC ➔ Kepala Lab ➔ Direktur). Setiap Laporan Hasil Uji (LHU) terbit dengan QR Code publik anti-pemalsuan.",
+      color: "from-emerald-50 to-green-50",
+      iconColor: "text-emerald-600"
+    },
+    {
+      title: "Smart Lab Monitoring (LSCP TV)",
+      icon: MonitorPlay,
+      desc: "Tampilan antrean pengujian sampel secara real-time di layar TV laboratorium (Kiosk Mode) dipadukan dengan PWA Mobile App untuk teknisi lapangan.",
       color: "from-cyan-50 to-teal-50",
       iconColor: "text-cyan-600"
     },
     {
-      title: "Multi-tier QC & Digital LHU Verification",
-      icon: ShieldCheck,
-      desc: "Alur validasi mutu berjenjang (Teknisi -> Koordinator Mutu -> Kepala Lab), terintegrasi analitik keuangan PO, serta penerbitan LHU resmi dengan QR Code publik.",
-      color: "from-emerald-50 to-green-50",
-      iconColor: "text-emerald-600"
+      title: "Full Business & Finance Loop",
+      icon: LineChart,
+      desc: "Penawaran harga otomatis (Tarif Umum/BRS/Geoland), Tanda Terima Sampel, Invoice otomatis, dan analitik margin laba bersih laboratorium secara real-time.",
+      color: "from-purple-50 to-fuchsia-50",
+      iconColor: "text-purple-600"
     }
   ];
 
@@ -37,11 +44,11 @@ const LimsShowcase = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block py-1 px-3 rounded-full bg-indigo-50 text-indigo-700 font-semibold text-xs tracking-wider uppercase mb-3 border border-indigo-200">
-            Proyek Sistem Mandiri #2
+            Sistem Operasional Laboratorium Terintegrasi
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">ANSA LIMS — Geotechnical Lab System</h2>
-          <p className="text-slate-600 max-w-2xl mx-auto text-base">
-            Sistem Informasi Manajemen Laboratorium (LIMS) berbasis web yang mengintegrasikan kalkulasi mekanika tanah, otomatisasi kontrol mutu (QC), dan verifikasi laporan digital.
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">TIMES® LIMS (Geotechnical System)</h2>
+          <p className="text-slate-600 max-w-2xl mx-auto text-base italic">
+            "Traceability, Integrity, Management, Engine, System"
           </p>
           <div className="w-20 h-1 bg-indigo-600 mx-auto rounded-full mt-6 mb-10"></div>
           
@@ -49,13 +56,13 @@ const LimsShowcase = () => {
           <div className="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-left">
             <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-100 pb-4 mb-2 gap-4">
               <div>
-                <h3 className="text-2xl font-bold text-slate-900">ANSA LIMS (Laboratory Information Management System)</h3>
+                <h3 className="text-2xl font-bold text-slate-900">TIMES® LIMS</h3>
                 <p className="text-sm text-slate-500 font-medium mt-1">
-                  Domain Resmi: <a href="https://www.annsa.site/" target="_blank" rel="noopener noreferrer" className="font-mono text-indigo-600 hover:underline">www.annsa.site</a>
+                  Sistem LIMS Khusus Laboratorium Pengujian Geoteknik & Mekanika Tanah
                 </p>
               </div>
               <a 
-                href="https://www.annsa.site/" 
+                href="https://times.annsa.site/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 border border-indigo-200 text-indigo-700 hover:bg-indigo-100 rounded-lg text-sm font-bold transition-colors w-max whitespace-nowrap flex-shrink-0"
@@ -66,7 +73,7 @@ const LimsShowcase = () => {
             </div>
             
             <p className="text-sm font-semibold text-indigo-600 mb-6 uppercase tracking-wider mt-2">
-              Peran: System Architect, Financial Analytics & QC Automation Designer
+              Peran: System Architect & Lead Fullstack Developer
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -76,28 +83,30 @@ const LimsShowcase = () => {
                   <span className="w-2 h-2 rounded-full bg-red-500"></span> Latar Belakang
                 </h4>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Kalkulasi parameter pengujian tanah (CBR, Triaxial, Shear) dan validasi data mutu sebelumnya mengandalkan <em>spreadsheet</em> manual terpisah, rentan risiko kekeliruan formula, serta menyulitkan pelacakan status pekerjaan klien.
+                  Penggunaan ratusan file Excel yang rentan <em>human-error</em> dalam kalkulasi rumit, birokrasi tanda tangan LHU yang memakan waktu berhari-hari, serta data alat kalibrasi dan keuangan yang tersebar.
                 </p>
               </div>
 
               {/* Solution */}
               <div className="bg-indigo-50/50 p-5 rounded-xl border border-indigo-100">
                 <h4 className="font-bold text-indigo-700 mb-2 flex items-center gap-2 text-sm">
-                  <span className="w-2 h-2 rounded-full bg-indigo-500"></span> Solusi Sistem Web App
+                  <span className="w-2 h-2 rounded-full bg-indigo-500"></span> Fungsi Utama Aplikasi
                 </h4>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Merancang web app <strong>ANSA LIMS</strong> terintegrasi (React 19, Supabase Cloud DB, QR Generator, & XLSX Engine) untuk registrasi sampel geoteknik, kalkulasi formula otomatis, validasi mutu bertingkat, hingga pelacakan PO & dokumen penawaran.
+                  Memproses ribuan angka mentah dari lapangan, mengkalkulasi rumus geoteknik kompleks secara instan, dan memandu alur kerja teknisi dari penerimaan sampel hingga penerbitan hasil uji bersertifikasi.
                 </p>
               </div>
 
               {/* Impact */}
               <div className="bg-emerald-50/50 p-5 rounded-xl border border-emerald-100">
                 <h4 className="font-bold text-emerald-700 mb-2 flex items-center gap-2 text-sm">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500"></span> Hasil & Implementasi
+                  <span className="w-2 h-2 rounded-full bg-emerald-500"></span> Nilai Bisnis (Business Value)
                 </h4>
-                <p className="text-sm text-slate-600 leading-relaxed">
-                  Akurasi validasi 100% konsisten sesuai standar ASTM/SNI, memangkas waktu review hasil uji hingga 70%, dan memfasilitasi verifikasi keaslian dokumen via QR Code yang aktif online di <strong>www.annsa.site</strong>.
-                </p>
+                <ul className="text-sm text-slate-600 leading-relaxed list-disc pl-4 space-y-1">
+                  <li>Efisiensi waktu pengolahan data uji hingga 80%.</li>
+                  <li>Keaslian dokumen terjamin 100% via Public QR Code.</li>
+                  <li>Meniadakan salah ketik data kalibrasi alat laboratorium.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -122,14 +131,14 @@ const LimsShowcase = () => {
                     
                     {/* Clickable URL Bar */}
                     <a 
-                      href="https://www.annsa.site/" 
+                      href="https://times.annsa.site/" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-xs font-mono text-slate-300 hover:text-white ml-2 sm:ml-4 bg-slate-800/90 px-3 py-1 rounded-md border border-slate-700 max-w-[170px] sm:max-w-[210px] flex items-center justify-between cursor-pointer transition-colors group/link relative z-20"
-                      title="Buka Live Web App ANSA LIMS"
+                      title="Buka Live Web App TIMES LIMS"
                       onClick={(e) => e.stopPropagation()}
                     >
-                      <span className="truncate group-hover/link:underline">https://www.annsa.site/</span>
+                      <span className="truncate group-hover/link:underline">https://times.annsa.site/</span>
                       <span className="text-indigo-400 group-hover/link:animate-pulse ml-1">🔗</span>
                     </a>
                   </div>
@@ -167,11 +176,11 @@ const LimsShowcase = () => {
                 >
                   <img 
                     src={desktopTab === 'dashboard' ? `${import.meta.env.BASE_URL}assets/img/lims-dashboard.png` : `${import.meta.env.BASE_URL}assets/img/lims-login.png`} 
-                    alt="ANSA LIMS Desktop Screenshot" 
+                    alt="TIMES LIMS Desktop Screenshot" 
                     className="w-full h-auto object-cover"
                     onError={(e) => {
                       e.target.onerror = null; 
-                      e.target.src = "https://placehold.co/1200x675/0f172a/94a3b8?text=ANSA+LIMS+Screenshot";
+                      e.target.src = "https://placehold.co/1200x675/0f172a/94a3b8?text=TIMES+LIMS+Screenshot";
                     }}
                   />
                   <div className="absolute inset-0 bg-slate-900/0 group-hover/desktop:bg-slate-900/20 transition-colors duration-300 flex items-center justify-center">
@@ -193,11 +202,11 @@ const LimsShowcase = () => {
                 <div className="relative h-full">
                   <img 
                     src={`${import.meta.env.BASE_URL}assets/img/lims-mobile.png`} 
-                    alt="Mobile App Teknisi ANSA LIMS" 
+                    alt="Mobile App Teknisi TIMES LIMS" 
                     className="w-full h-auto object-cover rounded-[1.75rem] bg-white relative z-10"
                     onError={(e) => {
                       e.target.onerror = null; 
-                      e.target.src = "https://placehold.co/400x850/f8fafc/94a3b8?text=Mobile+ANSA+LIMS";
+                      e.target.src = "https://placehold.co/400x850/f8fafc/94a3b8?text=Mobile+TIMES+LIMS";
                     }}
                   />
                   <div className="absolute inset-0 bg-slate-900/0 group-hover/mobile:bg-slate-900/20 transition-colors duration-300 flex items-center justify-center z-20 rounded-[1.75rem]">
@@ -216,7 +225,7 @@ const LimsShowcase = () => {
             
             {/* Flow Pipeline */}
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 shadow-sm">
-              <h4 className="text-sm font-bold text-slate-800 mb-3 text-center">Alur Integrasi Mutu & Data ANSA LIMS</h4>
+              <h4 className="text-sm font-bold text-slate-800 mb-3 text-center">Siklus Operasional Laboratorium</h4>
               <div className="flex items-center justify-between gap-2">
                 {/* Box 1 */}
                 <motion.div 
@@ -224,14 +233,13 @@ const LimsShowcase = () => {
                   className="flex flex-col items-center p-2.5 bg-white rounded-xl border border-slate-200 flex-1 text-center shadow-xs"
                 >
                   <QrCode size={22} className="text-indigo-600 mb-1" />
-                  <span className="font-bold text-[11px] text-slate-800">1. Sample</span>
-                  <span className="text-[9px] text-slate-500">QR Intake</span>
+                  <span className="font-bold text-[11px] text-slate-800">Registrasi</span>
+                  <span className="text-[9px] text-slate-500">Intake Sampel</span>
                 </motion.div>
 
                 {/* Arrow */}
                 <div className="flex flex-col items-center text-slate-400">
                   <ArrowRight size={14} className="text-indigo-500 animate-pulse" />
-                  <span className="text-[8px] font-mono">Formula</span>
                 </div>
 
                 {/* Box 2 */}
@@ -240,14 +248,13 @@ const LimsShowcase = () => {
                   className="flex flex-col items-center p-2.5 bg-white rounded-xl border border-slate-200 flex-1 text-center shadow-xs"
                 >
                   <Calculator size={22} className="text-cyan-600 mb-1" />
-                  <span className="font-bold text-[11px] text-slate-800">2. Engine</span>
-                  <span className="text-[9px] text-slate-500">Auto-Calc</span>
+                  <span className="font-bold text-[11px] text-slate-800">Pengujian</span>
+                  <span className="text-[9px] text-slate-500">Auto Kalkulasi</span>
                 </motion.div>
 
                 {/* Arrow */}
                 <div className="flex flex-col items-center text-slate-400">
                   <ArrowRight size={14} className="text-cyan-500 animate-pulse" />
-                  <span className="text-[8px] font-mono">QC Review</span>
                 </div>
 
                 {/* Box 3 */}
@@ -256,8 +263,8 @@ const LimsShowcase = () => {
                   className="flex flex-col items-center p-2.5 bg-white rounded-xl border border-slate-200 flex-1 text-center shadow-xs"
                 >
                   <FileCheck2 size={22} className="text-emerald-600 mb-1" />
-                  <span className="font-bold text-[11px] text-slate-800">3. Validasi</span>
-                  <span className="text-[9px] text-slate-500">LHU & PO</span>
+                  <span className="font-bold text-[11px] text-slate-800">Validasi LHU</span>
+                  <span className="text-[9px] text-slate-500">Sertifikasi QR</span>
                 </motion.div>
               </div>
             </div>
@@ -280,7 +287,7 @@ const LimsShowcase = () => {
                     </div>
                     <div>
                       <h4 className="text-sm font-bold text-slate-900 mb-0.5">{mod.title}</h4>
-                      <p className="text-xs text-slate-600 leading-relaxed">{mod.desc}</p>
+                      <p className="text-[11px] text-slate-600 leading-relaxed">{mod.desc}</p>
                     </div>
                   </motion.div>
                 );
@@ -316,7 +323,7 @@ const LimsShowcase = () => {
               exit={{ scale: 0.9, opacity: 0 }}
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
               src={selectedImage} 
-              alt="Enlarged ANSA LIMS Showcase" 
+              alt="Enlarged TIMES LIMS Showcase" 
               className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl border border-white/10"
               onClick={(e) => e.stopPropagation()}
             />

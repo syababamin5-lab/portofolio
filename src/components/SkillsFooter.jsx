@@ -5,7 +5,8 @@ const SkillsFooter = () => {
   const technicalSkills = [
     "Microsoft Excel (Advanced)", "Siskeudes", "Google Workspace", 
     "Document Verification", "Data Validation", "Internal Control Mapping", 
-    "Business Process Analysis", "Financial Reporting", "Audit Risk Mitigation"
+    "Business Process Analysis", "Financial Reporting", "Audit Risk Mitigation",
+    "Web Development (Powered by Antigravity)"
   ];
 
   return (
@@ -21,7 +22,11 @@ const SkillsFooter = () => {
             </h3>
             <div className="bg-slate-800 p-6 rounded-xl border border-slate-700">
               <h4 className="font-bold text-white text-lg mb-1">Ketua HIMAKSI STIEPAS</h4>
-              <p className="text-sm text-slate-400 mb-3">Himpunan Mahasiswa Akuntansi</p>
+              <p className="text-sm text-slate-400 mb-3 flex items-center gap-2">
+                <span>Himpunan Mahasiswa Akuntansi</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-slate-600"></span>
+                <span className="text-emerald-500 font-medium">2019</span>
+              </p>
               <p className="text-sm leading-relaxed">
                 Memimpin organisasi mahasiswa tingkat program studi. Bertanggung jawab atas pelaksanaan program kerja utama, termasuk penyelenggaraan <strong>SAC Competition</strong> (Student Accounting Competition) tingkat regional.
               </p>
@@ -53,7 +58,7 @@ const SkillsFooter = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold text-white tracking-tight">SYABAAB AMIN AMANULLAH</h2>
-            <p className="text-sm text-slate-500 mt-1">Internal Auditor & Business Process Analyst</p>
+            <p className="text-sm text-slate-500 mt-1">Business Analyst & Enterprise System Developer</p>
           </div>
           
           <div className="flex items-center gap-4">
