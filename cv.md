@@ -20,7 +20,7 @@ Saya merupakan lulusan Sarjana Akuntansi (S.E.) dengan IPK 3,72. Sejak tahun 202
 
 Perjalanan karir saya diawali dengan mengemban amanah sebagai Kaur Keuangan di Desa Pananjung (2020 – 2024). Pada posisi ini, saya bertanggung jawab penuh dalam mengelola dan menatausahakan anggaran publik skala besar yang mencapai ± Rp3 Miliar per tahun.
 
-Selanjutnya, saya bergabung dengan PT Minearth Geo Solution sebagai Koordinator Mutu Laboratorium (2025 – Juni 2026). Peran ini menuntut tingkat akurasi yang ketat, di mana saya bertugas memastikan ketertelusuran (traceability) dan validasi data operasional sebelum dokumen diterbitkan.
+Selanjutnya, saya bergabung dengan PT Minearth Geo Solution sebagai Admin & Koordinator Mutu Laboratorium (2025 – Juni 2026). Peran ini menuntut akurasi operasional yang ketat; selain mengawal ketertelusuran (traceability) dan validasi data pengujian, saya juga bertanggung jawab mengelola tata kelola administrasi perusahaan secara menyeluruh—mulai dari pengendalian dokumen, penerbitan invoice, hingga korespondensi klien—guna menjamin kelancaran siklus bisnis.
 
 Saat ini, saya bekerja secara remote sebagai Finance & Accounting di PT. Coreterra Geo Engineering. Saya bertanggung jawab mengelola administrasi keuangan, memantau arus kas, memproses penagihan (invoicing), serta menyusun laporan keuangan berkala yang menuntut akurasi tingkat tinggi.
 
