@@ -239,17 +239,7 @@ function App() {
 
       <SkillsFooter />
 
-      {/* Tombol kembali ke portal HANYA muncul saat dijalankan secara LOKAL */}
-      {isLocal && (
-        <button 
-          onClick={() => setView('dashboard')}
-          className="fixed bottom-6 left-6 z-50 flex items-center gap-2 bg-slate-900 text-white px-5 py-3 rounded-full shadow-lg hover:bg-slate-800 hover:scale-105 transition-all group border border-slate-700"
-          title="Kembali ke Portal Lamaran Lokal"
-        >
-          <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform" />
-          <span className="font-semibold text-xs">Kembali ke Portal Lamaran (Lokal)</span>
-        </button>
-      )}
+
     </div>
   );
 }
