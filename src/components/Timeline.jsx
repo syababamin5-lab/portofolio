@@ -23,7 +23,7 @@ const experiences = [
     id: 2,
     company: "PT Minearth Geo Solution",
     role: "Admin & Koordinator Mutu Laboratorium",
-    period: "2025 – 2026",
+    period: "2025 – Juni 2026",
     icon: Building,
     responsibilities: [
       "Mengelola administrasi operasional laboratorium mekanika tanah.",

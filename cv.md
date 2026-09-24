@@ -86,7 +86,7 @@ Sarjana Akuntansi (IPK 3,72) dengan pengalaman profesional sejak tahun 2020 di b
 - Mengelola proses penagihan (invoicing) dan pembayaran kepada vendor (Account Payable/Receivable).
 
 **PT MINEARTH GEO SOLUTION**  
-*Admin & Koordinator Mutu Laboratorium* | 2025 – 2026
+*Admin & Koordinator Mutu Laboratorium* | 2025 – Juni 2026
 - Mengelola administrasi operasional laboratorium mekanika tanah guna mendukung kelancaran proses pengujian dan pelayanan kepada klien.
 - Melakukan verifikasi dan validasi data hasil pengujian sebelum diterbitkan kepada klien.
 - Memastikan kesesuaian data hasil pengujian dengan dokumen pendukung dan prosedur yang berlaku.
