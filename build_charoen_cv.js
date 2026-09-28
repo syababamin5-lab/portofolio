@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+import fs from 'fs';
+import path from 'path';
+
+const htmlContent = `<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -274,4 +277,8 @@
     &larr; Kembali ke Home
   </a>
 </body>
-</html>
+</html>`;
+
+const filePath = path.join(process.cwd(), 'public/assets/docs/CV_Charoen.html');
+fs.writeFileSync(filePath, htmlContent, 'utf-8');
+console.log('Successfully rewrote Charoen Pokphand CV to 2 pages according to GEMINI.md HR principles.');
