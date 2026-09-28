@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+import fs from 'fs';
+import path from 'path';
+
+const htmlContent = `<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -288,4 +291,8 @@
     </ul>
   </div>
 </body>
-</html>
+</html>`;
+
+const filePath = path.join(process.cwd(), 'public/assets/docs/CV_MartabakMM.html');
+fs.writeFileSync(filePath, htmlContent, 'utf-8');
+console.log('Successfully applied the user-provided exact rewrite for Martabak MM CV.');
