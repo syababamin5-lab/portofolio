@@ -33,18 +33,22 @@
       body {
         background: transparent;
         padding: 0;
-        font-size: 11pt; /* Professional standard print size */
+        font-size: 11pt;
         line-height: 1.35;
       }
       .page {
         box-shadow: none;
         margin: 0;
         border-radius: 0;
-        padding: 0; /* Let @page margins handle the white space */
+        padding: 0;
         max-width: none;
+        page-break-after: always;
+      }
+      .page:last-child {
+        page-break-after: auto;
       }
       @page {
-        margin: 1.2cm 1.5cm; /* Standard professional margins */
+        margin: 1.2cm 1.5cm;
       }
       h2, h3, p, ul, li {
         page-break-inside: auto;
@@ -56,9 +60,9 @@
 
     h1 {
       font-size: 16pt;
-      border-bottom: 2px solid #0F4C3A;
+      border-bottom: 2px solid #0f172a;
       padding-bottom: 4pt;
-      color: #0F4C3A;
+      color: #0f172a;
       margin-top: 0;
     }
 
@@ -66,7 +70,7 @@
       font-size: 12pt;
       border-bottom: 1px solid #ddd;
       padding-bottom: 3pt;
-      color: #16A085;
+      color: #3b82f6;
       margin-top: 12pt;
       margin-bottom: 4pt;
     }
@@ -74,7 +78,7 @@
     h3 {
       font-size: 11pt;
       margin-bottom: 2pt;
-      color: #2c3e50;
+      color: #1e293b;
     }
 
     p {
@@ -88,7 +92,7 @@
       align-items: center;
       justify-content: space-between;
       margin-bottom: 0.75rem;
-      border-bottom: 2px solid #0F4C3A;
+      border-bottom: 2px solid #0f172a;
       padding-bottom: 0.5rem;
     }
 
@@ -144,92 +148,100 @@
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
     }
-    .skills-section ul {
-      margin-top: 0.25rem;
-      padding-left: 1.25rem;
-    }
-
-    .skills-section li {
-      margin-bottom: 0.25rem;
-      text-align: left;
+    
+    .signature {
+      margin-top: 1rem;
     }
   </style>
 </head>
 <body>
 
   <!-- PAGE 1: SURAT LAMARAN -->
-  <div class="page" style="page-break-after: always;">
+  <div class="page">
     <h1 style="border-bottom: none; font-size: 16pt; margin-bottom: 2rem; color: #0F4C3A; text-align: center;">SURAT LAMARAN PEKERJAAN</h1>
     
     <p><strong>Perihal</strong> : Lamaran Pekerjaan Admin Accounting<br>
-      <strong>Yth. HRD CV MM Satu Tujuan (Mister Group)</strong><br>
-      <strong>Kota Bandung</strong></p>
+    <strong>Yth. HRD CV MM Satu Tujuan (Mister Group)</strong><br>
+    <strong>Kota Bandung</strong></p>
 
     <p style="margin-top: 1.5rem;">Dengan hormat,</p>
-      <p>Berdasarkan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini saya bermaksud mengajukan lamaran untuk posisi <strong>Admin Accounting</strong> di <strong>CV MM Satu Tujuan (Mister Group)</strong>.</p>
 
-    <p>Saya merupakan lulusan Sarjana Akuntansi (S.E.) dengan IPK 3,72. Saya memiliki pengalaman yang relevan di bidang pencatatan keuangan dan administrasi operasional yang dapat menunjang pekerjaan sebagai Admin Accounting di CV MM Satu Tujuan (Mister Group).</p>
-      <p>Saat ini, saya bekerja sebagai Finance & Accounting di PT. Coreterra Geo Engineering secara remote, di mana saya terbiasa menangani tagihan (invoice), memantau arus kas, dan membantu penyusunan laporan keuangan harian/bulanan. Sebelumnya, selama menjabat sebagai Kaur Keuangan (Bendahara) di Desa Pananjung (2020&ndash;2024), saya bertanggung jawab dalam pengelolaan transaksi kas harian, verifikasi kelengkapan dokumen, serta penyusunan laporan secara rutin dan teliti.</p>
-      <p>Pengalaman saya di PT Minearth Geo Solution (sebagai Admin) juga melatih ketelitian saya dalam merapikan dokumen dan melakukan pengecekan data operasional. Saya sangat terbiasa mengolah dan merekap data harian menggunakan Google Sheets dan Microsoft Excel. Selain itu, keterlibatan saya dalam proyek pembuatan aplikasi bisnis (seperti sistem ERP) membuat saya tidak asing dengan cara kerja sistem komputer, sehingga saya siap dan mudah diajari untuk menggunakan software akuntansi seperti Accurate.</p>
-      <p>Saya yakin sikap teliti, disiplin, dan kebiasaan saya dalam merapikan administrasi keuangan dapat membantu kelancaran pencatatan transaksi di seluruh outlet di bawah naungan CV MM Satu Tujuan.</p>
-      <p>Sebagai bahan pertimbangan, saya melampirkan beberapa dokumen pendukung. Saya sangat berharap dapat diberikan kesempatan wawancara. Atas perhatian dan waktu Bapak/Ibu, saya ucapkan terima kasih.</p>
+    <p>Berdasarkan informasi lowongan yang saya peroleh, saya bermaksud mengajukan lamaran untuk posisi Admin Accounting di CV MM Satu Tujuan (Mister Group).</p>
+    
+    <p>Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72 dan memiliki pengalaman kerja sejak 2020 di bidang finance, accounting, administrasi operasional, serta pengolahan data.</p>
+    
+    <p>Saat ini saya bekerja sebagai Finance & Accounting di PT Coreterra Geo Engineering dengan tanggung jawab meliputi administrasi keuangan dan pembukuan, rekonsiliasi bank, monitoring arus kas, penyusunan laporan keuangan periodik, serta proses invoicing dan pembayaran vendor. Sebelumnya, saya bekerja sebagai Admin & Koordinator Mutu Laboratorium di PT Minearth Geo Solution dan sebagai Kaur Keuangan/Bendahara di Pemerintah Desa Pananjung.</p>
+    
+    <p>Pengalaman tersebut membuat saya terbiasa melakukan pencatatan dan verifikasi transaksi, mengelola dokumen, merekap data, menyusun laporan, serta memastikan kesesuaian data dan dokumen pendukung. Saya juga terbiasa menggunakan Microsoft Excel dan Google Sheets serta memiliki dasar penggunaan Accurate dan Siskeudes.</p>
+    
+    <p>Saya tertarik pada posisi Admin Accounting karena kebutuhan pekerjaan seperti pencatatan transaksi, pengolahan data penjualan dan pembelian, pengecekan transaksi, rekonsiliasi, serta penyusunan laporan memiliki keterkaitan yang kuat dengan pengalaman saya. Saya siap belajar dan menyesuaikan diri dengan prosedur serta sistem yang digunakan di CV MM Satu Tujuan (Mister Group).</p>
+    
+    <p>Sebagai bahan pertimbangan, saya melampirkan CV dan dokumen pendukung lainnya. Saya berharap dapat diberikan kesempatan untuk mengikuti proses wawancara dan menjelaskan kualifikasi saya lebih lanjut.</p>
+    
+    <p>Atas perhatian dan kesempatan yang diberikan, saya ucapkan terima kasih.</p>
 
-      <p style="margin-top: 1rem; margin-bottom: 0;">Hormat saya,</p>
-    <img src="../img/ttd%20syabaab.jpg" alt="Tanda Tangan" style="width: 55px; display: block; margin: 0; mix-blend-mode: multiply;" />
-    <p style="margin-top: 0;"><strong>Syabaab Amin Amanullah, S.E.</strong><br>
-    📞 081214914641<br>
-    ✉️ syabaabaminamanullah@gmail.com<br>
+    <div class="signature">
+      <p style="margin-bottom: 0;">Hormat saya,</p>
+      <img src="../img/ttd%20syabaab.jpg" alt="Tanda Tangan" style="width: 55px; display: block; margin: 0; mix-blend-mode: multiply;" />
+      <p style="margin-top: 0;"><strong>Syabaab Amin Amanullah, S.E.</strong><br>
+      📞 081214914641<br>
+      ✉️ syabaabaminamanullah@gmail.com<br>
       🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #333; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+    </div>
   </div>
 
   <!-- PAGE 2: CV -->
   <div class="page">
-    <h1 style="border-bottom: none; text-align: center; font-size: 16pt; margin-bottom: 1.5rem; color: #0F4C3A;">CURRICULUM VITAE</h1>
     <div class="header-container">
       <div class="header-text">
         <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
-        <p style="color:#16A085; font-weight:600; margin-bottom:0.5rem">Administration &amp; Operations</p>
-        <p>📍 Kabupaten Bandung, Jawa Barat</p>
-        <p>📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com<br>
-      🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #333; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+        <p style="color:#16A085; font-weight:600; margin-bottom:0.5rem">ADMIN ACCOUNTING | FINANCE & ADMINISTRATION</p>
+        <p>📍 Kabupaten Bandung, Jawa Barat &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
+        <p>🌐 Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #16A085; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
       </div>
       <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
     </div>
 
     <h2>PROFIL PROFESIONAL</h2>
-    <p>Sarjana Akuntansi (IPK 3,72) dengan rekam jejak karir yang solid sejak tahun 2020 di bidang keuangan, administrasi operasional, dan pengembangan sistem. Berpengalaman mengelola tata usaha anggaran publik skala besar, mengawal ketertelusuran dokumen, serta menangani siklus akuntansi korporat (AP/AR). Terbukti mampu berkoordinasi secara efektif dalam lingkungan kerja jarak jauh (remote) maupun onsite. Di samping itu, memiliki keahlian teknis sebagai Business Analyst & System Developer dalam merancang ekosistem bisnis digital (ERP, LIMS, Finance Management). Berbekal penguasaan Microsoft Excel tingkat lanjut dan daya analitis tinggi, saya siap menghadirkan efisiensi proses, validasi data yang akurat, serta kepatuhan administratif di setiap lingkungan kerja.</p>
+    <p>Sarjana Akuntansi (IPK 3,72) dengan pengalaman kerja sejak 2020 di bidang finance, accounting, administrasi operasional, dan pengolahan data. Terbiasa menangani pencatatan dan verifikasi transaksi, rekonsiliasi, invoice, monitoring kas, penyusunan laporan, serta pengelolaan dokumen administrasi. Menguasai Microsoft Excel dan Google Sheets untuk pengolahan data, dan memiliki dasar penggunaan Accurate serta Siskeudes. Memiliki pengalaman bekerja remote maupun onsite dan terbiasa bekerja secara teliti, terstruktur, dan berkoordinasi dengan tim.</p>
 
     <div class="grid-2">
       <div>
-        <h2>KEY QUALIFICATIONS</h2>
+        <h2>KOMPETENSI UTAMA</h2>
         <ul>
-          <li>Administrasi Keuangan, Operasional & Analisis Data</li>
-          <li>Siklus Akuntansi, AP/AR & Cash Flow Management</li>
-          <li>System Development & Business Process Analysis</li>
-          <li>Document Control, Verification & Audit Readiness</li>
-          <li>Kepatuhan Administratif & Validasi Data</li>
-          <li>Microsoft Excel (Advanced) & Siskeudes</li>
-          <li>Remote Collaboration & Team Coordination</li>
-          <li>Teliti, Analitis, Disiplin, dan Jujur</li>
+          <li>Administrasi & pencatatan transaksi keuangan</li>
+          <li>Rekonsiliasi bank, kas & monitoring cash flow</li>
+          <li>Invoice / Account Payable & Receivable</li>
+          <li>Verifikasi dokumen & validasi data</li>
+          <li>Penyusunan laporan keuangan / operasional</li>
+          <li>Microsoft Excel & Google Sheets</li>
+          <li>Accurate (Dasar), Siskeudes, MYOB (Dasar)</li>
+          <li>Ketelitian, disiplin & koordinasi tim</li>
         </ul>
       </div>
       <div>
-        <h2>DATA PRIBADI</h2>
-        <ul style="list-style-type: none; padding-left: 0;">
-          <li><strong>Tanggal Lahir:</strong> 17 April 1999</li>
-          <li><strong>Alamat:</strong> Kp. Legok Kiraksa RT 02 RW 10, Desa Pananjung, Kec. Cangkuang, Kab. Bandung</li>
+        <h2>KETERAMPILAN & TOOLS</h2>
+        <ul>
+          <li>Microsoft Excel (pengolahan & analisis data)</li>
+          <li>Microsoft Word & PowerPoint</li>
+          <li>Google Workspace / Google Sheets</li>
+          <li>Accurate (Dasar)</li>
+          <li>Administrasi keuangan & operasional</li>
+          <li>Pencatatan & verifikasi transaksi</li>
+          <li>Rekonsiliasi & monitoring cash flow</li>
+          <li>Invoice / AP / AR</li>
         </ul>
       </div>
     </div>
 
     <h2>PENDIDIKAN</h2>
     <h3>STIE PASUNDAN BANDUNG</h3>
-    <div class="job-meta">Sarjana Akuntansi (S.E.) | 2018 – 2021 | IPK : 3,72</div>
+    <div class="job-meta">Sarjana Akuntansi (S.E.) | 2018 - 2021 | IPK: 3,72</div>
 
     <h2>PENGALAMAN KERJA</h2>
     
-    <h3>PT. CORETERRA GEO ENGINEERING</h3>
-    <div class="job-meta">Finance & Accounting (Remote - Tangerang Selatan) | 2026 – Sekarang</div>
+    <h3>PT CORETERRA GEO ENGINEERING</h3>
+    <div class="job-meta">Finance & Accounting (Remote - Tangerang Selatan) | 2026 - Sekarang</div>
     <ul>
       <li>Mengelola administrasi keuangan dan pembukuan perusahaan secara menyeluruh.</li>
       <li>Melakukan rekonsiliasi bank dan memantau arus kas (cash flow) proyek.</li>
@@ -238,75 +250,42 @@
     </ul>
 
     <h3>PT MINEARTH GEO SOLUTION</h3>
-    <div class="job-meta">Admin & Koordinator Mutu Laboratorium | 2025 &ndash; Juni 2026</div>
+    <div class="job-meta">Admin & Koordinator Mutu Laboratorium | 2025 - Juni 2026</div>
     <ul>
-      <li>Mengelola administrasi operasional laboratorium mekanika tanah guna mendukung kelancaran proses pengujian dan pelayanan kepada klien.</li>
+      <li>Mengelola administrasi operasional dan menyiapkan dokumen untuk proses pengujian serta pelayanan klien.</li>
       <li>Melakukan verifikasi dan validasi data hasil pengujian sebelum diterbitkan kepada klien.</li>
-      <li>Memastikan kesesuaian data hasil pengujian dengan dokumen pendukung dan prosedur yang berlaku.</li>
-      <li>Menyusun laporan hasil pengujian dan rekapitulasi data operasional sebagai dasar penyampaian informasi kepada klien.</li>
+      <li>Menyusun laporan hasil pengujian dan rekapitulasi data operasional.</li>
       <li>Mengelola invoice, surat, penawaran, dan dokumen administrasi perusahaan.</li>
       <li>Berkoordinasi dengan klien dan tim internal terkait administrasi pekerjaan.</li>
     </ul>
 
     <h3>PEMERINTAH DESA PANANJUNG</h3>
-    <div class="job-meta">Kepala Urusan Keuangan (Kaur Keuangan) | 2020 – 2024</div>
+    <div class="job-meta">Kepala Urusan Keuangan (Kaur Keuangan / Bendahara) | 2020 - 2024</div>
     <ul>
-      <li>Mengelola anggaran desa sekitar Rp3 miliar per tahun mulai dari proses perencanaan, penatausahaan, pencairan hingga penyusunan laporan pertanggungjawaban sesuai ketentuan yang berlaku.</li>
+      <li>Mengelola anggaran desa sekitar Rp3 miliar per tahun mulai dari perencanaan, penatausahaan, pencairan, hingga penyusunan laporan pertanggungjawaban sesuai ketentuan yang berlaku.</li>
       <li>Menyusun APBDes, Perubahan APBDes, Realisasi APBDes, SPP, dan LPJ.</li>
       <li>Melakukan verifikasi dokumen administrasi dan dokumen pendukung sebelum proses pencairan anggaran.</li>
-      <li>Memastikan pelaksanaan administrasi dan pelaporan keuangan sesuai ketentuan yang berlaku.</li>
+      <li>Memastikan administrasi dan pelaporan keuangan berjalan sesuai ketentuan yang berlaku.</li>
       <li>Mengoperasikan aplikasi Siskeudes untuk pengelolaan dan pelaporan keuangan desa.</li>
     </ul>
 
-    <h2>PENGALAMAN PROYEK & ORGANISASI</h2>
-    <h3>SEAM-Annsa: Sistem ERP Manufaktur Garmen</h3>
-    <div class="job-meta">Business Analyst & System Developer | 2024 &ndash; Sekarang</div>
-    <ul>
-      <li>Merancang dan membangun aplikasi Enterprise Resource Planning (ERP) komprehensif untuk mendigitalkan seluruh rantai pasok dan akuntansi pada industri manufaktur garmen.</li>
-      <li>Mentransformasi pencatatan manual menjadi alur kerja otomatis dan terintegrasi, mencakup manajemen stok kain, log produksi harian per divisi (Cutting, Jahit, Finishing), hingga buku besar dan penggajian.</li>
-      <li>Menciptakan ekosistem sistem yang memastikan akurasi perhitungan Harga Pokok Produksi (HPP) dan efisiensi operasional secara real-time.</li>
-    </ul>
-
-    <h3>TIMES LIMS: Sistem Manajemen Data Laboratorium Geoteknik</h3>
-    <div class="job-meta">Business Analyst & System Developer | 2025 &ndash; Sekarang</div>
-    <ul>
-      <li>Mengembangkan Laboratory Information Management System (LIMS) yang didesain khusus untuk memenuhi standar akreditasi ISO/IEC 17025, SNI, dan ASTM pada laboratorium pengujian geoteknik.</li>
-      <li>Membangun mesin validasi cerdas untuk mengawal ketertelusuran (Traceability) dan integritas data uji sejak sampel diterima hingga penerbitan sertifikat (Certificate of Analysis).</li>
-      <li>Mengintegrasikan manajemen tarif pengujian, perhitungan parameter otomatis, serta kontrol mutu hasil laboratorium secara sistematis.</li>
-    </ul>
-
-    <h3>LODE: Sistem Manajemen Keuangan Proyek & Korporat</h3>
-    <div class="job-meta">Business Analyst & System Developer | 2025 &ndash; Sekarang</div>
+    <h2>PENGALAMAN PROYEK YANG RELEVAN</h2>
+    
+    <h3>LODE - SISTEM MANAJEMEN KEUANGAN PROYEK & KORPORAT</h3>
+    <div class="job-meta">Business Analyst & System Developer | 2025 - Sekarang</div>
     <ul>
       <li>Merancang sistem tata kelola keuangan proyek (Project Finance) yang terintegrasi untuk perusahaan konsultan pertambangan dan geoteknik.</li>
-      <li>Membangun arsitektur penelusuran alur modal yang memetakan Rencana Anggaran Biaya (RAB) operasional lapangan terhadap realisasi pengeluaran dan termin penagihan.</li>
-      <li>Menciptakan executive dashboard yang mampu memberikan proyeksi profitabilitas proyek secara presisi dan mendukung manajemen dalam pengambilan keputusan strategis.</li>
+      <li>Membangun arsitektur pelaporan untuk memetakan Rencana Anggaran Biaya (RAB) operasional lapangan terhadap realisasi pengeluaran dan termin penagihan.</li>
+      <li>Menciptakan executive dashboard yang mendukung pemantauan dan evaluasi keuangan proyek.</li>
     </ul>
 
-    <h2>KETERAMPILAN</h2>
-    <div class="grid-2 skills-section">
-      <div>
-        <strong>Software & Sistem:</strong>
-        <ul>
-          <li>Microsoft Excel (Pengolahan & Analisis Data)</li>
-          <li>Microsoft Word, PowerPoint, Google Workspace</li>
-          <li>Siskeudes, Accurate (Dasar), MYOB (Dasar)</li>
-        </ul>
-      </div>
-      <div>
-        <strong>Kompetensi:</strong>
-        <ul>
-          <li>Production Planning & Inventory Control (PPIC) Knowledge</li>
-          <li>Inventory & Stock Administration</li>
-          <li>Data Validation & Input</li>
-          <li>Business Process Analysis (Manufacturing)</li>
-        </ul>
-      </div>
-    </div>
+    <h3>SEAM-ANSSA - SISTEM ERP MANUFAKTUR GARMEN</h3>
+    <div class="job-meta">Business Analyst & System Developer | 2024 - Sekarang</div>
+    <ul>
+      <li>Merancang dan membangun aplikasi ERP untuk mendigitalisasi rantai pasok dan akuntansi pada industri manufaktur garmen.</li>
+      <li>Mentransformasi pencatatan manual menjadi alur kerja otomatis dan terintegrasi, termasuk manajemen stok dan log produksi harian.</li>
+      <li>Mendukung akurasi perhitungan Harga Pokok Produksi (HPP) dan efisiensi operasional secara real-time.</li>
+    </ul>
   </div>
-
-  <a href="../../index.html" class="no-print" style="position: fixed; bottom: 20px; left: 20px; background: #16A085; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); z-index: 1000; font-family: 'Inter', sans-serif;">
-    &larr; Kembali ke Home
-  </a>
 </body>
 </html>
