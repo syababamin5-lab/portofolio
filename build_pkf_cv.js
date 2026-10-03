@@ -1,0 +1,272 @@
+import fs from 'fs';
+import path from 'path';
+
+const htmlContent = `<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Syabaab Amin Amanullah - PKF Hadiwinata</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #333;
+      line-height: 1.3;
+      margin: 0;
+      padding: 1cm 0;
+      background: #f4f4f9;
+      font-size: 0.85rem;
+    }
+    
+    .page {
+      background: #fff;
+      padding: 1.5cm 1.5cm;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin: 0 auto;
+      max-width: 21cm;
+      border-radius: 8px;
+    }
+    
+    @page {
+      margin: 5mm 10mm;
+    }
+
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+        font-size: 11pt;
+        line-height: 1.35;
+      }
+      .page {
+        box-shadow: none;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        max-width: none;
+        page-break-after: always;
+      }
+      .page:last-child {
+        page-break-after: auto;
+      }
+      @page {
+        margin: 1.2cm 1.5cm;
+      }
+      h2, h3, p, ul, li {
+        page-break-inside: auto;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    h1 {
+      font-size: 16pt;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 4pt;
+      color: #0f172a;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 12pt;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 3pt;
+      color: #4f46e5; /* Indigo-600 */
+      margin-top: 12pt;
+      margin-bottom: 4pt;
+    }
+
+    h3 {
+      font-size: 11pt;
+      margin-bottom: 2pt;
+      color: #1e293b;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0.4rem;
+      text-align: justify;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 0.5rem;
+    }
+
+    .header-text {
+      flex: 1;
+    }
+
+    .header-text h1 {
+      border: none;
+      font-size: 16pt;
+      margin-bottom: 2pt;
+      padding-bottom: 0;
+      text-align: left;
+    }
+
+    .header-text p {
+      text-align: left;
+      color: #555;
+      font-size: 10pt;
+      margin: 2pt 0;
+    }
+
+    .header-photo {
+      width: 75px;
+      height: 100px;
+      margin-left: 1.5rem;
+      border-radius: 6px;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border: 2px solid #fff;
+    }
+
+    ul {
+      margin-top: 0.15rem;
+      margin-bottom: 0.4rem;
+      padding-left: 1.25rem;
+    }
+
+    li {
+      margin-bottom: 0.1rem;
+      text-align: left;
+    }
+
+    .job-meta {
+      font-size: 0.8rem;
+      color: #555;
+      font-style: italic;
+      margin-bottom: 0.2rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    
+    .signature {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PAGE 1: SURAT LAMARAN -->
+  <div class="page">
+    <h1 style="border-bottom: none; font-size: 16pt; margin-bottom: 2rem; color: #3730a3; text-align: center;">SURAT LAMARAN PEKERJAAN</h1>
+    
+    <p><strong>Perihal</strong> : Lamaran Pekerjaan Accounting Staff (Maternity Leave)<br>
+    <strong>Yth. HRD PKF Hadiwinata</strong><br>
+    <strong>Di Tempat</strong></p>
+
+    <p style="margin-top: 1.5rem;">Dengan hormat,</p>
+
+    <p>Berdasarkan informasi rekrutmen yang saya terima, saya bermaksud mengajukan diri untuk mengisi posisi <strong>Accounting Staff (Maternity Leave)</strong> di <strong>PKF Hadiwinata</strong>.</p>
+    
+    <p>Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72. Saya menyadari bahwa peran untuk mengisi <em>Maternity Leave</em> membutuhkan kandidat yang proaktif, berorientasi pada detail, dan mampu beradaptasi dengan cepat untuk memastikan kesinambungan operasional harian tetap berjalan lancar tanpa proses pelatihan yang terlalu panjang.</p>
+    
+    <p>Dalam rekam jejak pekerjaan saya, saya terbiasa menyiapkan dan memvalidasi <em>invoice</em> tagihan, serta mengompilasi dan menghitung <em>expenses</em> operasional secara akurat untuk keperluan <em>billing</em> perusahaan. Saya juga memiliki pemahaman dasar terkait perpajakan dan terbiasa mengumpulkan serta memelihara catatan terkait sertifikat pajak potong pungut (<em>Withholding Tax / WHT</em>).</p>
+    
+    <p>Di samping itu, pengalaman saya sebagai Bendahara di instansi publik menuntut saya untuk sangat disiplin dalam mengorganisir, memelihara, dan mengarsipkan dokumen pertanggungjawaban senilai miliaran rupiah secara sistematis. Seluruh proses ini saya jalankan dengan memanfaatkan tingkat kemahiran saya yang tinggi dalam mengoperasikan aplikasi Microsoft Office, khususnya pengolahan data menggunakan Microsoft Excel.</p>
+    
+    <p>Saya merupakan individu yang jujur, komunikatif, dan siap berkomitmen penuh untuk mengisi posisi ini dengan akurasi dan efisiensi tinggi. Sebagai bahan pertimbangan, bersama surat ini saya melampirkan <em>Curriculum Vitae</em> (CV) dan dokumen pendukung lainnya.</p>
+    
+    <p>Besar harapan saya agar Bapak/Ibu berkenan memberikan kesempatan wawancara. Atas waktu dan perhatian Bapak/Ibu, saya ucapkan terima kasih.</p>
+
+    <div class="signature">
+      <p style="margin-bottom: 0;">Hormat saya,</p>
+      <img src="../img/ttd%20syabaab.jpg" alt="Tanda Tangan" style="width: 55px; display: block; margin: 0; mix-blend-mode: multiply;" />
+      <p style="margin-top: 0;"><strong>Syabaab Amin Amanullah, S.E.</strong><br>
+      📞 081214914641<br>
+      ✉️ syabaabaminamanullah@gmail.com<br>
+      🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #333; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+    </div>
+  </div>
+
+  <!-- PAGE 2: CV -->
+  <div class="page">
+    <div class="header-container">
+      <div class="header-text">
+        <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
+        <p style="color:#4f46e5; font-weight:600; margin-bottom:0.5rem">ACCOUNTING STAFF | INVOICING, EXPENSES & TAX ADMIN</p>
+        <p>📍 Siap Penempatan &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
+        <p>🌐 Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #4f46e5; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+      </div>
+      <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
+    </div>
+
+    <h2>PROFIL PROFESIONAL</h2>
+    <p>Sarjana Akuntansi (IPK 3,72) dengan pengalaman solid di bidang administrasi keuangan, pelaporan pajak dasar, dan tata kelola dokumen operasional. Memiliki jam terbang dalam mempersiapkan <em>invoice</em>, mengompilasi bukti pengeluaran (<em>expenses</em>) untuk keperluan <em>billing</em>, serta merekap catatan pemotongan pajak (<em>Withholding Tax / WHT</em>) secara akurat. Terbiasa mengorganisir, memelihara, dan mengarsipkan dokumen transaksi secara sistematis agar mudah ditelusuri. Sangat mahir menggunakan aplikasi Microsoft Office dan terbiasa beradaptasi cepat dengan alur kerja baru. Memiliki tingkat ketelitian tinggi (<em>detail-oriented</em>) dan kesiapan penuh untuk segera bergabung guna mengisi posisi <em>Accounting Staff (Maternity Leave)</em> di PKF Hadiwinata dan menjaga kesinambungan operasional.</p>
+
+    <div class="grid-2">
+      <div>
+        <h2>KOMPETENSI UTAMA</h2>
+        <ul>
+          <li>Persiapan <em>Invoice</em> & Penagihan</li>
+          <li>Kompilasi & Kalkulasi <em>Expenses</em></li>
+          <li>Administrasi <em>Withholding Tax</em> (WHT)</li>
+          <li>Pengarsipan (<em>Filing</em>) Dokumen Sistematis</li>
+          <li>Rekonsiliasi Kas & Data Keuangan</li>
+          <li>Adaptasi Cepat (<em>Maternity Cover</em>)</li>
+          <li>Ketelitian (<em>Detail-Oriented</em>) & Proaktif</li>
+        </ul>
+      </div>
+      <div>
+        <h2>KETERAMPILAN & TOOLS</h2>
+        <ul>
+          <li>Microsoft Office (Excel, Word, dll)</li>
+          <li>Dasar Perpajakan & Administrasi</li>
+          <li>Manajemen Arsip Keuangan</li>
+          <li>Komunikasi Internal & Koordinasi</li>
+          <li>Manajemen Tugas yang Efisien</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>PENDIDIKAN</h2>
+    <h3>STIE PASUNDAN BANDUNG</h3>
+    <div class="job-meta">Sarjana Akuntansi (S.E.) | 2018 - 2021 | IPK: 3,72</div>
+
+    <h2>PENGALAMAN KERJA RELEVAN</h2>
+
+    <h3>PT CORETERRA GEO ENGINEERING</h3>
+    <div class="job-meta">Finance & Accounting (Remote) | 2026 - Sekarang</div>
+    <ul>
+      <li>Bertanggung jawab dalam menyiapkan <em>invoice</em> tagihan pelanggan dan memastikan nominal yang dicantumkan akurat.</li>
+      <li>Mengompilasi dan menghitung rincian <em>expenses</em> operasional untuk memastikan kelancaran siklus pembayaran dan <em>billing</em>.</li>
+      <li>Merekap dokumen kelengkapan tagihan secara teliti untuk mencegah adanya ketidaksesuaian data pencatatan.</li>
+    </ul>
+
+    <h3>PEMERINTAH DESA PANANJUNG</h3>
+    <div class="job-meta">Kepala Urusan Keuangan (Bendahara) | 2020 - 2024</div>
+    <ul>
+      <li>Mengelola dan mencatat transaksi pajak pusat dan daerah terkait pengadaan barang dan jasa, serta memastikan ketertiban penyetoran bukti pajaknya.</li>
+      <li>Mengorganisir, memelihara, dan mengarsipkan ribuan dokumen Surat Pertanggungjawaban (SPJ/LPJ) secara sistematis untuk keperluan audit Inspektorat.</li>
+    </ul>
+
+    <h3>PT MINEARTH GEO SOLUTION</h3>
+    <div class="job-meta">Admin & Koordinator Mutu Laboratorium | 2025 - Juni 2026</div>
+    <ul>
+      <li>Menggunakan aplikasi Microsoft Office tingkat lanjut untuk merekap dan mengelola data pelaporan bervolume tinggi.</li>
+      <li>Menyortir dan memelihara dokumen standar operasional prosedur (SOP) agar tersusun secara rapi dan sistematis.</li>
+    </ul>
+
+  </div>
+
+  <a href="../../index.html" class="no-print" style="position: fixed; bottom: 20px; left: 20px; background: #0f172a; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); z-index: 1000; font-family: 'Inter', sans-serif;">
+    &larr; Kembali ke Home
+  </a>
+</body>
+</html>`;
+
+const filePath = path.join(process.cwd(), 'public/assets/docs/CV_PKF.html');
+fs.writeFileSync(filePath, htmlContent, 'utf-8');
+console.log('Successfully generated CV_PKF.html based on HR principles (No Asterisks used for HTML).');
