@@ -1,0 +1,272 @@
+import fs from 'fs';
+import path from 'path';
+
+const htmlContent = `<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Syabaab Amin Amanullah - Samator</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #333;
+      line-height: 1.3;
+      margin: 0;
+      padding: 1cm 0;
+      background: #f4f4f9;
+      font-size: 0.85rem;
+    }
+    
+    .page {
+      background: #fff;
+      padding: 1.5cm 1.5cm;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin: 0 auto;
+      max-width: 21cm;
+      border-radius: 8px;
+    }
+    
+    @page {
+      margin: 5mm 10mm;
+    }
+
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+        font-size: 11pt;
+        line-height: 1.35;
+      }
+      .page {
+        box-shadow: none;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        max-width: none;
+        page-break-after: always;
+      }
+      .page:last-child {
+        page-break-after: auto;
+      }
+      @page {
+        margin: 1.2cm 1.5cm;
+      }
+      h2, h3, p, ul, li {
+        page-break-inside: auto;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    h1 {
+      font-size: 16pt;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 4pt;
+      color: #0f172a;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 12pt;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 3pt;
+      color: #0369a1; /* Sky-700 */
+      margin-top: 12pt;
+      margin-bottom: 4pt;
+    }
+
+    h3 {
+      font-size: 11pt;
+      margin-bottom: 2pt;
+      color: #1e293b;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0.4rem;
+      text-align: justify;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 0.5rem;
+    }
+
+    .header-text {
+      flex: 1;
+    }
+
+    .header-text h1 {
+      border: none;
+      font-size: 16pt;
+      margin-bottom: 2pt;
+      padding-bottom: 0;
+      text-align: left;
+    }
+
+    .header-text p {
+      text-align: left;
+      color: #555;
+      font-size: 10pt;
+      margin: 2pt 0;
+    }
+
+    .header-photo {
+      width: 75px;
+      height: 100px;
+      margin-left: 1.5rem;
+      border-radius: 6px;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border: 2px solid #fff;
+    }
+
+    ul {
+      margin-top: 0.15rem;
+      margin-bottom: 0.4rem;
+      padding-left: 1.25rem;
+    }
+
+    li {
+      margin-bottom: 0.1rem;
+      text-align: left;
+    }
+
+    .job-meta {
+      font-size: 0.8rem;
+      color: #555;
+      font-style: italic;
+      margin-bottom: 0.2rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    
+    .signature {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PAGE 1: SURAT LAMARAN -->
+  <div class="page">
+    <h1 style="border-bottom: none; font-size: 16pt; margin-bottom: 2rem; color: #075985; text-align: center;">SURAT LAMARAN PEKERJAAN</h1>
+    
+    <p><strong>Perihal</strong> : Lamaran Pekerjaan Staff Finance<br>
+    <strong>Yth. HC Business Partner PT Samator Indo Gas Tbk</strong><br>
+    <strong>Di Tempat</strong></p>
+
+    <p style="margin-top: 1.5rem;">Dengan hormat,</p>
+
+    <p>Berdasarkan informasi rekrutmen yang saya terima, saya bermaksud mengajukan diri untuk mengisi posisi <strong>Staff Finance</strong> di <strong>PT Samator Indo Gas Tbk (Penempatan Bekasi)</strong>.</p>
+    
+    <p>Saya merupakan lulusan Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung dengan IPK 3,72. Saya memiliki pengalaman praktis lebih dari 4 tahun di bidang <em>finance</em> dan akuntansi. Selama masa karir saya, saya terbiasa menangani siklus transaksi keuangan secara menyeluruh, mulai dari memvalidasi dokumen tagihan, mencatat arus kas, hingga melakukan rekonsiliasi bank harian secara akurat.</p>
+    
+    <p>Salah satu nilai tambah terbesar saya yang sangat relevan dengan kebutuhan PT Samator Indo Gas Tbk adalah kombinasi antara keahlian akuntansi dan <strong>pemahaman yang mendalam terhadap sistem ERP / SAP</strong>. Keterlibatan saya secara langsung dalam mengoperasikan, menganalisis, dan membedah logika <em>software</em> ERP keuangan telah menajamkan kemampuan <em>Strategic Analytical Thinking</em> dan <em>Problem Solving</em> saya saat menghadapi selisih data atau kendala sistem.</p>
+    
+    <p>Saya sangat mahir dalam menggunakan <strong>Microsoft Office (terutama Excel tingkat lanjut)</strong>, teliti dalam bekerja dengan angka, dan memiliki kemampuan komunikasi yang baik untuk berkoordinasi lintas divisi. <strong>Saya juga menyatakan kesiapan penuh untuk bekerja dengan penempatan di Bekasi.</strong></p>
+    
+    <p>Saya adalah individu yang berdedikasi tinggi dan selalu antusias untuk berkembang bersama perusahaan berskala besar seperti Samator Group. Sebagai bahan pertimbangan, bersama surat ini saya melampirkan <em>Curriculum Vitae</em> (CV) dan dokumen pendukung lainnya.</p>
+    
+    <p>Besar harapan saya agar Bapak/Ibu berkenan memberikan kesempatan wawancara untuk mendiskusikan kualifikasi ini lebih lanjut. Atas waktu dan perhatian Bapak/Ibu, saya ucapkan terima kasih.</p>
+
+    <div class="signature">
+      <p style="margin-bottom: 0;">Hormat saya,</p>
+      <img src="../img/ttd%20syabaab.jpg" alt="Tanda Tangan" style="width: 55px; display: block; margin: 0; mix-blend-mode: multiply;" />
+      <p style="margin-top: 0;"><strong>Syabaab Amin Amanullah, S.E.</strong><br>
+      📞 081214914641<br>
+      ✉️ syabaabaminamanullah@gmail.com<br>
+      🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #333; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+    </div>
+  </div>
+
+  <!-- PAGE 2: CV -->
+  <div class="page">
+    <div class="header-container">
+      <div class="header-text">
+        <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
+        <p style="color:#0369a1; font-weight:600; margin-bottom:0.5rem">STAFF FINANCE | ERP SYSTEM & ANALYTICAL THINKING</p>
+        <p>📍 Siap Penempatan Bekasi &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
+        <p>🌐 Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #0369a1; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+      </div>
+      <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
+    </div>
+
+    <h2>PROFIL PROFESIONAL</h2>
+    <p>Sarjana Akuntansi (IPK 3,72) dengan pengalaman praktis lebih dari 4 tahun di bidang <em>finance</em> dan administrasi. Memiliki jam terbang tinggi dalam menangani siklus transaksi keuangan harian, rekonsiliasi kas/bank, serta validasi kelengkapan dokumen tagihan. Di luar keahlian administratif, saya ditunjang dengan kemampuan <em>Analytical Thinking</em> dan <em>Problem Solving</em> yang kuat berkat rekam jejak saya dalam menganalisis operasional <em>software</em> keuangan terintegrasi (ERP). Sangat mahir dalam mengoperasikan Microsoft Office (terutama pengolahan data Excel bervolume tinggi) dan familiar dengan logika sistem SAP / ERP. Siap beradaptasi dengan cepat dan memberikan kontribusi nyata sebagai Staff Finance di PT Samator Indo Gas Tbk (Penempatan Bekasi).</p>
+
+    <div class="grid-2">
+      <div>
+        <h2>KOMPETENSI UTAMA</h2>
+        <ul>
+          <li>Pencatatan Transaksi <em>Finance</em> harian</li>
+          <li>Rekonsiliasi Kas, Bank & Mutasi</li>
+          <li>Validasi Kelengkapan Dokumen Penagihan</li>
+          <li><em>Strategic Analytical Thinking</em></li>
+          <li><em>Problem Solving</em> (Kendala Data/Sistem)</li>
+          <li>Ketelitian Bekerja dengan Angka</li>
+          <li>Adaptasi & Pembelajaran Cepat</li>
+        </ul>
+      </div>
+      <div>
+        <h2>KETERAMPILAN & TOOLS</h2>
+        <ul>
+          <li>Pengalaman dengan Sistem SAP / ERP</li>
+          <li>Microsoft Office (Excel, Word, dll)</li>
+          <li>Dasar Siklus Akuntansi & Pembukuan</li>
+          <li>Analisis Logika & Pemetaan Data</li>
+          <li>Komunikasi Efektif & Pelaporan</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>PENDIDIKAN</h2>
+    <h3>STIE PASUNDAN BANDUNG</h3>
+    <div class="job-meta">Sarjana Akuntansi (S.E.) | 2018 - 2021 | IPK: 3,72</div>
+
+    <h2>PENGALAMAN KERJA RELEVAN</h2>
+
+    <h3>PT CORETERRA GEO ENGINEERING</h3>
+    <div class="job-meta">Finance & Accounting (Remote) | 2026 - Sekarang</div>
+    <ul>
+      <li>Bertanggung jawab melakukan pencatatan seluruh transaksi arus kas harian ke dalam sistem pembukuan (ERP) perusahaan.</li>
+      <li>Menerapkan kemampuan <em>problem solving</em> saat melakukan rekonsiliasi bank untuk menelusuri selisih angka atau transaksi yang belum teridentifikasi.</li>
+      <li>Memvalidasi dokumen <em>invoice</em> sebelum diproses lebih lanjut untuk memastikan keakuratan nilai tagihan.</li>
+    </ul>
+
+    <h3>PEMERINTAH DESA PANANJUNG</h3>
+    <div class="job-meta">Kepala Urusan Keuangan (Bendahara) | 2020 - 2024</div>
+    <ul>
+      <li>Mencatat dan mengelola anggaran operasional bernilai miliaran rupiah setiap tahunnya secara tertib dan transparan.</li>
+      <li>Mengevaluasi kesesuaian dokumen pertanggungjawaban fisik (SPJ) dengan ketentuan regulasi sebagai bentuk mitigasi risiko keuangan.</li>
+    </ul>
+
+    <h3>PT MINEARTH GEO SOLUTION</h3>
+    <div class="job-meta">Admin & Koordinator Mutu Laboratorium | 2025 - Juni 2026</div>
+    <ul>
+      <li>Mendayagunakan aplikasi Microsoft Excel tingkat lanjut secara intensif untuk merapikan, mengompilasi, dan menganalisis laporan operasional.</li>
+      <li>Melakukan kontrol ketat terhadap prosedur dokumen untuk mempertahankan standar kualitas manajemen.</li>
+    </ul>
+
+  </div>
+
+  <a href="../../index.html" class="no-print" style="position: fixed; bottom: 20px; left: 20px; background: #0f172a; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); z-index: 1000; font-family: 'Inter', sans-serif;">
+    &larr; Kembali ke Home
+  </a>
+</body>
+</html>`;
+
+const filePath = path.join(process.cwd(), 'public/assets/docs/CV_Samator.html');
+fs.writeFileSync(filePath, htmlContent, 'utf-8');
+console.log('Successfully generated CV_Samator.html based on HR principles (No Asterisks used for HTML).');
