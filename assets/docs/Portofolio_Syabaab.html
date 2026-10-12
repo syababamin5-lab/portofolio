@@ -64,22 +64,28 @@
     .header {
       border-bottom: 2px solid #0f172a;
       padding-bottom: 0.6rem;
-      margin-bottom: 0.8rem;
+      margin-bottom: 0.75rem;
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-end;
+      gap: 1rem;
+    }
+
+    .header-left {
+      flex: 1 1 auto;
     }
 
     .header-left h1 {
-      font-size: 17pt;
+      font-size: 15.5pt;
       font-weight: 800;
       color: #0f172a;
-      margin: 0 0 2pt 0;
-      letter-spacing: -0.5px;
+      margin: 0 0 3pt 0;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
     }
 
     .header-left p {
-      font-size: 9.5pt;
+      font-size: 9pt;
       font-weight: 600;
       color: #1d4ed8;
       margin: 0;
@@ -88,8 +94,9 @@
     .header-right {
       text-align: right;
       font-size: 8pt;
-      color: #475569;
-      line-height: 1.4;
+      color: #334155;
+      line-height: 1.45;
+      flex-shrink: 0;
     }
 
     .header-right a {
@@ -98,16 +105,8 @@
       font-weight: 600;
     }
 
-    .web-pill {
-      display: inline-block;
-      background: #eff6ff;
-      border: 1px solid #bfdbfe;
-      color: #1d4ed8;
-      padding: 2px 8px;
-      border-radius: 20px;
-      font-size: 8pt;
-      font-weight: 600;
-      margin-top: 3px;
+    .header-right .contact-item {
+      white-space: nowrap;
     }
 
     /* Section Typography */
@@ -314,11 +313,9 @@
         <p>Finance, Accounting &amp; Business Process Portfolio</p>
       </div>
       <div class="header-right">
-        <div>Kabupaten Bandung, Jawa Barat | 081214914641</div>
-        <div>Email: <a href="mailto:syabaabaminamanullah@gmail.com">syabaabaminamanullah@gmail.com</a></div>
-        <div class="web-pill">
-          🌐 Web Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" target="_blank">syababamin5-lab.github.io/portofolio</a>
-        </div>
+        <div class="contact-item">📍 Kab. Bandung &nbsp;|&nbsp; 📞 081214914641</div>
+        <div class="contact-item">✉️ <a href="mailto:syabaabaminamanullah@gmail.com">syabaabaminamanullah@gmail.com</a></div>
+        <div class="contact-item">🌐 <a href="https://syababamin5-lab.github.io/portofolio/" target="_blank">syababamin5-lab.github.io/portofolio</a></div>
       </div>
     </div>
 
