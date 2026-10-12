@@ -54,7 +54,7 @@ const htmlContent = `<!DOCTYPE html>
 
     <p>Pertama, untuk pembayaran <strong>honor perangkat desa, kader, tutor, dan relawan</strong>: tanggung jawab saya adalah memvalidasi seluruh Laporan Pertanggungjawaban (LPJ) dan memastikan setiap data penerima serta nominal honor sudah akurat sebelum saya ajukan untuk proses pencairan. Kedua, untuk pembayaran <strong>proyek pembangunan/pengadaan</strong>: saya memegang tanggung jawab penuh mulai dari memverifikasi seluruh bukti transaksi dan dokumen vendor, memastikan validitasnya, hingga memproses realisasi pembayaran.</p>
 
-    <p>Selain itu, saya memiliki nilai tambah teknis yang relevan: saya adalah <strong>pengembang sistem ERP keuangan kustom</strong> yang saya rancang sendiri untuk beberapa perusahaan terkait. Pengalaman membangun sistem ini memberikan saya pemahaman mendalam tentang bagaimana data kontrak, komponen pembayaran, catatan keuangan, dan alur persetujuan saling terhubung dalam sistem yang terintegrasi. Saya yakin hal ini akan sangat membantu dalam mengoperasikan dan beradaptasi dengan sistem <em>payroll</em> yang digunakan Cetta.</p>
+    <p>Selain itu, saya memiliki nilai tambah teknis yang sangat relevan: saya adalah <strong>pengembang sistem ERP &amp; keuangan kustom</strong> yang saya rancang secara mandiri, seperti sistem ERP manufaktur (<strong>SEAM-Annsa</strong> yang mencakup modul akuntansi dan <em>payroll</em>), sistem manajemen keuangan proyek (<strong>LODE</strong>), serta sistem manajemen data laboratorium (<strong>TIMES LIMS</strong>). Pengalaman membangun sistem ini memberikan saya pemahaman mendalam tentang bagaimana data kontrak, komponen penggajian, dan catatan keuangan saling terhubung dalam sistem yang terintegrasi. Saya yakin hal ini akan sangat membantu dalam mengoperasikan dan beradaptasi dengan sistem <em>payroll</em> yang digunakan Cetta.</p>
     
     <p>Saya terbiasa menggunakan Google Sheets dan Microsoft Excel (termasuk fungsi <em>SUMIFS, VLOOKUP, PivotTable</em>, dan <em>Data Validation</em>) untuk merekapitulasi, memeriksa konsistensi, dan mendistribusikan data pembayaran yang melibatkan ratusan item transaksi per periode. Saya juga terbiasa bekerja secara mandiri dalam lingkungan <em>WFH/Remote</em> dan menyelesaikan tanggung jawab sesuai tenggat waktu.</p>
 
@@ -86,7 +86,7 @@ const htmlContent = `<!DOCTYPE html>
     </div>
 
     <h2>PROFIL PROFESIONAL</h2>
-    <p>Lulusan S1 Akuntansi (IPK 3,72) dengan rekam jejak di bidang <em>Finance &amp; Accounting</em>, administrasi pembayaran publik, dan pengembangan sistem ERP keuangan. Terbiasa memvalidasi kelengkapan dan keabsahan dokumen sebelum pemrosesan pembayaran, merekapitulasi data dalam jumlah besar menggunakan Google Sheets dan Microsoft Excel (SUMIFS, VLOOKUP, PivotTable, <em>Data Validation</em>), serta menjaga kerahasiaan dan kerapian catatan keuangan. Sebagai pengembang sistem ERP kustom, memiliki pemahaman teknis yang mendalam tentang alur data pembayaran, komponen penggajian, dan integrasi modul keuangan dalam sistem. Terbiasa bekerja secara mandiri dalam lingkungan <em>WFH/Remote</em> dan menyelesaikan tanggung jawab sesuai tenggat waktu. Siap berkomitmen penuh selama 2 bulan proyek berjalan.</p>
+    <p>Lulusan S1 Akuntansi (IPK 3,72) dengan rekam jejak di bidang <em>Finance &amp; Accounting</em>, administrasi pembayaran publik, dan pengembangan sistem ERP keuangan. Terbiasa memvalidasi kelengkapan dan keabsahan dokumen sebelum pemrosesan pembayaran, merekapitulasi data dalam jumlah besar menggunakan Google Sheets dan Microsoft Excel (SUMIFS, VLOOKUP, PivotTable, <em>Data Validation</em>), serta menjaga kerahasiaan dan kerapian catatan keuangan. Sebagai perancang sistem ERP keuangan kustom (SEAM, LODE, TIMES), memiliki pemahaman teknis yang mendalam tentang alur data pembayaran, komponen penggajian, dan integrasi modul keuangan dalam sistem. Terbiasa bekerja secara mandiri dalam lingkungan <em>WFH/Remote</em> dan menyelesaikan tanggung jawab sesuai tenggat waktu. Siap berkomitmen penuh selama 2 bulan proyek berjalan.</p>
 
     <div class="grid-2">
       <div>
@@ -97,7 +97,7 @@ const htmlContent = `<!DOCTYPE html>
           <li>Rekapitulasi &amp; Pemeriksaan Data Bervolume Besar</li>
           <li>Pengelolaan Catatan &amp; Arsip Pembayaran</li>
           <li>Penyusunan Laporan Pertanggungjawaban (LPJ)</li>
-          <li>Pengembangan Sistem ERP Keuangan (Kustom)</li>
+          <li>Pengembangan Sistem ERP &amp; Payroll Kustom</li>
           <li>Manajemen Tenggat &amp; Kerja Mandiri (<em>Remote</em>)</li>
         </ul>
       </div>
@@ -106,7 +106,7 @@ const htmlContent = `<!DOCTYPE html>
         <ul>
           <li>Google Workspace (Sheets, Docs, Drive)</li>
           <li>Microsoft Excel: SUMIFS, VLOOKUP, PivotTable, <em>Data Validation</em></li>
-          <li>Pengembang Sistem ERP Keuangan (Kustom)</li>
+          <li>Pengembang Sistem ERP Keuangan &amp; Payroll (Kustom)</li>
           <li>Logika Alur Data Pembayaran &amp; Penggajian</li>
           <li>Manajemen &amp; Kerahasiaan Dokumen Keuangan</li>
         </ul>
@@ -135,11 +135,12 @@ const htmlContent = `<!DOCTYPE html>
       <li>Menyiapkan laporan rekapitulasi arus kas dan pembayaran secara berkala menggunakan Google Sheets dan Microsoft Excel sesuai tenggat pelaporan.</li>
     </ul>
 
-    <h3>PENGEMBANG SISTEM ERP KEUANGAN (KUSTOM)</h3>
-    <div class="job-meta">Analis &amp; Pengembang | untuk Beberapa Perusahaan Terkait</div>
+    <h3>PENGEMBANG SISTEM ERP &amp; KEUANGAN KUSTOM</h3>
+    <div class="job-meta">Business Analyst &amp; System Developer | Proyek Sistem Mandiri:</div>
     <ul>
-      <li>Merancang dan mengembangkan sistem ERP keuangan secara mandiri, mencakup modul pencatatan transaksi, alur pembayaran, dan manajemen data keuangan.</li>
-      <li>Pengalaman ini memberikan pemahaman teknis mendalam tentang logika alur data pembayaran dan penggajian dalam sistem yang terintegrasi, jauh melampaui pengetahuan pengguna biasa.</li>
+      <li><strong>SEAM-Annsa:</strong> ERP manufaktur garmen untuk otomatisasi rantai pasok, HPP, buku besar, dan modul penggajian (<em>payroll</em>).</li>
+      <li><strong>LODE:</strong> Sistem tata kelola keuangan proyek (<em>Project Finance</em>) untuk kontrol anggaran (RAB), realisasi biaya, dan penagihan (<em>invoicing</em>).</li>
+      <li><strong>TIMES LIMS:</strong> Sistem manajemen data laboratorium pengujian geoteknik (ISO 17025) untuk ketertelusuran sampel uji dan kontrol mutu.</li>
     </ul>
 
     <h3>PT MINEARTH GEO SOLUTION</h3>
@@ -159,4 +160,4 @@ const htmlContent = `<!DOCTYPE html>
 
 const filePath = path.join(process.cwd(), 'public/assets/docs/CV_Cetta.html');
 fs.writeFileSync(filePath, htmlContent, 'utf-8');
-console.log('Successfully rebuilt CV_Cetta.html v3 - clean encoding, no emoji, blue theme, no badges.');
+console.log('Successfully updated CV_Cetta.html with explicit SEAM, LODE, TIMES details.');
