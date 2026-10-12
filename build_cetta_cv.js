@@ -144,9 +144,9 @@ const htmlContent = `<!DOCTYPE html>
     <h3>PENGEMBANGAN SISTEM BISNIS &amp; OPERASIONAL (KUSTOM)</h3>
     <div class="job-meta">Business Analyst &amp; System Developer | Proyek Sistem Mandiri:</div>
     <ul>
-      <li><strong>SEAM-Annsa:</strong> Sistem ERP manufaktur garmen untuk otomatisasi rantai pasok, HPP, buku besar, dan modul penggajian (<em>payroll</em>).</li>
-      <li><strong>LODE:</strong> Sistem tata kelola keuangan proyek (<em>Project Finance</em>) untuk kontrol anggaran (RAB), realisasi biaya, dan penagihan (<em>invoicing</em>).</li>
-      <li><strong>TIMES LIMS:</strong> Sistem manajemen data laboratorium pengujian geoteknik (ISO 17025) untuk ketertelusuran sampel uji dan kontrol mutu.</li>
+      <li><strong>SEAM-Annsa (<a href="https://seam.annsa.site/" target="_blank" style="color:#1d4ed8; text-decoration:none;">seam.annsa.site</a>):</strong> Sistem ERP manufaktur garmen untuk otomatisasi rantai pasok, HPP, buku besar, dan modul penggajian (<em>payroll</em>).</li>
+      <li><strong>LODE (<a href="https://lode.annsa.site/" target="_blank" style="color:#1d4ed8; text-decoration:none;">lode.annsa.site</a>):</strong> Sistem tata kelola keuangan proyek (<em>Project Finance</em>) untuk kontrol anggaran (RAB), realisasi biaya, dan penagihan (<em>invoicing</em>).</li>
+      <li><strong>TIMES LIMS (<a href="https://times.annsa.site/" target="_blank" style="color:#1d4ed8; text-decoration:none;">times.annsa.site</a>):</strong> Sistem manajemen data laboratorium pengujian geoteknik (ISO 17025) untuk ketertelusuran sampel uji dan kontrol mutu.</li>
     </ul>
 
   </div>
