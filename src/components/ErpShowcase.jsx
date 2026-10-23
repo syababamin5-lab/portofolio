@@ -39,8 +39,26 @@ const ErpShowcase = () => {
   return (
     <section id="erp" className="py-20 bg-background-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Intro Banner for Software & Application Development */}
+        <div className="max-w-3xl mx-auto text-center mb-16 pb-12 border-b border-slate-200/80">
+          <span className="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-emerald-50 text-emerald-800 font-bold text-xs tracking-wider uppercase mb-3 border border-emerald-200 shadow-sm">
+            <Code2 size={15} className="text-emerald-600" />
+            Portofolio Rekayasa Sistem & Software Kustom
+          </span>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-3 tracking-tight">
+            Pengalaman Pengembangan Aplikasi Bisnis
+          </h2>
+          <p className="text-slate-600 text-sm md:text-base leading-relaxed">
+            Selain pengalaman kerja profesional di atas, bagian berikut merangkum pengalaman nyata saya dalam <strong>mendevelop dan membangun aplikasi bisnis dari nol</strong> (ERP Manufaktur, Sistem LIMS Laboratorium, dan Tata Kelola Keuangan Proyek) untuk mendigitalisasi operasional dan menyelesaikan masalah alur kerja nyata.
+          </p>
+        </div>
+
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4">SEAM-Annsa: Supply-chain Efficiency Accounting Management</h2>
+          <span className="inline-block py-1 px-3 rounded-full bg-slate-100 text-slate-700 font-semibold text-xs tracking-wider uppercase mb-3 border border-slate-200">
+            Aplikasi 01: Sistem ERP Manufaktur Garmen
+          </span>
+          <h3 className="text-3xl font-bold text-slate-900 mb-4">SEAM-Annsa: Supply-chain Efficiency Accounting Management</h3>
           <p className="text-slate-600 max-w-2xl mx-auto text-base italic mb-4">
             “Weaving a Flawless Financial Fabric – The Loom to Your Business's Balance”
           </p>

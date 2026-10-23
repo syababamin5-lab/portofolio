@@ -51,7 +51,7 @@ const GeoFinanceShowcase = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block py-1 px-3 rounded-full bg-amber-50 text-amber-700 font-semibold text-xs tracking-wider uppercase mb-3 border border-amber-200">
-            Sistem Tata Kelola Keuangan Proyek & Korporat
+            Aplikasi 03: Sistem Tata Kelola Keuangan Proyek &amp; Korporat
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">LODE (Lifecycle Operation Data Engine)</h2>
           <p className="text-slate-600 max-w-2xl mx-auto text-base italic">

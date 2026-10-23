@@ -44,7 +44,7 @@ const LimsShowcase = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block py-1 px-3 rounded-full bg-indigo-50 text-indigo-700 font-semibold text-xs tracking-wider uppercase mb-3 border border-indigo-200">
-            Sistem Operasional Laboratorium Terintegrasi
+            Aplikasi 02: Sistem Operasional Laboratorium Terintegrasi
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">TIMES® LIMS (Geotechnical System)</h2>
           <p className="text-slate-600 max-w-2xl mx-auto text-base italic">
