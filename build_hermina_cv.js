@@ -124,13 +124,11 @@ const htmlContent = `<!DOCTYPE html>
 
     <h2>PENGALAMAN KERJA RELEVAN</h2>
 
-    <h3>PEMERINTAH DESA PANANJUNG</h3>
-    <div class="job-meta">Kepala Urusan Keuangan (Bendahara / Staf Layanan Publik) | 2020 – 2024</div>
+    <h3>PT CORETERRA GEO ENGINEERING</h3>
+    <div class="job-meta">Finance &amp; Accounting (Remote / WFH) | Juni 2026 – September 2026</div>
     <ul>
-      <li>Memberikan pelayanan langsung secara tatap muka kepada puluhan hingga ratusan warga setiap hari di loket pelayanan dengan ramah, sabar, dan komunikatif.</li>
-      <li>Memeriksa kelengkapan dan keabsahan berkas administrasi pemohon secara teliti sebelum memproses layanan yang diajukan.</li>
-      <li>Mengelola transaksi penerimaan kas dan administrasi pembayaran loket dengan tertib tanpa ada selisih.</li>
-      <li>Mengarsipkan seluruh dokumen administrasi pelayanan secara rapi agar mudah ditelusuri kembali saat dibutuhkan.</li>
+      <li>Mengelola pencatatan transaksi administrasi keuangan harian dan memeriksa konsistensi data secara mandiri dan disiplin.</li>
+      <li>Menyelesaikan seluruh target rekapitulasi pelaporan administrasi keuangan tepat waktu dengan ketelitian tinggi.</li>
     </ul>
 
     <h3>PT MINEARTH GEO SOLUTION</h3>
@@ -141,10 +139,13 @@ const htmlContent = `<!DOCTYPE html>
       <li>Mengoperasikan sistem basis data operasional secara disiplin untuk ketertelusuran data administrasi.</li>
     </ul>
 
-    <h3>PT CORETERRA GEO ENGINEERING</h3>
-    <div class="job-meta">Finance &amp; Accounting (Remote / WFH) | Juni 2026 – Sekarang</div>
+    <h3>PEMERINTAH DESA PANANJUNG</h3>
+    <div class="job-meta">Kepala Urusan Keuangan (Bendahara / Staf Layanan Publik) | 2020 – 2024</div>
     <ul>
-      <li>Mengelola pencatatan transaksi administrasi keuangan harian dan memeriksa konsistensi data secara mandiri dan disiplin.</li>
+      <li>Memberikan pelayanan langsung secara tatap muka kepada puluhan hingga ratusan warga setiap hari di loket pelayanan dengan ramah, sabar, dan komunikatif.</li>
+      <li>Memeriksa kelengkapan dan keabsahan berkas administrasi pemohon secara teliti sebelum memproses layanan yang diajukan.</li>
+      <li>Mengelola transaksi penerimaan kas dan administrasi pembayaran loket dengan tertib tanpa ada selisih.</li>
+      <li>Mengarsipkan seluruh dokumen administrasi pelayanan secara rapi agar mudah ditelusuri kembali saat dibutuhkan.</li>
     </ul>
 
     <h2>KETERAMPILAN &amp; BAHASA</h2>
@@ -173,4 +174,4 @@ const htmlContent = `<!DOCTYPE html>
 
 const filePath = path.join(process.cwd(), 'public/assets/docs/CV_Hermina.html');
 fs.writeFileSync(filePath, htmlContent, 'utf-8');
-console.log('Successfully generated concise & to-the-point CV_Hermina.html.');
+console.log('Successfully reordered CV_Hermina.html: Coreterra (Jun-Sep 2026), Minearth, Pemdes.');
