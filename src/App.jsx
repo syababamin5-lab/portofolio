@@ -130,17 +130,6 @@ function App() {
             </a>
 
             <a 
-              href={`${import.meta.env.BASE_URL}assets/docs/CV_Hermina.html`}
-              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-purple-50 to-fuchsia-50 border-2 border-purple-100 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
-            >
-              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-purple-600">
-                <Briefcase size={32} />
-              </div>
-              <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran Medika Loka</h2>
-              <p className="text-sm text-slate-500 text-center">CV & Surat Lamaran (Posisi Keuangan)</p>
-            </a>
-
-            <a 
               href={`${import.meta.env.BASE_URL}assets/docs/CV_KalbeFarma.html`}
               className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-cyan-50 to-sky-50 border-2 border-cyan-100 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
             >
@@ -326,6 +315,16 @@ function App() {
               </div>
               <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran Cetta (Freelance)</h2>
               <p className="text-sm text-slate-500 text-center">CV & Surat Lamaran (Payroll Officer)</p>
+            </a>
+            <a 
+              href={`${import.meta.env.BASE_URL}assets/docs/CV_Hermina.html`}
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-emerald-50 to-teal-100 border-2 border-emerald-200 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+            >
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-emerald-600">
+                <Briefcase size={32} />
+              </div>
+              <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran RS Hermina</h2>
+              <p className="text-sm text-slate-500 text-center">CV & Surat Lamaran (Front Office)</p>
             </a>
           </div>
 
