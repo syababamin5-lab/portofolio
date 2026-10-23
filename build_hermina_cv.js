@@ -159,14 +159,14 @@ const htmlContent = `<!DOCTYPE html>
     <div class="grid-2">
       <div>
         <ul>
-          <li><strong>Kompetensi Terbukti:</strong> Financial Administration, Document Verification, Regulatory Compliance, Quality Control</li>
-          <li><strong>Bahasa:</strong> Bahasa Indonesia (Aktif &amp; Formal), Bahasa Sunda (Fasih)</li>
+          <li><strong>Administrasi:</strong> Verifikasi Dokumen, Rekapitulasi Data, Document Filing</li>
+          <li><strong>Bahasa:</strong> Bahasa Indonesia (Aktif &amp; Formal), Bahasa Sunda (Fasih), Bahasa Jawa (Percakapan), Bahasa Inggris (Pemula)</li>
         </ul>
       </div>
       <div>
         <ul>
           <li><strong>Software:</strong> Microsoft Excel (Advanced), Microsoft Word, Google Workspace</li>
-          <li><strong>Sistem Operasional:</strong> Cepat menguasai sistem registrasi &amp; SIMRS</li>
+          <li><strong>Sistem:</strong> Cepat beradaptasi dengan sistem komputer baru &amp; SIMRS</li>
         </ul>
       </div>
     </div>
