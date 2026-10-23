@@ -8,32 +8,32 @@ const htmlContent = `<!DOCTYPE html>
   <title>CV & Surat Lamaran - Syabaab Amin Amanullah (RS Hermina Arcamanik)</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-    body { font-family: 'Inter', sans-serif; color: #1e293b; line-height: 1.32; margin: 0; padding: 1cm 0; background: #f4f4f9; font-size: 0.82rem; }
-    .page { background: #fff; padding: 1.3cm 1.5cm; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0 auto 1.5cm auto; max-width: 21cm; border-radius: 8px; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: #1e293b; line-height: 1.3; margin: 0; padding: 1cm 0; background: #f4f4f9; font-size: 0.81rem; }
+    .page { background: #fff; padding: 1.2cm 1.4cm; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 0 auto 1.5cm auto; max-width: 21cm; border-radius: 8px; box-sizing: border-box; }
     @page { margin: 5mm 10mm; }
     @media print {
-      body { background: transparent; padding: 0; font-size: 10pt; line-height: 1.32; }
+      body { background: transparent; padding: 0; font-size: 9.5pt; line-height: 1.28; }
       .page { box-shadow: none; margin: 0; border-radius: 0; padding: 0; max-width: none; page-break-after: always; }
       .page:last-child { page-break-after: auto; }
-      @page { margin: 1.1cm 1.4cm; }
+      @page { margin: 1cm 1.3cm; }
       h2, h3, p, ul, li { page-break-inside: avoid; }
       .no-print { display: none !important; }
     }
     h1 { font-size: 15pt; border-bottom: 2px solid #065f46; padding-bottom: 4pt; color: #065f46; margin-top: 0; margin-bottom: 6pt; }
-    h2 { font-size: 10.5pt; border-bottom: 1px solid #cbd5e1; padding-bottom: 2pt; color: #047857; margin-top: 8pt; margin-bottom: 3pt; font-weight: 700; }
-    h3 { font-size: 9.5pt; margin-top: 5pt; margin-bottom: 1pt; color: #0f172a; font-weight: 700; }
-    p { margin-top: 0; margin-bottom: 0.5rem; text-align: justify; }
+    h2 { font-size: 10.5pt; border-bottom: 1px solid #cbd5e1; padding-bottom: 2pt; color: #047857; margin-top: 7pt; margin-bottom: 3pt; font-weight: 700; }
+    h3 { font-size: 9.3pt; margin-top: 4pt; margin-bottom: 1pt; color: #0f172a; font-weight: 700; }
+    p { margin-top: 0; margin-bottom: 0.45rem; text-align: justify; }
     .header-container { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; border-bottom: 2px solid #065f46; padding-bottom: 0.4rem; }
     .header-text { flex: 1; }
     .header-text h1 { border: none; font-size: 15pt; margin-bottom: 2pt; padding-bottom: 0; text-align: left; }
     .header-text p { text-align: left; color: #475569; font-size: 8.8pt; margin: 1.5pt 0; }
-    .header-photo { width: 70px; height: 92px; margin-left: 1.2rem; border-radius: 6px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 2px solid #fff; }
-    ul { margin-top: 0.12rem; margin-bottom: 0.3rem; padding-left: 1.15rem; }
-    li { margin-bottom: 0.08rem; text-align: left; }
-    .job-meta { font-size: 0.78rem; color: #64748b; font-style: italic; margin-bottom: 0.15rem; }
+    .header-photo { width: 68px; height: 90px; margin-left: 1.2rem; border-radius: 6px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 2px solid #fff; }
+    ul { margin-top: 0.1rem; margin-bottom: 0.25rem; padding-left: 1.15rem; }
+    li { margin-bottom: 0.06rem; text-align: left; }
+    .job-meta { font-size: 0.78rem; color: #64748b; font-style: italic; margin-bottom: 0.12rem; }
     .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
     .signature { margin-top: 1rem; }
-    .highlight-box { background: #f0fdf4; border-left: 3px solid #059669; padding: 0.5rem 0.8rem; margin: 0.5rem 0; font-size: 0.82rem; }
+    .highlight-box { background: #f0fdf4; border-left: 3px solid #059669; padding: 0.45rem 0.75rem; margin: 0.5rem 0; font-size: 0.81rem; }
   </style>
 </head>
 <body>
@@ -125,19 +125,22 @@ const htmlContent = `<!DOCTYPE html>
     <div class="job-meta">Finance &amp; Accounting (Remote / WFH) | Juni 2026 – September 2026</div>
     <ul>
       <li>Mengelola administrasi keuangan dan pembukuan perusahaan secara menyeluruh.</li>
-      <li>Melakukan rekonsiliasi kas/bank dan memantau arus kas (cash flow) harian.</li>
-      <li>Menyusun laporan keuangan periodik dan rekapitulasi data untuk evaluasi manajemen.</li>
-      <li>Mengelola proses penagihan (invoicing) dan verifikasi bukti pembayaran dengan tingkat akurasi tinggi.</li>
+      <li>Melakukan rekonsiliasi kas/bank dan memantau arus kas (cash flow) proyek.</li>
+      <li>Menyusun laporan keuangan periodik untuk evaluasi manajemen.</li>
+      <li>Mengelola proses penagihan (invoicing) dan verifikasi bukti pembayaran kepada vendor.</li>
+      <li>Memastikan kepatuhan terhadap standar akuntansi dan kebijakan keuangan perusahaan.</li>
     </ul>
 
     <h3>PT MINEARTH GEO SOLUTION</h3>
     <div class="job-meta">Admin &amp; Koordinator Mutu Laboratorium | 2025 – Juni 2026</div>
     <ul>
       <li>Mengelola administrasi operasional laboratorium mekanika tanah.</li>
-      <li>Melakukan verifikasi dan validasi data hasil pengujian sebelum diserahkan kepada pihak terkait.</li>
-      <li>Mengelola invoice, surat penawaran, dan dokumen administrasi perusahaan.</li>
-      <li>Berkoordinasi dengan klien dan tim internal terkait administrasi pekerjaan.</li>
+      <li>Melakukan verifikasi dan validasi data hasil pengujian sebelum diterbitkan kepada klien.</li>
       <li>Memastikan kesesuaian data hasil pengujian dengan dokumen pendukung dan prosedur yang berlaku.</li>
+      <li>Menyusun laporan hasil pengujian dan rekapitulasi data operasional.</li>
+      <li>Mengelola invoice, surat, penawaran, dan dokumen administrasi perusahaan.</li>
+      <li>Berkoordinasi dengan klien dan tim internal terkait administrasi pekerjaan.</li>
+      <li>Mendukung penerapan pengendalian mutu hasil pengujian laboratorium.</li>
     </ul>
 
     <h3>PEMERINTAH DESA PANANJUNG</h3>
@@ -156,7 +159,7 @@ const htmlContent = `<!DOCTYPE html>
     <div class="grid-2">
       <div>
         <ul>
-          <li><strong>Kompetensi Terbukti:</strong> Financial Administration, Document Verification, Regulatory Compliance, Budget Monitoring</li>
+          <li><strong>Kompetensi Terbukti:</strong> Financial Administration, Document Verification, Regulatory Compliance, Quality Control</li>
           <li><strong>Bahasa:</strong> Bahasa Indonesia (Aktif &amp; Formal), Bahasa Sunda (Fasih)</li>
         </ul>
       </div>
@@ -178,4 +181,4 @@ const htmlContent = `<!DOCTYPE html>
 
 const filePath = path.join(process.cwd(), 'public/assets/docs/CV_Hermina.html');
 fs.writeFileSync(filePath, htmlContent, 'utf-8');
-console.log('Successfully updated CV_Hermina.html with exact 7 responsibilities for Pemdes Pananjung.');
+console.log('Successfully updated CV_Hermina.html with exact 7 responsibilities for Minearth.');
