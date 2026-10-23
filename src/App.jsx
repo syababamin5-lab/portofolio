@@ -318,9 +318,9 @@ function App() {
             </a>
             <a 
               href={`${import.meta.env.BASE_URL}assets/docs/CV_Hermina.html`}
-              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-emerald-50 to-teal-100 border-2 border-emerald-200 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-sky-50 to-blue-100 border-2 border-sky-200 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
             >
-              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-emerald-600">
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-sky-600">
                 <Briefcase size={32} />
               </div>
               <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran RS Hermina</h2>

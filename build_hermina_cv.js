@@ -19,11 +19,11 @@ const htmlContent = `<!DOCTYPE html>
       h2, h3, p, ul, li { page-break-inside: avoid; }
       .no-print { display: none !important; }
     }
-    h1 { font-size: 15pt; border-bottom: 2px solid #065f46; padding-bottom: 4pt; color: #065f46; margin-top: 0; margin-bottom: 6pt; }
-    h2 { font-size: 10.5pt; border-bottom: 1px solid #cbd5e1; padding-bottom: 2pt; color: #047857; margin-top: 7pt; margin-bottom: 3pt; font-weight: 700; }
+    h1 { font-size: 15pt; border-bottom: 2px solid #0284c7; padding-bottom: 4pt; color: #0284c7; margin-top: 0; margin-bottom: 6pt; }
+    h2 { font-size: 10.5pt; border-bottom: 1px solid #e2e8f0; padding-bottom: 2pt; color: #0284c7; margin-top: 7pt; margin-bottom: 3pt; font-weight: 700; }
     h3 { font-size: 9.3pt; margin-top: 4pt; margin-bottom: 1pt; color: #0f172a; font-weight: 700; }
     p { margin-top: 0; margin-bottom: 0.45rem; text-align: justify; }
-    .header-container { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; border-bottom: 2px solid #065f46; padding-bottom: 0.4rem; }
+    .header-container { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; border-bottom: 2px solid #0284c7; padding-bottom: 0.4rem; }
     .header-text { flex: 1; }
     .header-text h1 { border: none; font-size: 15pt; margin-bottom: 2pt; padding-bottom: 0; text-align: left; }
     .header-text p { text-align: left; color: #475569; font-size: 8.8pt; margin: 1.5pt 0; }
@@ -33,14 +33,14 @@ const htmlContent = `<!DOCTYPE html>
     .job-meta { font-size: 0.78rem; color: #64748b; font-style: italic; margin-bottom: 0.12rem; }
     .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
     .signature { margin-top: 1rem; }
-    .highlight-box { background: #f0fdf4; border-left: 3px solid #059669; padding: 0.45rem 0.75rem; margin: 0.5rem 0; font-size: 0.81rem; }
+    .highlight-box { background: #f0f9ff; border-left: 3px solid #0284c7; padding: 0.45rem 0.75rem; margin: 0.5rem 0; font-size: 0.81rem; }
   </style>
 </head>
 <body>
 
   <!-- PAGE 1: SURAT LAMARAN (JUJUR & TO THE POINT) -->
   <div class="page">
-    <h1 style="border-bottom: none; font-size: 16pt; margin-bottom: 1.8rem; color: #065f46; text-align: center;">SURAT LAMARAN PEKERJAAN</h1>
+    <h1 style="border-bottom: none; font-size: 16pt; margin-bottom: 1.8rem; color: #0284c7; text-align: center;">SURAT LAMARAN PEKERJAAN</h1>
     
     <p><strong>Perihal</strong> : Lamaran Pekerjaan &ndash; Front Office<br>
     <strong>Yth. Tim Rekrutmen &amp; Seleksi (HRD)</strong><br>
@@ -71,7 +71,7 @@ const htmlContent = `<!DOCTYPE html>
       <img src="../img/ttd%20syabaab.jpg" alt="Tanda Tangan" style="width: 55px; display: block; margin: 0; mix-blend-mode: multiply;" />
       <p style="margin-top: 0;"><strong>Syabaab Amin Amanullah, S.E.</strong><br>
       Tel: 081214914641 &nbsp;|&nbsp; Email: syabaabaminamanullah@gmail.com<br>
-      Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #065f46; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+      Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #0284c7; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
     </div>
   </div>
 
@@ -80,9 +80,9 @@ const htmlContent = `<!DOCTYPE html>
     <div class="header-container">
       <div class="header-text">
         <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
-        <p style="color:#047857; font-weight:600; margin-bottom:0.2rem">ADMINISTRASI | DOKUMEN &amp; VERIFIKASI DATA | FRONT OFFICE CANDIDATE</p>
+        <p style="color:#0284c7; font-weight:600; margin-bottom:0.2rem">ADMINISTRASI | DOKUMEN &amp; VERIFIKASI DATA | FRONT OFFICE CANDIDATE</p>
         <p>Kota/Kab. Bandung &nbsp;|&nbsp; Tel: 081214914641 &nbsp;|&nbsp; Email: syabaabaminamanullah@gmail.com</p>
-        <p>Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #047857; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+        <p>Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #0284c7; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
       </div>
       <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
     </div>
@@ -166,14 +166,14 @@ const htmlContent = `<!DOCTYPE html>
       <div>
         <ul>
           <li><strong>Software:</strong> Microsoft Excel (Advanced), Microsoft Word, Google Workspace</li>
-          <li><strong>Sistem:</strong> Cepat beradaptasi dengan sistem komputer baru &amp; SIMRS</li>
+          <li><strong>Sistem Operasional:</strong> Cepat menguasai sistem registrasi &amp; SIMRS</li>
         </ul>
       </div>
     </div>
 
   </div>
 
-  <a href="../../index.html" class="no-print" style="position: fixed; bottom: 20px; left: 20px; background: #065f46; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); z-index: 1000; font-family: 'Inter', sans-serif;">
+  <a href="../../index.html" class="no-print" style="position: fixed; bottom: 20px; left: 20px; background: #0284c7; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); z-index: 1000; font-family: 'Inter', sans-serif;">
     &larr; Kembali ke Home
   </a>
 </body>
@@ -181,4 +181,4 @@ const htmlContent = `<!DOCTYPE html>
 
 const filePath = path.join(process.cwd(), 'public/assets/docs/CV_Hermina.html');
 fs.writeFileSync(filePath, htmlContent, 'utf-8');
-console.log('Successfully updated CV_Hermina.html with exact 7 responsibilities for Minearth.');
+console.log('Successfully updated CV_Hermina.html to SunFish Blue theme.');
