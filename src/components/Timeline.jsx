@@ -23,7 +23,7 @@ const experiences = [
   {
     id: 2,
     company: "PT Minearth Geo Solution",
-    website: "https://web.minearth.co.id/",
+    website: "https://minearth.co.id/",
     role: "Admin & Koordinator Mutu Laboratorium",
     period: "2025 – Juni 2026",
     icon: Building,
