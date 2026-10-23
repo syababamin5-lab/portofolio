@@ -8,7 +8,7 @@ const experiences = [
     company: "PT. Coreterra Geo Engineering (Remote - Tangerang Selatan)",
     website: "https://coreterra-geo.com/",
     role: "Finance & Accounting",
-    period: "2026 – Sekarang",
+    period: "Juni 2026 – September 2026",
     icon: Building,
     responsibilities: [
       "Mengelola administrasi keuangan dan pembukuan perusahaan secara menyeluruh.",
