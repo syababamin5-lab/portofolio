@@ -4,11 +4,11 @@ import { ArrowDown, ShieldCheck, TrendingUp, Cpu, Database, Briefcase } from 'lu
 import { Link } from 'react-scroll';
 
 const badges = [
-  { name: 'Finance & Accounting', icon: Briefcase },
-  { name: 'Business Process Analysis', icon: TrendingUp },
-  { name: 'Enterprise System Architecture', icon: Cpu },
-  { name: 'ERP Digitalization', icon: Database },
-  { name: 'Data Management & QC', icon: ShieldCheck },
+  { name: 'Financial Reporting & Cycle', icon: Briefcase },
+  { name: 'Cash Flow & Reconciliation', icon: TrendingUp },
+  { name: 'Accounting System Digitalization', icon: Database },
+  { name: 'Internal Audit & Controls', icon: ShieldCheck },
+  { name: 'Business Process Analysis', icon: Cpu },
 ];
 
 const Hero = () => {
@@ -34,16 +34,18 @@ const Hero = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 tracking-tight mb-4">
                 SYABAAB AMIN AMANULLAH, <span className="text-primary font-serif italic">S.E.</span>
               </h1>
-              <h2 className="text-xl md:text-2xl text-slate-600 font-medium mb-8">
-                Business Analyst & Enterprise System Developer Portfolio
+              <h2 className="text-xl md:text-2xl text-slate-600 font-semibold mb-6 flex flex-wrap items-center justify-center lg:justify-start gap-2">
+                <span>Finance &amp; Accounting Professional</span>
+                <span className="hidden sm:inline text-slate-300 font-normal">|</span>
+                <span className="text-accent font-medium">Accounting Systems &amp; Automation</span>
               </h2>
-              <p className="text-base md:text-lg text-slate-600 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                Sarjana Akuntansi dengan perpaduan keahlian antara tata kelola keuangan, manajemen administrasi operasional perusahaan, analisis proses bisnis, dan pengembangan sistem perangkat lunak (ERP/LIMS). Berpengalaman mengurus kelancaran administrasi bisnis sehari-hari, sekaligus mendigitalkan siklus yang kompleks—mulai dari manufaktur garmen, laboratorium mekanika tanah, hingga manajemen keuangan proyek—menjadi ekosistem digital yang efisien, otomatis, dan <span className="font-semibold text-primary">transparan</span>.
+              <p className="text-base md:text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0 text-justify lg:text-left">
+                Sarjana Akuntansi (S.E.) dengan keahlian mendalam dalam <span className="font-semibold text-slate-800">siklus akuntansi penuh, rekonsiliasi kas/bank, penyusunan laporan keuangan periodik, dan tata kelola anggaran</span>. Berpengalaman memastikan akurasi data finansial, kepatuhan prosedur, serta manajemen operasional harian. Memiliki nilai tambah strategis dalam menginisiasi digitalisasi proses bisnis dan sistem akuntansi (ERP) agar operasional keuangan berjalan efisien, terstruktur, dan <span className="font-semibold text-primary">akuntabel</span>.
               </p>
             </motion.div>
 
             <motion.div 
-              className="flex flex-wrap justify-center lg:justify-start gap-3 mb-12"
+              className="flex flex-wrap justify-center lg:justify-start gap-3 mb-10"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -72,7 +74,7 @@ const Hero = () => {
                 duration={500}
                 className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-xl font-semibold hover:bg-primary/90 transition-all hover:shadow-lg hover:-translate-y-1 cursor-pointer"
               >
-                Jelajahi Portfolio
+                Jelajahi Profil &amp; Pengalaman
                 <ArrowDown size={20} className="animate-bounce" />
               </Link>
             </motion.div>
@@ -81,21 +83,26 @@ const Hero = () => {
           {/* Photo Content */}
           <div className="w-full lg:w-2/5 flex justify-center lg:justify-end">
             <motion.div 
-              initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
-              animate={{ opacity: 1, scale: 1, rotate: 0 }}
+              initial={{ opacity: 0, scale: 0.85 }}
+              animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, type: "spring" }}
               className="relative"
             >
-              {/* Photo Frame Styling */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-3xl transform rotate-3 scale-105 opacity-20 blur-lg"></div>
-              <div className="absolute inset-0 border-2 border-primary/20 rounded-3xl transform -rotate-3 scale-105"></div>
+              {/* Elegant glow frame */}
+              <div className="absolute -inset-3 bg-gradient-to-tr from-primary/15 via-emerald-100 to-sky-100 rounded-3xl blur-md opacity-80"></div>
               
-              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-white shadow-2xl bg-white flex items-center justify-center">
+              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-92 lg:h-92 rounded-3xl overflow-hidden border-4 border-white shadow-xl bg-slate-50 flex items-center justify-center">
                 <img 
                   src={`${import.meta.env.BASE_URL}assets/img/foto_syabaab.png`} 
-                  alt="Syabaab Amin Amanullah" 
+                  alt="Syabaab Amin Amanullah, S.E." 
                   className="object-cover w-full h-full"
                 />
+              </div>
+
+              {/* Floating Professional Badge */}
+              <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-sm border border-slate-200/90 shadow-md px-4 py-2 rounded-full flex items-center gap-2 whitespace-nowrap text-xs font-semibold text-slate-800">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                Sarjana Akuntansi • IPK 3.72
               </div>
             </motion.div>
           </div>

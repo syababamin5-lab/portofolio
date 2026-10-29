@@ -58,7 +58,7 @@ const SkillsFooter = () => {
         <div id="contact" className="flex flex-col md:flex-row items-center justify-between gap-6 mt-8">
           <div className="text-center md:text-left mb-6 md:mb-0">
             <h2 className="text-2xl font-bold text-white tracking-tight">SYABAAB AMIN AMANULLAH</h2>
-            <p className="text-sm text-slate-500 mt-1">Business Analyst & Enterprise System Developer</p>
+            <p className="text-sm text-slate-400 mt-1">Finance &amp; Accounting Professional | Accounting Systems &amp; Automation</p>
           </div>
           
           <div className="flex flex-col sm:flex-row items-center gap-4">
