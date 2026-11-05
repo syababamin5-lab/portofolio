@@ -142,16 +142,6 @@ const htmlContent = `<!DOCTYPE html>
 
     .profil-box p { margin: 0; font-size: 9.5pt; color: #1e293b; }
 
-    .info-row {
-      display: flex;
-      gap: 2rem;
-      margin-bottom: 4pt;
-      font-size: 9.5pt;
-    }
-
-    .info-item { display: flex; gap: 6pt; }
-    .info-label { font-weight: 600; color: #374151; min-width: 60px; }
-    .info-val { color: #1e293b; }
   </style>
 </head>
 <body>
@@ -204,16 +194,9 @@ const htmlContent = `<!DOCTYPE html>
         <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
         <p class="tagline">ACCOUNT PAYABLE STAFF | FINANCE &amp; ACCOUNTING</p>
         <p class="contact">📍 Kabupaten Bandung, Jawa Barat &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
-        <p class="contact">🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #1d4ed8; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+        <p class="contact">🌐 Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #1d4ed8; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
       </div>
       <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
-    </div>
-
-    <!-- Data Diri Singkat -->
-    <div class="info-row" style="margin-top: 4pt;">
-      <div class="info-item"><span class="info-label">Usia</span><span class="info-val">26 Tahun</span></div>
-      <div class="info-item"><span class="info-label">Domisili</span><span class="info-val">Kabupaten Bandung, Jawa Barat</span></div>
-      <div class="info-item"><span class="info-label">Status</span><span class="info-val">Siap bergabung segera</span></div>
     </div>
 
     <h2>Profil Profesional</h2>

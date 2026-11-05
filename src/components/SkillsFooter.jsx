@@ -3,7 +3,7 @@ import { Mail, Globe, FileText, CheckCircle2, Phone } from 'lucide-react';
 
 const SkillsFooter = () => {
   const technicalSkills = [
-    "Microsoft Excel (Advanced)", "Siskeudes", "Google Workspace", 
+    "Microsoft Excel (Advanced)", "Accurate", "MYOB", "Siskeudes", "Google Workspace", 
     "Document Verification", "Data Validation", "Internal Control Mapping", 
     "Business Process Analysis", "Financial Reporting", "Audit Risk Mitigation",
     "Web Development (Powered by Antigravity)"
@@ -82,3 +82,4 @@ const SkillsFooter = () => {
 };
 
 export default SkillsFooter;
+
