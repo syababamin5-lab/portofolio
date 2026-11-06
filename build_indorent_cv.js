@@ -1,0 +1,281 @@
+import fs from 'fs';
+import path from 'path';
+
+const htmlContent = `<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Syabaab Amin Amanullah - Accounting Staff - INDORENT</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #333;
+      line-height: 1.3;
+      margin: 0;
+      padding: 1cm 0;
+      background: #f4f4f9;
+      font-size: 0.85rem;
+    }
+    
+    .page {
+      background: #fff;
+      padding: 1.5cm 1.5cm;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin: 0 auto;
+      max-width: 21cm;
+      border-radius: 8px;
+    }
+    
+    @page {
+      size: A4;
+      margin: 5mm 10mm;
+    }
+
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+        font-size: 11pt;
+        line-height: 1.35;
+      }
+      .page {
+        box-shadow: none;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        max-width: none;
+        page-break-after: always;
+      }
+      .page:last-child {
+        page-break-after: auto;
+      }
+      @page {
+        size: A4;
+        margin: 1.2cm 1.5cm;
+      }
+      h2, h3, p, ul, li {
+        page-break-inside: auto;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    h1 {
+      font-size: 16pt;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 4pt;
+      color: #0f172a;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 12pt;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 3pt;
+      color: #003876;
+      margin-top: 12pt;
+      margin-bottom: 4pt;
+    }
+
+    h3 {
+      font-size: 11pt;
+      margin-bottom: 2pt;
+      color: #1e293b;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0.4rem;
+      text-align: justify;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 0.5rem;
+    }
+
+    .header-text {
+      flex: 1;
+    }
+
+    .header-text h1 {
+      border: none;
+      font-size: 16pt;
+      margin-bottom: 2pt;
+      padding-bottom: 0;
+      text-align: left;
+    }
+
+    .header-text p {
+      text-align: left;
+      color: #555;
+      font-size: 10pt;
+      margin: 2pt 0;
+    }
+
+    .header-photo {
+      width: 75px;
+      height: 100px;
+      margin-left: 1.5rem;
+      border-radius: 6px;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border: 2px solid #fff;
+    }
+
+    ul {
+      margin-top: 0.15rem;
+      margin-bottom: 0.4rem;
+      padding-left: 1.25rem;
+    }
+
+    li {
+      margin-bottom: 0.1rem;
+      text-align: left;
+    }
+
+    .job-meta {
+      font-size: 0.8rem;
+      color: #555;
+      font-style: italic;
+      margin-bottom: 0.2rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    
+    .signature {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PAGE 1: SURAT LAMARAN -->
+  <div class="page">
+    <h1 style="border-bottom: none; font-size: 16pt; margin-bottom: 2rem; color: #003876; text-align: center;">SURAT LAMARAN PEKERJAAN</h1>
+    
+    <p><strong>Perihal</strong> : Lamaran Pekerjaan &ndash; Accounting Staff<br>
+    <strong>Yth. Tim Rekrutmen &amp; HRD INDORENT</strong><br>
+    <strong>PT CSM Corporatama (Indomobil Group)</strong><br>
+    Di Tempat</p>
+
+    <p style="margin-top: 1.5rem;">Dengan hormat,</p>
+
+    <p>Berdasarkan informasi lowongan pekerjaan pada portal resmi e-Recruitment INDORENT, saya bermaksud mengajukan lamaran kerja untuk posisi <strong>Accounting Staff</strong> di PT CSM Corporatama (INDORENT).</p>
+    
+    <p>Saya merupakan Sarjana Akuntansi (S.E.) lulusan STIE Pasundan Bandung dengan IPK 3,72 dan telah berpengalaman lebih dari 4 tahun sejak 2020 di bidang akuntansi, penatausahaan keuangan, rekonsiliasi, serta administrasi operasional.</p>
+    
+    <p>Selama berkarier, saya memiliki pengalaman dalam pencatatan jurnal transaksi, rekonsiliasi kas dan rekening koran bank, pengelolaan Account Payable/Receivable, pengawasan cash flow, serta penyusunan laporan keuangan periodik di PT Coreterra Geo Engineering. Selain itu, saya berpengalaman dalam verifikasi dokumen operasional dan faktur di PT Minearth Geo Solution, serta pengelolaan dan pertanggungjawaban anggaran di Pemerintah Desa Pananjung.</p>
+    
+    <p>Saya mahir mengoperasikan Microsoft Excel (penggunaan rumus lanjutan, VLOOKUP, pivot table) dan aplikasi perkantoran, memahami prosedur akuntansi dan rekonsiliasi transaksi, serta terbiasa bekerja teliti, disiplin, berintegritas tinggi, dan mampu bekerja sama dalam tim.</p>
+    
+    <p>Sebagai bahan pertimbangan, bersama ini saya lampirkan CV dan berkas pendukung. Besar harapan saya untuk diberikan kesempatan mengikuti tahapan seleksi selanjutnya guna memaparkan kualifikasi saya secara lebih rinci.</p>
+    
+    <p>Atas perhatian dan kesempatan yang Bapak/Ibu berikan, saya ucapkan terima kasih.</p>
+
+    <div class="signature">
+      <p style="margin-bottom: 0;">Hormat saya,</p>
+      <img src="../img/ttd%20syabaab.jpg" alt="Tanda Tangan" style="width: 55px; display: block; margin: 0; mix-blend-mode: multiply;" />
+      <p style="margin-top: 0;"><strong>Syabaab Amin Amanullah, S.E.</strong><br>
+      📞 081214914641<br>
+      ✉️ syabaabaminamanullah@gmail.com<br>
+      🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #333; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+    </div>
+  </div>
+
+  <!-- PAGE 2: CV -->
+  <div class="page">
+    <div class="header-container">
+      <div class="header-text">
+        <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
+        <p style="color:#003876; font-weight:600; margin-bottom:0.5rem">ACCOUNTING STAFF | FINANCE &amp; ACCOUNTING</p>
+        <p>📍 Kabupaten Bandung, Jawa Barat &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
+        <p>🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #003876; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+      </div>
+      <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
+    </div>
+
+    <h2>PROFIL PROFESIONAL</h2>
+    <p>Sarjana Akuntansi (IPK 3,72) dengan pengalaman kerja lebih dari 4 tahun di bidang akuntansi, penatausahaan keuangan, dan verifikasi administrasi operasional. Terbiasa menangani pencatatan jurnal umum, rekonsiliasi kas dan bank, pemantauan piutang dan hutang usaha (AP/AR), penagihan invoice, serta penyusunan laporan keuangan periodik. Mahir mengoperasikan Microsoft Excel (rumus lanjutan &amp; pivot table) dan Google Workspace. Pribadi yang teliti, tertib administrasi, berintegritas tinggi, dan mampu bekerja mandiri maupun dalam tim.</p>
+
+    <div class="grid-2">
+      <div>
+        <h2>KOMPETENSI UTAMA</h2>
+        <ul>
+          <li>Pencatatan Jurnal &amp; Buku Besar</li>
+          <li>Rekonsiliasi Bank &amp; Rekening Koran</li>
+          <li>Pengelolaan Account Payable (AP) &amp; AR</li>
+          <li>Verifikasi Invoice &amp; Bukti Transaksi</li>
+          <li>Penyusunan Laporan Keuangan Periodik</li>
+          <li>Monitoring Arus Kas (Cash Flow)</li>
+          <li>Microsoft Excel (Rumus &amp; Pivot Table)</li>
+          <li>Ketelitian, Kepatuhan &amp; Tertib Administrasi</li>
+        </ul>
+      </div>
+      <div>
+        <h2>KETERAMPILAN &amp; TOOLS</h2>
+        <ul>
+          <li>Microsoft Excel (VLOOKUP, Pivot, Analisis)</li>
+          <li>Microsoft Word &amp; PowerPoint</li>
+          <li>Google Sheets &amp; Google Workspace</li>
+          <li>Accurate (Dasar), Siskeudes</li>
+          <li>Rekonsiliasi Bank &amp; Kas</li>
+          <li>Administrasi Keuangan &amp; Operasional</li>
+          <li>Validasi Data &amp; Dokumen Kontrak</li>
+          <li>Komunikasi Tim &amp; Pelayanan Internal</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>PENDIDIKAN</h2>
+    <h3>STIE PASUNDAN BANDUNG</h3>
+    <div class="job-meta">Sarjana Akuntansi (S.E.) | 2017 - 2021 | IPK: 3,72</div>
+
+    <h2>PENGALAMAN KERJA</h2>
+    
+    <h3>PT CORETERRA GEO ENGINEERING</h3>
+    <div class="job-meta">Finance &amp; Accounting (Remote / WFH) | Juni 2026 - September 2026</div>
+    <ul>
+      <li>Mengelola administrasi akuntansi dan pembukuan keuangan perusahaan secara menyeluruh.</li>
+      <li>Melakukan rekonsiliasi bank harian dan bulanan guna memastikan kecocokan saldo kas.</li>
+      <li>Menyusun laporan keuangan periodik (laba rugi, neraca) untuk kebutuhan manajemen.</li>
+      <li>Mengelola faktur penagihan (invoicing), pemantauan piutang, dan proses pembayaran vendor/AP tepat waktu.</li>
+      <li>Memastikan kelengkapan dokumen pendukung dan kepatuhan terhadap SOP keuangan.</li>
+    </ul>
+
+    <h3>PT MINEARTH GEO SOLUTION</h3>
+    <div class="job-meta">Admin &amp; Koordinator Mutu Laboratorium | 2025 - Juni 2026</div>
+    <ul>
+      <li>Mengelola administrasi operasional dan arsip dokumen kerja sama perusahaan.</li>
+      <li>Melakukan verifikasi dan validasi data transaksi serta penagihan sebelum diterbitkan ke klien.</li>
+      <li>Menyusun rekapitulasi operasional dan memantau status penagihan invoice.</li>
+      <li>Berkoordinasi dengan klien dan divisi internal terkait kelancaran administrasi penagihan.</li>
+    </ul>
+
+    <h3>PEMERINTAH DESA PANANJUNG</h3>
+    <div class="job-meta">Kepala Urusan Keuangan (Kaur Keuangan / Bendahara) | 2020 - 2024</div>
+    <ul>
+      <li>Mengelola penatausahaan keuangan dan anggaran rata-rata ±Rp3 miliar per tahun.</li>
+      <li>Menyusun rancangan APBDes, SPP, realisasi belanja, dan Laporan Pertanggungjawaban Keuangan.</li>
+      <li>Melakukan verifikasi keabsahan kuitansi, faktur belanja, dan dokumen pendukung transaksi.</li>
+      <li>Mengoperasikan aplikasi Siskeudes untuk pembukuan dan pelaporan keuangan.</li>
+      <li>Menyiapkan dokumen rekapitulasi untuk keperluan audit dan pemeriksaan instansi terkait.</li>
+    </ul>
+  </div>
+</body>
+</html>`;
+
+const filePath = path.join(process.cwd(), 'public/assets/docs/CV_Indorent.html');
+fs.writeFileSync(filePath, htmlContent, 'utf-8');
+console.log('✅ CV_Indorent.html berhasil dibuat di public/assets/docs/CV_Indorent.html');
