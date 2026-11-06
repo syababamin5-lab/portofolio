@@ -184,9 +184,9 @@ const htmlContent = `<!DOCTYPE html>
     <div class="header-container">
       <div class="header-text">
         <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
-        <p class="tagline">ACCOUNTING &amp; FINANCE</p>
+        <p class="tagline">STAFF ACCOUNTING | FINANCE &amp; ADMINISTRATION</p>
         <p class="contact">📍 Kabupaten Bandung, Jawa Barat &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
-        <p class="contact">🌐 Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #1d4ed8; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+        <p class="contact">🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #1d4ed8; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
       </div>
       <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
     </div>
