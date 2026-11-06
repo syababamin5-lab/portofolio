@@ -376,6 +376,26 @@ function App() {
               <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran Sinarmas Logistik</h2>
               <p className="text-sm text-slate-500 text-center">CV & Surat Lamaran (Staff Accounting)</p>
             </a>
+            <a 
+              href={`${import.meta.env.BASE_URL}assets/docs/CV_Kintakun.html`}
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-slate-50 to-blue-100 border-2 border-slate-300 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+            >
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-[#1a3a5c]">
+                <Briefcase size={32} />
+              </div>
+              <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran Kintakun (Katapang)</h2>
+              <p className="text-sm text-slate-500 text-center">CV & Surat Lamaran (Finance Officer)</p>
+            </a>
+            <a 
+              href={`${import.meta.env.BASE_URL}assets/docs/CV_HondaCibiru.html`}
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-rose-50 to-red-100 border-2 border-red-300 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+            >
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-[#cc0000]">
+                <Briefcase size={32} />
+              </div>
+              <h2 className="text-xl font-bold text-slate-800 text-center">Lamaran Honda Abadi Cibiru</h2>
+              <p className="text-sm text-slate-500 text-center">CV & Surat Lamaran (Staff Accounting)</p>
+            </a>
           </div>
 
           <div className="mt-12 pt-8 border-t border-slate-200">
