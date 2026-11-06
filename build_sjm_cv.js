@@ -156,23 +156,17 @@ const htmlContent = `<!DOCTYPE html>
 
       <p style="margin-top: 1.2rem;">Dengan hormat,</p>
 
-      <p>Sehubungan dengan informasi lowongan pekerjaan yang saya peroleh, melalui surat ini saya bermaksud mengajukan lamaran pekerjaan untuk posisi <strong>Accounting</strong> di CV Sukses Jaya Bersama (SJM).</p>
+      <p>Berdasarkan informasi lowongan pekerjaan yang saya peroleh, saya bermaksud mengajukan lamaran untuk posisi <strong>Accounting</strong> di CV Sukses Jaya Bersama (SJM).</p>
 
-      <p>Saya merupakan lulusan <strong>Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung</strong> dengan IPK 3,72. Saya memiliki pengalaman kerja lebih dari 4 tahun di bidang pembukuan, pencatatan transaksi keuangan, dan administrasi operasional:</p>
+      <p>Saya merupakan lulusan <strong>Sarjana Akuntansi (S.E.) dari STIE Pasundan Bandung</strong> dengan IPK 3,72 dan memiliki pengalaman kerja sejak 2020 di bidang finance, accounting, serta administrasi operasional.</p>
 
-      <ul>
-        <li>Sebagai <strong>Finance &amp; Accounting di PT Coreterra Geo Engineering</strong>, saya mengelola pembukuan rutin, rekonsiliasi bank dan kas operasional, pemantauan arus kas (cash flow), pengelolaan invoice penagihan serta pembayaran vendor (AP/AR), hingga penyusunan laporan keuangan periodik.</li>
-        <li>Sebagai <strong>Kepala Urusan Keuangan di Pemerintah Desa Pananjung (2020–2024)</strong>, saya bertanggung jawab penuh atas penatausahaan dan pertanggungjawaban anggaran rata-rata ±Rp3 miliar per tahun dengan ketelitian tinggi dan verifikasi dokumen yang tertib.</li>
-        <li>Di <strong>PT Minearth Geo Solution</strong>, saya terbiasa mengelola administrasi, pencatatan invoice, rekapitulasi data operasional, dan validasi dokumen pendukung.</li>
-      </ul>
+      <p>Pengalaman kerja saya meliputi pengelolaan pembukuan dan administrasi keuangan di PT Coreterra Geo Engineering (rekonsiliasi bank, monitoring arus kas, invoicing, dan laporan keuangan periodik), administrasi operasional dan verifikasi dokumen di PT Minearth Geo Solution, serta penatausahaan anggaran dan pelaporan pertanggungjawaban keuangan sebagai Kaur Keuangan di Pemerintah Desa Pananjung.</p>
 
-      <p>Saya sangat mahir mengoperasikan <strong>Microsoft Excel</strong> untuk pencatatan, rekonsiliasi, dan pengolahan data transaksi keuangan, serta memiliki dasar penggunaan software akuntansi (Accurate &amp; Siskeudes). Saya merupakan pribadi yang jujur, teliti, rajin, bertanggung jawab, dan terbiasa bekerja sama secara harmonis dalam tim.</p>
+      <p>Saya menguasai Microsoft Excel dan Google Sheets untuk pengolahan data, serta memiliki dasar penggunaan software akuntansi (Accurate &amp; Siskeudes). Saya terbiasa bekerja secara teliti, tertib administrasi, disiplin, dan mampu bekerja sama dengan tim maupun mandiri.</p>
 
-      <p>Domisili saya berada di <strong>Kabupaten Bandung</strong> dan sangat dekat dengan area <strong>Margaasih / Nanjung</strong>, sehingga saya dapat dengan mudah dan disiplin menjangkau lokasi kerja. Saat ini saya juga dalam status siap langsung bergabung (<em>immediately available</em>).</p>
+      <p>Sebagai bahan pertimbangan, bersama ini saya lampirkan CV dan dokumen pendukung lainnya. Saya berharap dapat diberikan kesempatan untuk mengikuti proses wawancara guna menjelaskan kualifikasi saya lebih lanjut.</p>
 
-      <p>Sebagai bahan pertimbangan, bersama ini saya lampirkan CV, Pas Foto, Ijazah, Transkrip Nilai, dan dokumen pendukung lainnya. Besar harapan saya untuk diberikan kesempatan wawancara agar dapat menjelaskan kualifikasi dan kesiapan saya secara langsung.</p>
-
-      <p>Atas perhatian dan kesempatan yang Bapak/Ibu berikan, saya ucapkan terima kasih.</p>
+      <p>Atas perhatian dan kesempatan yang diberikan, saya ucapkan terima kasih.</p>
     </div>
 
     <div class="signature">
@@ -190,8 +184,8 @@ const htmlContent = `<!DOCTYPE html>
     <div class="header-container">
       <div class="header-text">
         <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
-        <p class="tagline">ACCOUNTING &amp; FINANCE STAFF</p>
-        <p class="contact">📍 Kabupaten Bandung, Jawa Barat (Dekat Margaasih / Nanjung) &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
+        <p class="tagline">ACCOUNTING &amp; FINANCE</p>
+        <p class="contact">📍 Kabupaten Bandung, Jawa Barat &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
         <p class="contact">🌐 Portofolio: <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #1d4ed8; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
       </div>
       <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
@@ -199,34 +193,34 @@ const htmlContent = `<!DOCTYPE html>
 
     <h2>Profil Profesional</h2>
     <div class="profil-box">
-      <p>Sarjana Akuntansi (IPK 3,72) dengan pengalaman kerja lebih dari 4 tahun di bidang pencatatan keuangan, pembukuan harian, pengelolaan kas operasional, dan administrasi bisnis. Terbiasa mengelola pencatatan transaksi masuk dan keluar, rekonsiliasi kas/bank, invoicing, pengarsipan dokumen pendukung, serta penyusunan laporan keuangan periodik. Sangat mahir Microsoft Excel, jujur, teliti, pekerja keras, mampu bekerja sama dengan tim, dan berdomisili di Kabupaten Bandung yang sangat mudah menjangkau wilayah penempatan Margaasih / Nanjung.</p>
+      <p>Sarjana Akuntansi (IPK 3,72) dengan pengalaman kerja sejak 2020 di bidang finance, accounting, administrasi operasional, dan pengolahan data. Terbiasa menangani pencatatan dan verifikasi transaksi, rekonsiliasi, invoice, monitoring kas, penyusunan laporan, serta pengelolaan dokumen administrasi. Menguasai Microsoft Excel dan Google Sheets untuk pengolahan data, dan memiliki dasar penggunaan Accurate serta Siskeudes. Teliti, disiplin, bertanggung jawab, dan mampu bekerja sama dengan tim maupun secara mandiri.</p>
     </div>
 
     <div class="grid-2">
       <div>
         <h2>Kompetensi Utama</h2>
         <ul>
-          <li>Pencatatan transaksi keuangan &amp; kas harian</li>
-          <li>Rekonsiliasi bank, kas kecil &amp; arus kas</li>
-          <li>Pengelolaan invoice penjualan &amp; pembelian</li>
-          <li>Account Payable &amp; Account Receivable</li>
-          <li>Penyusunan laporan keuangan periodik</li>
-          <li>Verifikasi kelengkapan dokumen transaksi</li>
-          <li>Pengarsipan dokumen keuangan &amp; faktur</li>
-          <li>Kerja sama tim, komunikasi &amp; kedisiplinan</li>
+          <li>Administrasi &amp; pencatatan transaksi keuangan</li>
+          <li>Rekonsiliasi bank, kas &amp; monitoring cash flow</li>
+          <li>Invoice / Account Payable &amp; Receivable</li>
+          <li>Verifikasi dokumen &amp; validasi data</li>
+          <li>Penyusunan laporan keuangan / operasional</li>
+          <li>Microsoft Excel &amp; Google Sheets</li>
+          <li>Accurate (Dasar) &amp; Siskeudes</li>
+          <li>Ketelitian, disiplin &amp; koordinasi tim</li>
         </ul>
       </div>
       <div>
         <h2>Keterampilan &amp; Tools</h2>
         <ul>
-          <li>Microsoft Excel (Mahir: Pivot, VLOOKUP, SUMIFS)</li>
+          <li>Microsoft Excel (pengolahan &amp; analisis data)</li>
           <li>Microsoft Word &amp; PowerPoint</li>
-          <li>Google Sheets &amp; Google Workspace</li>
-          <li>Accurate (Dasar) &amp; Siskeudes</li>
-          <li>Jujur, teliti, rajin &amp; bertanggung jawab</li>
-          <li>Kemampuan adaptasi alur kerja cepat</li>
-          <li>Penempatan kerja Margaasih, Nanjung, Bandung</li>
-          <li>Status: Siap bergabung segera</li>
+          <li>Google Workspace / Google Sheets</li>
+          <li>Accurate (Dasar)</li>
+          <li>Administrasi keuangan &amp; operasional</li>
+          <li>Pencatatan &amp; verifikasi transaksi</li>
+          <li>Rekonsiliasi &amp; monitoring cash flow</li>
+          <li>Invoice / AP / AR</li>
         </ul>
       </div>
     </div>
@@ -240,28 +234,33 @@ const htmlContent = `<!DOCTYPE html>
     <h3>PT CORETERRA GEO ENGINEERING</h3>
     <div class="job-meta">Finance &amp; Accounting (Remote / WFH) &nbsp;|&nbsp; Juni 2026 – September 2026</div>
     <ul>
-      <li>Mengelola administrasi keuangan dan pembukuan perusahaan secara menyeluruh dan tertib.</li>
-      <li>Melakukan rekonsiliasi bank dan memantau arus kas (cash flow) operasional harian.</li>
+      <li>Mengelola administrasi keuangan dan pembukuan perusahaan secara menyeluruh.</li>
+      <li>Melakukan rekonsiliasi bank dan memantau arus kas (cash flow) proyek.</li>
       <li>Menyusun laporan keuangan periodik untuk evaluasi manajemen.</li>
       <li>Mengelola proses penagihan (invoicing) dan pembayaran kepada vendor (Account Payable/Receivable).</li>
-      <li>Memastikan kepatuhan terhadap standar akuntansi dan tertib bukti dokumen transaksi.</li>
+      <li>Memastikan kepatuhan terhadap standar akuntansi dan kebijakan keuangan perusahaan.</li>
     </ul>
 
     <h3>PT MINEARTH GEO SOLUTION</h3>
     <div class="job-meta">Admin &amp; Koordinator Mutu Laboratorium &nbsp;|&nbsp; 2025 – Juni 2026</div>
     <ul>
-      <li>Mengelola invoice, surat jalan, penawaran harga, dan administrasi operasional perusahaan.</li>
-      <li>Melakukan verifikasi dan validasi data transaksi sebelum diterbitkan kepada klien/vendor.</li>
-      <li>Menyusun rekapitulasi data operasional serta berkoordinasi secara aktif dengan tim lapangan dan kantor.</li>
+      <li>Mengelola administrasi operasional laboratorium mekanika tanah.</li>
+      <li>Melakukan verifikasi dan validasi data hasil pengujian sebelum diterbitkan kepada klien.</li>
+      <li>Menyusun laporan hasil pengujian dan rekapitulasi data operasional.</li>
+      <li>Mengelola invoice, surat, penawaran, dan dokumen administrasi perusahaan.</li>
+      <li>Berkoordinasi dengan klien dan tim internal terkait administrasi pekerjaan.</li>
     </ul>
 
     <h3>PEMERINTAH DESA PANANJUNG</h3>
     <div class="job-meta">Kepala Urusan Keuangan (Kaur Keuangan / Bendahara) &nbsp;|&nbsp; 2020 – 2024</div>
     <ul>
-      <li>Mengelola anggaran desa rata-rata ±Rp3 miliar per tahun mulai dari penatausahaan, pencairan, hingga pembukuan SPP dan LPJ.</li>
-      <li>Melakukan verifikasi berkas administrasi dan bukti pengeluaran secara teliti sebelum dana dicairkan.</li>
-      <li>Mengoperasikan software pelaporan keuangan (Siskeudes) untuk pengelolaan kas dan pembukuan anggaran.</li>
-      <li>Menjaga akuntabilitas pelaporan dalam setiap proses pemeriksaan dan evaluasi instansi terkait.</li>
+      <li>Mengelola anggaran desa rata-rata ±Rp3 miliar per tahun.</li>
+      <li>Menyusun APBDes, Perubahan APBDes, Realisasi APBDes, SPP, dan LPJ.</li>
+      <li>Melakukan verifikasi dokumen administrasi dan dokumen pendukung sebelum proses pencairan anggaran.</li>
+      <li>Memastikan pelaksanaan administrasi dan pelaporan keuangan sesuai ketentuan yang berlaku.</li>
+      <li>Mengoperasikan aplikasi Siskeudes untuk pengelolaan dan pelaporan keuangan desa.</li>
+      <li>Menyiapkan dokumen yang diperlukan dalam proses evaluasi dan pemeriksaan oleh instansi terkait.</li>
+      <li>Berkoordinasi dengan pemerintah kecamatan, kabupaten, dan instansi terkait dalam proses pelaporan dan evaluasi keuangan.</li>
     </ul>
   </div>
 
