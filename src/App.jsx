@@ -45,11 +45,13 @@ function App() {
 
             <a 
               href={`${import.meta.env.BASE_URL}assets/docs/CV_Umum.html`}
-              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-slate-700 to-slate-900 border-2 border-slate-800 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none"
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col items-center justify-center gap-4 p-8 bg-gradient-to-br from-slate-800 to-slate-950 border-2 border-slate-800 rounded-2xl hover:scale-105 transition-all shadow-sm hover:shadow-md group cursor-pointer text-decoration-none text-white"
             >
-              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-slate-800">
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform text-slate-900">
                 <FileText size={32} />
               </div>
+              <h2 className="text-xl font-bold text-white text-center">Master Resume A4 (CV Umum)</h2>
+              <p className="text-sm text-slate-300 text-center">Resume 1 lembar A4 standar terbaik (Finance & Accounting)</p>
             </a>
 
             <a 
