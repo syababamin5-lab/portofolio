@@ -75,7 +75,7 @@ const htmlContent = `<!DOCTYPE html>
       font-size: 12pt;
       border-bottom: 1px solid #ddd;
       padding-bottom: 3pt;
-      color: #cc0000;
+      color: #1e3a8a;
       margin-top: 12pt;
       margin-bottom: 4pt;
     }
@@ -163,7 +163,7 @@ const htmlContent = `<!DOCTYPE html>
 
   <!-- PAGE 1: SURAT LAMARAN -->
   <div class="page">
-    <h1 style="border-bottom: none; font-size: 16pt; margin-bottom: 2rem; color: #cc0000; text-align: center;">SURAT LAMARAN PEKERJAAN</h1>
+    <h1 style="border-bottom: none; font-size: 16pt; margin-bottom: 2rem; color: #0f172a; text-align: center;">SURAT LAMARAN PEKERJAAN</h1>
     
     <p><strong>Perihal</strong> : Lamaran Pekerjaan &ndash; Staff Accounting<br>
     <strong>Yth. HRD Honda Abadi Cibiru</strong><br>
@@ -199,9 +199,9 @@ const htmlContent = `<!DOCTYPE html>
     <div class="header-container">
       <div class="header-text">
         <h1>SYABAAB AMIN AMANULLAH, S.E.</h1>
-        <p style="color:#cc0000; font-weight:600; margin-bottom:0.5rem">STAFF ACCOUNTING | FINANCE &amp; ACCOUNTING</p>
+        <p style="color:#1e3a8a; font-weight:600; margin-bottom:0.5rem">STAFF ACCOUNTING | FINANCE &amp; ACCOUNTING</p>
         <p>📍 Kabupaten Bandung, Jawa Barat &nbsp;|&nbsp; 📞 081214914641 &nbsp;|&nbsp; ✉️ syabaabaminamanullah@gmail.com</p>
-        <p>🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #cc0000; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
+        <p>🌐 <a href="https://syababamin5-lab.github.io/portofolio/" style="color: #1e3a8a; text-decoration: none;">syababamin5-lab.github.io/portofolio</a></p>
       </div>
       <img src="../img/foto_syabaab.png" alt="Pas Foto Syabaab" class="header-photo" />
     </div>
